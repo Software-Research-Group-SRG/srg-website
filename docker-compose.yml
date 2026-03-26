@@ -1,0 +1,32 @@
+# ==========================================
+# Development Docker Compose Guide
+#
+# Run and build:
+# docker compose up --build -d
+#
+# Run only:
+# docker compose up -d
+#
+# Stop:
+# docker compose down
+#
+# Rebuild after dependency changes:
+# docker compose up --build -d
+#
+# Access app:
+# http://localhost:5173
+# ==========================================
+
+services:
+  srg_website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: srg_website
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
