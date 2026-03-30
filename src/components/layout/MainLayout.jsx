@@ -1,0 +1,123 @@
+import { motion } from 'framer-motion'
+import Navbar from '../navbar/NavBar'
+import Footer from '../footer/Footer'
+
+export default function MainLayout({ children }) {
+  return (
+
+    <div
+      className="relative min-h-screen overflow-hidden flex flex-col"
+      style={{
+        background: `linear-gradient(
+            to bottom, 
+            var(--bg-gradient) 0%, 
+            var(--bg-gradient-mid) 40%,   
+            var(--bg-gradient-mid) 85%,  
+            var(--bg-gradient) 100% 
+        )`
+      }}
+    >
+
+      <Navbar />
+
+        {/* --- Decorative Shapes (Using your specific colors) --- */}
+
+        {/* Top Left Ellipse */}
+        <motion.div
+            className="
+                absolute 
+                z-0 
+                top-[5%] 
+                left-[5%] 
+                w-30 
+                h-50 
+                md:top-[8%] 
+                md:left-[12%] 
+                md:w-22 md:h-84 
+                rounded-[100%] 
+                rotate-[35deg] 
+                pointer-events-none"
+                  style={{ 
+                      backgroundColor: 'var(--shape-primary)', 
+                      filter: 'drop-shadow(0px 0px 1px var(--shape-border))' 
+                  }}
+        />
+
+        {/* Right Middle Triangle */}
+        <motion.div
+            className="
+                absolute 
+                z-0 
+                pointer-events-none 
+                right-[5%] 
+                top-[40%] 
+                md:right-[10%] 
+                md:top-[45%] 
+                border-t-[50px] 
+                border-l-[95px] 
+                border-b-[50px] 
+                md:border-t-[45px] 
+                md:border-l-[65px] 
+                md:border-b-[45px] 
+                border-t-transparent 
+                border-b-transparent 
+                rotate-[-15deg]"
+                  style={{ 
+                  borderLeftColor: 'var(--shape-secondary)', 
+                  filter: 'drop-shadow(0px 0px 1px var(--shape-border))'
+                  }}
+        />
+           
+
+        {/* Left Small Triangle */}
+        <motion.div
+            className="
+                absolute 
+                z-0 
+                pointer-events-none 
+                hidden 
+                sm:block 
+                left-[-10px] 
+                top-[55%] 
+                border-t-[70px] 
+                border-r-[85px] 
+                border-b-[50px] 
+                border-t-transparent 
+                border-b-transparent 
+                rotate-[10deg]"
+                  style={{ 
+                  borderRightColor: 'var(--shape-tertiary)',
+                  filter: 'drop-shadow(0px 0px 1px var(--shape-border))'
+                  }}
+        />
+
+        {/* Bottom Right Ellipse */}
+        <motion.div
+            className="
+                absolute 
+                z-0 
+                pointer-events-none 
+                bottom-[5%] 
+                right-[2%] 
+                w-24 
+                h-50 
+                md:bottom-[10%] 
+                md:right-[8%] 
+                md:w-26 md:h-82 
+                rounded-[100%] 
+                rotate-[-55deg]"
+                  style={{ 
+                      backgroundColor: 'var(--shape-secondary)', 
+                      filter: 'drop-shadow(0px 0px 1px var(--shape-border))'
+                  }}
+        />
+
+      <div className="relative z-10 flex-1">
+        {children}
+      </div>
+
+      <Footer />
+
+    </div>
+  )
+}
