@@ -1,1 +1,40 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* Font style */
+        --font-family: 'Oxanuim', sans-serif;
+        --font-family-title: 'Oxanuim', monospace;  /* example ------------- // 001 - ABOUT US
+
+        /* Brand Colors */
+        --brand-white:           #FFFFFF;
+        
+        /* Background Gradient Steps */
+        --bg-gradient:          #01182F; 
+        --bg-gradient-mid:      #000000; 
+
+        /* Shape Colors */
+        --shape-primary:        #001630;
+        --shape-secondary:      #001430;
+        --shape-tertiary:       #001026;
+        --shape-border:         rgba(255, 255, 255, 0.9); 
+
+        /* Text Colors */
+        --text-muted:           #4B5563; /* text-gray-600 */
+        --text-main:            #FFFFFF; /* white */
+
+        --text-title:           #3185FF; /* example ------------- // 001 - ABOUT US also applicable for border color*/
+        --text-title2:          #35A4B9; /* example is the title of the project like GFMIC E - Commerce */ 
+
+
+    }
+
+    /* Apply global.css */
+    body{
+        font-family: var(--font-family);
+        color: var(--text-main)
+    }
+}
+
+
