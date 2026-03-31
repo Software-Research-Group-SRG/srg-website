@@ -6,7 +6,7 @@ export default function MainLayout({ children }) {
   return (
 
     <div
-      className="relative min-h-screen overflow-hidden flex flex-col"
+      className="relative min-h-screen flex flex-col"
       style={{
         background: `linear-gradient(
             to bottom, 
