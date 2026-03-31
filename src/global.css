@@ -28,7 +28,7 @@
   color: var(--text-title2);
   font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1.15;
 }

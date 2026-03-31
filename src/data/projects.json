@@ -4,71 +4,119 @@
     "title": "Faith, Hope, Love",
     "subtitle": "FHL - Internal Project",
     "description": "The Faith Hope Love Clinic Website is an online healthcare information and service platform designed to provide patients with convenient access to clinic information, medical services, and communication channels. The system serves as a centralized digital interface that enables users to explore available healthcare services, learn about the clinic, and easily connect with medical professionals.",
-    "teamSize": 4,
-    "image": null
+    "image": null,
+    "contributors": [],
+    "features": []
   },
   {
     "id": 2,
     "title": "GFMIC E-Commerce",
     "subtitle": "GFMIC - E-Commerce Platform",
     "description": "The GFMIC e-commerce platform is a centralized digital system designed to manage, promote, and distribute official GFMIC merchandise efficiently. It serves as a one-stop online hub where members and customers can easily browse, select, and purchase a wide range of GFMIC products, ensuring accessibility and convenience anytime and anywhere.",
-    "teamSize": 5,
-    "image": null
+    "image": null,
+    "contributors": [],
+    "features": []
   },
   {
     "id": 3,
     "title": "GFMIC Academy",
     "subtitle": "GFMIC - Learning Management System",
     "description": "The GFMIC Learning Management System integrated with the Mentorship & Peer Matching System is a web-based platform designed to centralize and enhance digital learning and mentorship processes. It provides a structured environment where instructors can create and manage courses, upload learning materials, conduct assessments and monitor student progress, while students can conveniently access content, complete activities and track their performance.",
-    "teamSize": 5,
-    "image": null
+    "image": null,
+    "contributors": [],
+    "features": []
   },
   {
     "id": 4,
-    "title": "YO-etz AI Interview",
-    "subtitle": "AI-Assisted Interview System",
-    "description": "The AI-Assisted Initial Interview System is a structured digital pre-interview platform designed to support and enhance the admissions process of the Polytechnic University of the Philippines ICC and Cabuyao campuses. The system standardizes how applicant interviews are conducted by providing a controlled environment for structured and semi-structured questioning, ensuring consistency, fairness, and documentation across all academic programs.",
-    "teamSize": 5,
-    "image": null
+    "title": "Yo - etz | AI Interview",
+    "subtitle": "// 004 - INTERNAL PROJECT",
+    "description": "The AI-Assisted Initial Interview System is a structured digital pre-interview platform designed to support and enhance the admissions process of the Polytechnic University of the Philippines (QC and Caloocan campuses).\n\nThe system standardizes how applicant interviews are conducted by providing a controlled environment for structured and semi-structured questioning, ensuring consistency, fairness, and documentation across all academic programs.\n\nApplicants complete an AI-guided video interview, where their responses are recorded, transcribed, and summarized into a structured report. These reports are then made accessible to faculty members to support the final face-to-face evaluation.\n\nThis platform does not replace faculty decision-making. Instead, it serves as a support tool that improves transparency, reduces bias from memory-based evaluations, and ensures that all applicants are assessed using a consistent baseline.",
+    "image": null,
+    "contributors": [
+      { "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
+      { "memberId": "brian-caube",       "roles": ["Frontend Developer"] },
+      { "memberId": "ellen-sinday",      "roles": ["Frontend Developer"] },
+      { "memberId": "darben-lamonte",    "roles": ["Backend Developer"] },
+      { "memberId": "elisha-mier",       "roles": ["Backend Developer"] },
+      { "memberId": "angel-olivarez",    "roles": ["Backend Developer"] },
+      { "memberId": "shanella-cagulang", "roles": ["Business Analyst"] },
+      { "memberId": "yuan-evangelista",  "roles": ["Document Analyst"] },
+      { "memberId": "robert-carlos",     "roles": ["3rd Year Trainee", "Business Analyst"] },
+      { "memberId": "john-parocha",      "roles": ["3rd Year Trainee", "Backend Developer"] },
+      { "memberId": "charlene-caramoan", "roles": ["3rd Year Trainee", "Business Analyst"] },
+      { "memberId": "aliah-del-rosario", "roles": ["3rd Year Trainee", "Frontend Developer"] }
+    ],
+    "features": [
+      {
+        "icon": "CpuChipIcon",
+        "name": "AI-Guided Interviews",
+        "description": "Structured, program-based questions with intelligent follow-ups for a consistent and engaging interview experience."
+      },
+      {
+        "icon": "SparklesIcon",
+        "name": "AI-Powered Insights",
+        "description": "Instant transcription, structured summaries, and key insights—turning responses into meaningful data."
+      },
+      {
+        "icon": "DocumentChartBarIcon",
+        "name": "Instant Interview Reports",
+        "description": "Downloadable, well-structured reports combining transcripts and summaries for easy review."
+      },
+      {
+        "icon": "Cog6ToothIcon",
+        "name": "Centralized Administration",
+        "description": "Manage question banks, interview settings, and applicant eligibility—all in one place."
+      },
+      {
+        "icon": "ShieldCheckIcon",
+        "name": "Transparent & Traceable",
+        "description": "Built-in audit logs ensure every action is recorded, secure, and accountable."
+      }
+    ]
   },
   {
     "id": 5,
     "title": "StewardFM",
     "subtitle": "Facility Management System",
     "description": "StewardFM is a comprehensive facility management system designed to streamline operations, maintenance tracking, and resource allocation for organizations. It provides an intuitive dashboard for managing assets, scheduling maintenance tasks, and generating insightful reports for facility administrators.",
-    "teamSize": 5,
-    "image": null
+    "image": null,
+    "contributors": [],
+    "features": []
   },
   {
     "id": 6,
     "title": "PUP Smart-Track",
     "subtitle": "Smart Tracking System",
     "description": "PUP Smart-Track is an intelligent tracking and monitoring system developed for the Polytechnic University of the Philippines. It enables real-time tracking of academic progress, student activities, and institutional resources through a centralized digital platform.",
-    "teamSize": 5,
-    "image": null
+    "image": null,
+    "contributors": [],
+    "features": []
   },
   {
     "id": 7,
     "title": "Bitbo AI",
     "subtitle": "AI-Powered Platform",
     "description": "Bitbo AI is an artificial intelligence-powered platform that leverages machine learning and natural language processing to deliver intelligent automation solutions. The system is designed to assist users with data analysis, content generation, and decision-making processes.",
-    "teamSize": 5,
-    "image": null
+    "image": null,
+    "contributors": [],
+    "features": []
   },
   {
     "id": 8,
     "title": "Flor De Grace",
     "subtitle": "Business Management System",
     "description": "Flor De Grace is a business management system designed to streamline operations for small to medium enterprises. It provides tools for inventory management, customer relationship management, sales tracking, and financial reporting through an integrated digital platform.",
-    "teamSize": 5,
-    "image": null
+    "image": null,
+    "contributors": [],
+    "features": []
   },
   {
     "id": 9,
     "title": "SRG Website",
     "subtitle": "Organization Portfolio",
     "description": "The SRG Website serves as the official digital presence of the Software Research Group. It showcases the organization's projects, team members, leadership structure, and provides contact information for interested parties and potential collaborators.",
-    "teamSize": 5,
-    "image": null
+    "image": null,
+    "contributors": [],
+    "features": []
   }
 ]

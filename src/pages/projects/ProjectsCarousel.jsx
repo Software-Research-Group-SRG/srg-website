@@ -1,33 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import CurvedCarousel from '../../components/ui/CurvedCarousel';
+import projectsData from '../../data/projects.json';
 
-const FEATURED_PROJECTS = [
-  {
-    id: 1,
-    title: 'GFMIC Academy',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros nec nulla faucibus tincidunt. Vivamus ultricies, sapien a ullamcorper malesuada, nunc orci fermentum quam, vitae vehicula sapien elit in sapien.',
-  },
-  {
-    id: 2,
-    title: 'WIFY LMS Hub',
-    description:
-      'A comprehensive learning management system designed to streamline online education with interactive modules and progress tracking.',
-  },
-  {
-    id: 3,
-    title: 'SRG Portal',
-    description:
-      'The central hub for all Software Research Group members, featuring project management, role assignments, and internal communications.',
-  },
-  {
-    id: 4,
-    title: 'Project X',
-    description:
-      'An upcoming experimental research project focusing on cutting-edge software development paradigms and AI integration.',
-  },
-];
+// Use the first 4 projects from our JSON as the featured ones
+const FEATURED_PROJECTS = projectsData;
 
 function ProjectPlaceholderSlide({ project, isActive }) {
   return (
@@ -84,6 +62,7 @@ function ProjectPlaceholderSlide({ project, isActive }) {
 function FeaturedProjectsCarousel({ projects = FEATURED_PROJECTS }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [swiperInstance, setSwiperInstance] = useState(null);
+  const navigate = useNavigate();
   const activeProject = projects[activeIndex] ?? projects[0];
 
   return (
@@ -123,6 +102,7 @@ function FeaturedProjectsCarousel({ projects = FEATURED_PROJECTS }) {
 
         <button
           type="button"
+          onClick={() => navigate(`/projects/${activeProject.id}`)}
           className="h-12 cursor-pointer rounded-2xl bg-[#2563EB] px-10 text-lg font-bold text-white shadow-[0_0_20px_rgba(37,99,235,0.5)] transition-all hover:scale-105 hover:bg-blue-600 md:h-14 md:px-16"
           style={{ fontFamily: 'var(--font-family, sans-serif)' }}
         >
@@ -139,7 +119,7 @@ function FeaturedProjectsCarousel({ projects = FEATURED_PROJECTS }) {
 
       <div className="relative z-40 mt-8 w-full max-w-3xl px-4">
         <div className="rounded-2xl border border-white/5 bg-[#000814]/70 p-6 shadow-[0_0_40px_rgba(0,10,30,0.8)] backdrop-blur-xl md:p-8">
-          <p className="text-center text-xs leading-relaxed text-gray-300 md:text-sm md:leading-loose">
+          <p className="line-clamp-3 text-center text-xs leading-relaxed text-gray-300 md:text-sm md:leading-loose">
             {activeProject.description}
           </p>
         </div>
