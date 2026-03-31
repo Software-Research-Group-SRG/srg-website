@@ -1,17 +1,19 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import srgLogo from "@/assets/srgLogo.png";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("");
+  const navigate = useNavigate();
 
   const menuItems = [
-    "ABOUT",
-    "LEADERS",
-    "ROLES",
-    "STRUCTURE",
-    "PROJECTS",
-    "CONTACTS",
+    { label: "ABOUT", path: "/" },
+    { label: "LEADERS", path: "/leaders" },
+    { label: "ROLES", path: "/roles" },
+    { label: "STRUCTURE", path: "/structure" },
+    { label: "PROJECTS", path: "/projects" },
+    { label: "CONTACTS", path: "/contacts" },
   ];
 
   return (
@@ -36,17 +38,19 @@ const NavBar = () => {
         <nav className="hidden md:flex items-center gap-8 text-base font-medium tracking-wide font-['Oxanium']">
           {menuItems.map((item) => (
             <button
-              key={item}
-              onClick={() => setActive(item)}
+              key={item.label}
+              onClick={() => {
+                setActive(item.label);
+                navigate(item.path);
+              }}
               className="relative group transition-all duration-300 ease-out hover:-translate-y-1 hover:text-blue-300"
             >
-              {item}
+              {item.label}
 
-              {/* Underline */}
               <span
                 className={`absolute left-0 -bottom-1 h-[2px] w-full bg-blue-400 transition-all duration-300 origin-left 
                 ${
-                  active === item
+                  active === item.label
                     ? "scale-x-100 opacity-100"
                     : "scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100"
                 }`}
@@ -68,14 +72,15 @@ const NavBar = () => {
         <div className="md:hidden px-6 pb-6 flex flex-col gap-4 text-base font-medium font-['Oxanium'] bg-black/30 backdrop-blur-md">
           {menuItems.map((item) => (
             <button
-              key={item}
+              key={item.label}
               onClick={() => {
-                setActive(item);
+                setActive(item.label);
                 setOpen(false);
+                navigate(item.path);
               }}
               className="text-left hover:text-blue-300 transition"
             >
-              {item}
+              {item.label}
             </button>
           ))}
         </div>
