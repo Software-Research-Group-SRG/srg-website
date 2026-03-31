@@ -1,6 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function ProjectCards({ project }) {
+  const navigate = useNavigate();
   return (
     <div
       className="flex flex-col overflow-hidden rounded-tl-[40px] rounded-br-[40px] border-[3px] border-[#3185FF] bg-black shadow-[0_0_20px_rgba(49,133,255,0.2)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(49,133,255,0.4)]"
@@ -57,7 +59,8 @@ function ProjectCards({ project }) {
           </div>
 
           <button
-            className="rounded-full px-6 py-1.5 text-xs font-semibold tracking-wider text-white transition-colors hover:bg-blue-600/30"
+            onClick={() => navigate(`/projects/${project.id}`)}
+            className="cursor-pointer rounded-full px-6 py-1.5 text-xs font-semibold tracking-wider text-white transition-colors hover:bg-blue-600/30"
             style={{
               backgroundColor: 'rgba(49, 133, 255, 0.15)',
               boxShadow: 'inset 0 0 10px rgba(49, 133, 255, 0.2)',
