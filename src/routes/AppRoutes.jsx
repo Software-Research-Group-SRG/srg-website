@@ -4,7 +4,7 @@ import MainLayout from "../components/layout/MainLayout";
 
 // Pages
 import Home from '../pages/landing/Home';
-
+import ProjectsPage from '../pages/projects/Page';
 
 function AppRoutes() {
     return (
@@ -12,7 +12,7 @@ function AppRoutes() {
            <MainLayout>
                 <Routes>
                     <Route path="/" element={<Home />} />
-
+                    <Route path="/projects" element={<ProjectsPage />} />
                     {/* Add more routes here */}
                 </Routes>
            </MainLayout>
