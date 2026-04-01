@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
-import BaseProjectDetails from '../../components/common/BaseProjectDetails';
+import BaseProjectDetails from '../../components/layout/BaseProjectDetails';
 import allProjects from '../../data/projects.json';
 
 /* ──────────────────────────────────────────────────────────────

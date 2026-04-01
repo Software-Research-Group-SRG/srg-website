@@ -1,10 +1,10 @@
 import React from 'react';
-import MeetTheTeam from './MeetTheTeam';
+import Home from './Home';
 
 function Page() {
   return (
     <>
-        <MeetTheTeam />
+        <Home/>
     </>
   );
 }

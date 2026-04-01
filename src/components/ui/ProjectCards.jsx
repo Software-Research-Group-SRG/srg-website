@@ -59,7 +59,10 @@ function ProjectCards({ project }) {
           </div>
 
           <button
-            onClick={() => navigate(`/projects/${project.id}`)}
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+              navigate(`/projects/${project.id}`);
+            }}
             className="cursor-pointer rounded-full px-6 py-1.5 text-xs font-semibold tracking-wider text-white transition-colors hover:bg-blue-600/30"
             style={{
               backgroundColor: 'rgba(49, 133, 255, 0.15)',

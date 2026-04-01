@@ -10,11 +10,10 @@ const FEATURED_PROJECTS = projectsData;
 function ProjectPlaceholderSlide({ project, isActive }) {
   return (
     <div
-      className={`relative flex h-full flex-col justify-between overflow-hidden border-x-[3px] border-[#1e40af] bg-[radial-gradient(circle_at_top,_rgba(53,164,185,0.28),_transparent_55%),linear-gradient(135deg,_rgba(3,7,18,0.96),_rgba(15,23,42,0.92)_55%,_rgba(30,64,175,0.55))] px-8 py-10 shadow-[0_24px_60px_rgba(0,0,0,0.8)] transition-[filter,opacity,transform] duration-500 ${
-        isActive
+      className={`relative flex h-full flex-col justify-between overflow-hidden border-x-[3px] border-[#1e40af] bg-[radial-gradient(circle_at_top,_rgba(53,164,185,0.28),_transparent_55%),linear-gradient(135deg,_rgba(3,7,18,0.96),_rgba(15,23,42,0.92)_55%,_rgba(30,64,175,0.55))] px-8 py-10 shadow-[0_24px_60px_rgba(0,0,0,0.8)] transition-[filter,opacity,transform] duration-500 ${isActive
           ? 'opacity-100 saturate-100 brightness-100'
           : 'opacity-80 saturate-75 brightness-75'
-      }`}
+        }`}
     >
       <div className="absolute inset-0 bg-[linear-gradient(120deg,transparent_0%,rgba(53,164,185,0.08)_45%,transparent_100%)]" />
 
@@ -102,7 +101,10 @@ function FeaturedProjectsCarousel({ projects = FEATURED_PROJECTS }) {
 
         <button
           type="button"
-          onClick={() => navigate(`/projects/${activeProject.id}`)}
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            navigate(`/projects/${activeProject.id}`);
+          }}
           className="h-12 cursor-pointer rounded-2xl bg-[#2563EB] px-10 text-lg font-bold text-white shadow-[0_0_20px_rgba(37,99,235,0.5)] transition-all hover:scale-105 hover:bg-blue-600 md:h-14 md:px-16"
           style={{ fontFamily: 'var(--font-family, sans-serif)' }}
         >
@@ -130,11 +132,10 @@ function FeaturedProjectsCarousel({ projects = FEATURED_PROJECTS }) {
           <button
             key={project.id}
             onClick={() => swiperInstance?.slideToLoop(index)}
-            className={`cursor-pointer rounded-full transition-all duration-300 ${
-              index === activeIndex
+            className={`cursor-pointer rounded-full transition-all duration-300 ${index === activeIndex
                 ? 'h-4 w-4 scale-110 bg-gray-200 shadow-[0_0_10px_rgba(255,255,255,0.8)]'
                 : 'h-3 w-3 bg-gray-600 hover:bg-gray-400'
-            }`}
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
