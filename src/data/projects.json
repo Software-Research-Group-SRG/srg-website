@@ -8,6 +8,7 @@
     "contributors": [],
     "features": []
   },
+
   {
     "id": 2,
     "title": "GFMIC E-Commerce",
@@ -88,6 +89,7 @@
     "contributors": [],
     "features": []
   },
+
   {
     "id": 4,
     "title": "Yo - etz | AI Interview",
@@ -146,6 +148,7 @@
     "contributors": [],
     "features": []
   },
+
   {
     "id": 6,
     "title": "PUP Smart-Track",
@@ -155,15 +158,96 @@
     "contributors": [],
     "features": []
   },
+
   {
     "id": 7,
     "title": "Bitbo AI",
     "subtitle": "AI-Powered Platform",
     "description": "Bitbo AI is an artificial intelligence-powered platform that leverages machine learning and natural language processing to deliver intelligent automation solutions. The system is designed to assist users with data analysis, content generation, and decision-making processes.",
     "image": null,
-    "contributors": [],
-    "features": []
+    "contributors": [{ "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
+      { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"]},
+      { "memberId": "crystalyn-danga",   "roles": ["Business Analyst"] },
+      { "memberId": "yesha-perez",       "roles": ["Quality Assurance"] },
+      { "memberId": "kim-cabaylo",       "roles": ["Quality Assurance"] },
+      { "memberId": "miyuki-parocha",    "roles": ["Quality Assurance"] },
+      { "memberId": "yuan-evangelista",  "roles": ["Document Analyst"] },
+
+      { "memberId": "brian-caube",       "roles": ["Frontend Developer"] },
+      { "memberId": "ellen-sinday",      "roles": ["Frontend Developer"] },
+      { "memberId": "althea-asis",       "roles": ["Frontend Developer"] },
+      { "memberId": "nadine-borja",      "roles": ["Frontend Developer"] },
+      { "memberId": "regie-magtangob",   "roles": ["Frontend Developer"] },
+
+      { "memberId": "darben-lamonte",    "roles": ["Backend Developer"] },
+      { "memberId": "elisha-mier",       "roles": ["Backend Developer"] },
+      { "memberId": "angel-olivarez",    "roles": ["Backend Developer"] },
+      { "memberId": "rj-aquino",         "roles": ["Backend Developer"] }
+       ],
+    "features": [
+      {
+        "icon": "Squares2X2Icon",
+        "name": "Dashboard",
+        "description": "Provides an overview of system activities, statistics, and quick access to core modules."
+      },
+      {
+        "icon": "UsersIcon",
+        "name": "Residents Management",
+        "description": "Stores, updates, and manages resident profiles, household records, and demographic information."
+      },
+      {
+        "icon": "DocumentTextIcon",
+        "name": "Local Laws Management",
+        "description": "Organizes barangay ordinances, resolutions, and local policy documents for easy access."
+      },
+      {
+        "icon": "ClipboardDocumentListIcon",
+        "name": "Case Management",
+        "description": "Tracks complaints, disputes, and incident records with status monitoring and case history."
+      },
+      {
+        "icon": "BuildingStorefrontIcon",
+        "name": "Business Registration and Evaluation",
+        "description": "Handles business permit applications, registration details, and compliance evaluation."
+      },
+      {
+        "icon": "HomeModernIcon",
+        "name": "Building Registration and Evaluation",
+        "description": "Manages building records, ownership details, and inspection or assessment results."
+      },
+      {
+        "icon": "DocumentCheckIcon",
+        "name": "Permits and Certification Clearances Management",
+        "description": "Processes barangay clearances, certifications, and permit requests efficiently."
+      },
+      {
+        "icon": "HeartIcon",
+        "name": "Health Services Management",
+        "description": "Maintains health-related records, medical assistance requests, and service schedules."
+      },
+      {
+        "icon": "ChartBarIcon",
+        "name": "Reports Management",
+        "description": "Generates downloadable reports and summaries for monitoring and decision-making."
+      },
+      {
+        "icon": "UserCircleIcon",
+        "name": "Account Management",
+        "description": "Controls user accounts, access levels, and authentication settings."
+      },
+      {
+        "icon": "ArrowPathRoundedSquareIcon",
+        "name": "Data Migration",
+        "description": "Transfers and imports existing records into the system securely and accurately."
+      },
+      {
+        "icon": "Cog6ToothIcon",
+        "name": "System Configuration",
+        "description": "Allows administrators to customize system settings, preferences, and operational rules."
+      }
+    ]
   },
+
   {
     "id": 8,
     "title": "Flor De Grace",
@@ -173,6 +257,8 @@
     "contributors": [],
     "features": []
   },
+
+
   {
     "id": 9,
     "title": "SRG Website",

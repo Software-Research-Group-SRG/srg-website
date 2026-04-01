@@ -50,8 +50,15 @@ function BaseProjectDetails({ project, otherProjects = [] }) {
       }
     );
 
-    observer.observe(section);
-    return () => observer.disconnect();
+    // Wait for the ScrollToTop and initial page layout to settle before observing
+    const timeoutId = setTimeout(() => {
+      observer.observe(section);
+    }, 500);
+
+    return () => {
+      clearTimeout(timeoutId);
+      observer.disconnect();
+    };
   }, []);
 
   return (
@@ -220,7 +227,6 @@ function BaseProjectDetails({ project, otherProjects = [] }) {
                   key={proj.id}
                   className="cursor-pointer"
                   onClick={() => {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
                     navigate(`/projects/${proj.id}`);
                   }}
                 >

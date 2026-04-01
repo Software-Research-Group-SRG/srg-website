@@ -7,6 +7,42 @@
   },
 
   {
+    "id": "shanella-cagulang",
+    "name": "Shanella A. Cagulang",
+    "photo": null,
+    "status": "member"
+  },
+
+  {
+    "id": "yesha-perez",
+    "name": "Yesha Perez",
+    "photo": null,
+    "status": "member"
+  },
+
+  {
+    "id": "kim-cabaylo",
+    "name": "Kimberly Nicole Cabaylo",
+    "photo": null,
+    "status": "member"
+  },
+
+  {
+    "id": "miyuki-parocha",
+    "name": "Miyuki Mharie C. Parocha",
+    "photo": null,
+    "status": "member"
+  },
+
+  {
+    "id": "yuan-evangelista",
+    "name": "Yuan Exequiel Evangelista",
+    "photo": null,
+    "status": "member"
+  },
+
+
+  {
     "id": "brian-caube",
     "name": "Brian Caube",
     "photo": null,
@@ -40,7 +76,7 @@
     "photo": null,
     "status": "member"
   },
-  
+
   {
     "id": "darben-lamonte",
     "name": "Darben V. Lamonte",
@@ -54,48 +90,10 @@
     "photo": null,
     "status": "member"
   },
-  
-  {
-    "id": "shanella-cagulang",
-    "name": "Shanella A. Cagulang",
-    "photo": null,
-    "status": "member"
-  },
 
   {
-    "id": "robert-carlos",
-    "name": "Robert Carlos",
-    "photo": null,
-    "status": "intern"
-  },
-  {
-    "id": "john-parocha",
-    "name": "John Mathew Parocha",
-    "photo": null,
-    "status": "intern"
-  },
-  {
-    "id": "charlene-caramoan",
-    "name": "Charlene Caramoan",
-    "photo": null,
-    "status": "intern"
-  },
-  {
-    "id": "aliah-del-rosario",
-    "name": "Aliah Del Rosario",
-    "photo": null,
-    "status": "intern"
-  },
-  {
-    "id": "brian-caube",
-    "name": "Brian Caube",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "ellen-sinday",
-    "name": "Ellen Grace Sinday",
+    "id": "rj-aquino",
+    "name": "Richard Jason Aquino",
     "photo": null,
     "status": "member"
   },
@@ -106,18 +104,10 @@
     "photo": null,
     "status": "member"
   },
-  {
-    "id": "shanella-cagulang",
-    "name": "Shanella A. Cagulang",
-    "photo": null,
-    "status": "member"
-  },
-  {
-    "id": "yuan-evangelista",
-    "name": "Yuan Exequiel Evangelista",
-    "photo": null,
-    "status": "member"
-  },
+
+
+
+  
   {
     "id": "robert-carlos",
     "name": "Robert Carlos",
@@ -136,17 +126,11 @@
     "photo": null,
     "status": "intern"
   },
-
   {
     "id": "aliah-del-rosario",
     "name": "Aliah Del Rosario",
     "photo": null,
     "status": "intern"
-  },
-  {
-    "id": "miyuki-parocha",
-    "name": "Miyuki Mharie C. Parocha",
-    "photo": null,
-    "status": "member"
   }
+
 ]

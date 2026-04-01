@@ -102,7 +102,6 @@ function FeaturedProjectsCarousel({ projects = FEATURED_PROJECTS }) {
         <button
           type="button"
           onClick={() => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
             navigate(`/projects/${activeProject.id}`);
           }}
           className="h-12 cursor-pointer rounded-2xl bg-[#2563EB] px-10 text-lg font-bold text-white shadow-[0_0_20px_rgba(37,99,235,0.5)] transition-all hover:scale-105 hover:bg-blue-600 md:h-14 md:px-16"
