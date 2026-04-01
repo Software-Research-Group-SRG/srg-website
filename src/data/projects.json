@@ -152,11 +152,103 @@
   {
     "id": 6,
     "title": "PUP Smart-Track",
-    "subtitle": "Smart Tracking System",
-    "description": "PUP Smart-Track is an intelligent tracking and monitoring system developed for the Polytechnic University of the Philippines. It enables real-time tracking of academic progress, student activities, and institutional resources through a centralized digital platform.",
+    "subtitle": " 004 - INTERNAL PROJECT",
+    "description": "The system is a centralized Asset and Maintenance Management Information System that manages equipment, inventory, maintenance, disposal, and approval processes in one platform. It enables efficient tracking of asset lifecycle, accountability, and status while streamlining requests and workflows through automated approvals and notifications. The system also provides comprehensive reporting to support decision-making, transparency, and audit compliance.",
     "image": null,
-    "contributors": [],
-    "features": []
+    "contributors": [
+      { "memberId": "shanella-cagulang",  "roles": ["Project Manager", "Business Analyst"] },
+      { "memberId": "angel-olivarez",     "roles": ["Backend Developer"] },
+      { "memberId": "ellen-sinday",       "roles": ["Front-end Developer"] },
+      { "memberId": "yesha-perez",        "roles": ["Quality Assurance"] },
+      { "memberId": "elisha-mier",        "roles": ["Backend Developer"] },
+      { "memberId": "darben-lamonte",     "roles": ["Backend Developer"] },
+      { "memberId": "althea-asis",        "roles": ["Frontend Developer"] },
+      { "memberId": "nadine-borja",       "roles": ["Frontend Developer"] },
+      { "memberId": "kim-cabaylo",        "roles": ["Quality Assurance"] },
+      { "memberId": "miyuki-parocha",     "roles": ["Quality Assurance"] },
+      { "memberId": "rj-aquino",          "roles": ["Backend Developer"] },
+      { "memberId": "yuan-evangelista",   "roles": ["Document Analyst"] },
+      { "memberId": "brian-caube",        "roles": ["Frontend Developer"] },
+      { "memberId": "regie-magtangob",    "roles": ["Frontend Developer"] },
+      { "memberId": "crystalyn-danga",    "roles": ["Business Analyst"] }
+    ],
+    "features": [
+      {
+        "icon": "SquaresPlusIcon",
+        "name": "Asset Management (Master Data)",
+        "description": "Centralized repository for all organizational assets, ensuring data integrity and a single source of truth."
+      },
+      {
+        "icon": "DeviceTabletIcon",
+        "name": "ICT Equipment Management (ICS)",
+        "description": "Maintain a dynamic registry of IT equipments, allowing for seamless updates and real-time tracking of digital infrastructure."
+      },
+      {
+        "icon": "ArrowPathIcon",
+        "name": "Asset Status Management",
+        "description": "Real-time visibility into the lifecycle of assets, from active use and repair to disposal."
+      },
+      {
+        "icon": "BuildingOfficeIcon",
+        "name": "Offices Management",
+        "description": "Organize and map assets across different office locations and personnel."
+      },
+      {
+        "icon": "ComputerDesktopIcon",
+        "name": "Office Equipment Inventory",
+        "description": "A comprehensive listing of general workspace resources to support daily functions."
+      },
+      {
+        "icon": "WrenchScrewdriverIcon",
+        "name": "Maintenance Management",
+        "description": "Schedule and track routine upkeep for buildings, grounds, and equipments."
+      },
+      {
+        "icon": "ClipboardDocumentCheckIcon",
+        "name": "Maintenance Request & Approval",
+        "description": "Streamlined workflow for reporting issues and obtaining formal authorization for repairs."
+      },
+      {
+        "icon": "TrashIcon",
+        "name": "Disposal Management",
+        "description": "Standardized procedures for decommissioning assets while maintaining regulatory compliance."
+      },
+      {
+        "icon": "ArrowsRightLeftIcon",
+        "name": "Bulk Disposal Processing",
+        "description": "Efficiently manage the simultaneous disposal of multiple assets to save time and administrative effort."
+      },
+      {
+        "icon": "MapPinIcon",
+        "name": "Local Disposal Processing",
+        "description": "Easily manage the removal or disposal of assets directly at their specific branch or office location."
+      },
+      {
+        "icon": "UserCheckIcon",
+        "name": "Accountability Clearance",
+        "description": "Verify that all assigned equipment is returned or accounted for during personnel offboarding."
+      },
+      {
+        "icon": "HandThumbUpIcon",
+        "name": "Request & Order Approval",
+        "description": "Multi-level authorization workflows for new acquisitions and internal asset requests."
+      },
+      {
+        "icon": "BellIcon",
+        "name": "Notifications System",
+        "description": "Automated alerts for maintenance schedules, pending approvals, and low inventory levels."
+      },
+      {
+        "icon": "DocumentChartBarIcon",
+        "name": "Reporting & Compliance",
+        "description": "Generate comprehensive audit-ready reports to meet organizational standards."
+      },
+      {
+        "icon": "UserGroupIcon",
+        "name": "Transfer of Accountability",
+        "description": "Formally reassign asset responsibility between employees or office locations."
+      }
+    ]
   },
 
   {
