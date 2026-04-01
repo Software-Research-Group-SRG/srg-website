@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ChevronUp, Mail } from "lucide-react";
+import { ChevronUp, Mail  } from "lucide-react";
 
 function Footer() {
   const scrollToTop = () => {
@@ -38,9 +38,8 @@ function Footer() {
       <div className="w-full h-[1px] bg-blue-500/30 shadow-[0_0_10px_rgba(59,130,246,0.2)]"></div>
 
       {/* --- Bottom Bar (FIXED ALIGNMENT) --- */}
-      <div className="w-full bg-black/40 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center">
-          
+      <div className="w-full flex flex-col md:flex-row justify-between items-center py-5 px-6 md:px-12 bg-black/40 backdrop-blur-sm">
+
           <div className="hidden md:flex flex-1"></div>
 
           {/* Copyright */}
@@ -74,9 +73,17 @@ function Footer() {
             >
               <Mail size={14} className="text-white" />
             </a>
-          </div>
 
-        </div>
+            {/* <a
+              href="https://facebook.com/yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-1.5 border-[1px] border-white/20 hover:border-blue-400 hover:bg-blue-400/10 transition-all rounded-[2px]"
+            >
+              <FacebookIcon size={14} className="text-white" />
+            </a> */}
+          </div>
+        
       </div>
     </footer>
   );

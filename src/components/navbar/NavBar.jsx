@@ -8,25 +8,26 @@ const NavBar = () => {
   const navigate = useNavigate();
 
   const menuItems = [
-    { label: "ABOUT", path: "/" },
-    { label: "LEADERS", path: "/leaders" },
-    { label: "ROLES", path: "/roles" },
-    { label: "STRUCTURE", path: "/structure" },
+    //{ label: "ABOUT", path: "/" },
+    //{ label: "LEADERS", path: "/leaders" },
+    //{ label: "STRUCTURE", path: "/structure" },
+    { label: "HOME", path: "/" },
+    { label: "MEMBERS", path: "/members" },
     { label: "PROJECTS", path: "/projects" },
-    { label: "CONTACTS", path: "/contacts" },
+    { label: "CONTACTS", path: "/contact" },
   ];
 
   return (
     <header className="w-full sticky top-0 z-50 bg-transparent backdrop-blur-md text-white">
-      
-      <div className="max-w-7xl mx-auto px-3 py-7 flex items-center justify-between">
-        
+
+      <div className="max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-7 flex items-center justify-between">
+
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img
             src={srgLogo}
             alt="SRG Logo"
-            className="w-10 h-10 rounded-full"
+            className="w-14 h-14 rounded-full"
           />
           <h1 className="text-sm md:text-base font-semibold tracking-wide uppercase font-['Oxanium'] leading-tight">
             The Software Research <br className="md:hidden" />
@@ -41,6 +42,7 @@ const NavBar = () => {
               key={item.label}
               onClick={() => {
                 setActive(item.label);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
                 navigate(item.path);
               }}
               className="relative group transition-all duration-300 ease-out hover:-translate-y-1 hover:text-blue-300"
@@ -49,11 +51,10 @@ const NavBar = () => {
 
               <span
                 className={`absolute left-0 -bottom-1 h-[2px] w-full bg-blue-400 transition-all duration-300 origin-left 
-                ${
-                  active === item.label
+                ${active === item.label
                     ? "scale-x-100 opacity-100"
                     : "scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100"
-                }`}
+                  }`}
               />
             </button>
           ))}
@@ -76,6 +77,7 @@ const NavBar = () => {
               onClick={() => {
                 setActive(item.label);
                 setOpen(false);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
                 navigate(item.path);
               }}
               className="text-left hover:text-blue-300 transition"
@@ -85,7 +87,7 @@ const NavBar = () => {
           ))}
         </div>
       )}
-      
+
     </header>
   );
 };

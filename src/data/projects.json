@@ -14,8 +14,70 @@
     "subtitle": "GFMIC - E-Commerce Platform",
     "description": "The GFMIC e-commerce platform is a centralized digital system designed to manage, promote, and distribute official GFMIC merchandise efficiently. It serves as a one-stop online hub where members and customers can easily browse, select, and purchase a wide range of GFMIC products, ensuring accessibility and convenience anytime and anywhere.",
     "image": null,
-    "contributors": [],
-    "features": []
+    "contributors": [
+      { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"] },
+      { "memberId": "darben-lamonte",    "roles": ["Lead, Project Developer"] },
+      { "memberId": "althea-asis",       "roles": ["Front-end Developer"] },
+      { "memberId": "nadine-borja",      "roles": ["Back-end Developer"] },
+      { "memberId": "miyuki-parocha",    "roles": ["Quality Assurance"] }
+    ],
+    "features": [
+      {
+        "icon": "UserGroupIcon",
+        "name": "User Management",
+        "description": "Comprehensive tools for handling customer profiles, roles, and secure authentication flows."
+      },
+      {
+        "icon": "ArchiveBoxIcon",
+        "name": "Product Management",
+        "description": "Easily add, categorize, and track product listings, variations, and rich media assets."
+      },
+      {
+        "icon": "ClipboardDocumentListIcon",
+        "name": "Inventory & Order Management",
+        "description": "Track stock levels, fulfill customer orders, and manage automated shipping updates in real-time."
+      },
+      {
+        "icon": "CreditCardIcon",
+        "name": "Payment System Integration",
+        "description": "Secure, seamless checkout experiences with unified support for major payment gateways."
+      },
+      {
+        "icon": "ChartBarIcon",
+        "name": "Dashboard & Analytics",
+        "description": "Interactive data visualizations offering key insights into sales performance and customer trends."
+      },
+      {
+        "icon": "BellAlertIcon",
+        "name": "Notification System",
+        "description": "Automated email and in-app alerts to keep users updated on order statuses and promotions."
+      },
+      {
+        "icon": "MagnifyingGlassIcon",
+        "name": "Search & Filtering",
+        "description": "High-performance queries and faceted search to quickly connect buyers with exactly what they want."
+      },
+      {
+        "icon": "PaintBrushIcon",
+        "name": "User Interface (UI/UX)",
+        "description": "Modern, responsive, and accessible interface built to maximize conversion rates across all devices."
+      },
+      {
+        "icon": "ShieldCheckIcon",
+        "name": "Security Features",
+        "description": "Robust data protection frameworks, automated threat mitigation, and secure transaction handling."
+      },
+      {
+        "icon": "Cog8ToothIcon",
+        "name": "Admin Panel",
+        "description": "A centralized control hub to manage the entire storefront operation efficiently from one place."
+      },
+      {
+        "icon": "BoltIcon",
+        "name": "Scalability & Performance Optimization",
+        "description": "Optimized system architecture ensuring lightning-fast load times even during high-traffic events."
+      }
+    ]
   },
   {
     "id": 3,
@@ -74,6 +136,7 @@
       }
     ]
   },
+
   {
     "id": 5,
     "title": "StewardFM",

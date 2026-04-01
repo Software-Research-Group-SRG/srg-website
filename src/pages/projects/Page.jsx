@@ -8,7 +8,6 @@ function Page() {
       <SearchProjects />
       <ProjectsCarousel />
       <ProjectGrid />
-
     </>
   );
 }

@@ -5,53 +5,52 @@
     :root {
         /* Font style */
         --font-family: 'Oxanium', sans-serif;
-        --font-family-title: 'Oxanium', monospace;  /* example ------------- // 001 - ABOUT US */
+        --font-family-title: 'Oxanium', monospace;
+        /* example ------------- // 001 - ABOUT US */
 
         /* Font Sizes (responsive clamp values) */
-        --fs-heading:    clamp(1.75rem, 4vw, 3rem);
+        --fs-heading: clamp(1.75rem, 4vw, 3rem);
         --fs-subheading: clamp(1.25rem, 2.5vw, 1.75rem);
-        --fs-body:       clamp(0.8125rem, 1.2vw, 1rem);
-        --fs-caption:    clamp(0.625rem, 1vw, 0.75rem);
+        --fs-body: clamp(0.8125rem, 1.2vw, 1rem);
+        --fs-caption: clamp(0.625rem, 1vw, 0.75rem);
 
         /* Brand Colors */
-        --brand-white:           #FFFFFF;
-        
+        --brand-white: #FFFFFF;
+
         /* Background Gradient Steps */
-        --bg-gradient:          #01182F; 
-        --bg-gradient-mid:      #000000; 
+        --bg-gradient: #01182F;
+        --bg-gradient-mid: #000000;
 
         /* Shape Colors */
-        --shape-primary:        #001630;
-        --shape-secondary:      #001430;
-        --shape-tertiary:       #001026;
-        --shape-border:         rgba(255, 255, 255, 0.9); 
+        --shape-primary: #001630;
+        --shape-secondary: #001430;
+        --shape-tertiary: #001026;
+        --shape-border: rgba(255, 255, 255, 0.9);
 
         /* Text Colors */
-        --text-muted:           #4B5563;
-        --text-main:            #FFFFFF;
-        --text-title:           #3185FF;
-        --text-title2:          #35A4B9;
+        --text-muted: #4B5563;
+        --text-main: #FFFFFF;
+        --text-title: #3185FF;
+        --text-title2: #35A4B9;
 
         /* Border / Glow */
-        --border-accent:        rgba(49, 133, 255, 0.35);
-        --glow-accent:          rgba(49, 133, 255, 0.2);
-        --border-teal:          rgba(53, 164, 185, 0.4);
-        --glow-teal:            rgba(53, 164, 185, 0.15);
+        --border-accent: rgba(49, 133, 255, 0.35);
+        --glow-accent: rgba(49, 133, 255, 0.2);
+        --border-teal: rgba(53, 164, 185, 0.4);
+        --glow-teal: rgba(53, 164, 185, 0.15);
 
         /* Spacing */
-        --space-section:        clamp(3rem, 6vw, 6rem);
-        --space-content:        clamp(1.5rem, 3vw, 3rem);
+        --space-section: clamp(3rem, 6vw, 6rem);
+        --space-content: clamp(1.5rem, 3vw, 3rem);
 
         /* Radius */
-        --radius-card:          1rem;
-        --radius-pill:          9999px;
+        --radius-card: 1rem;
+        --radius-pill: 9999px;
     }
 
     /* Apply global.css */
-    body{
+    body {
         font-family: var(--font-family);
         color: var(--text-main)
     }
 }
-
-
