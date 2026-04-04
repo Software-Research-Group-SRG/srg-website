@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+    const navigate = useNavigate();
+
     return (
         <div className="items-center justify-center"> 
             <h1 className="text-4xl font-bold text-blue-600">SRG Website</h1>
@@ -58,9 +61,17 @@ function Home() {
                 Oxanium - SRG WEBSITE
                 </h1>
 
+                <button onClick={() => {
+                    navigate(`/BaseProfileDetails`);
+                    }}
+                >
+                    profile details
+                </button>
+
             </li>
 
         </div>
+       
     );
 }
 
