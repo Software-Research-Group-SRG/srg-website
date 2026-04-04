@@ -17,6 +17,7 @@
         /* Brand Colors */
         --brand-white: #FFFFFF;
 
+
         /* Background Gradient Steps */
         --bg-gradient: #01182F;
         --bg-gradient-mid: #000000;
@@ -27,11 +28,17 @@
         --shape-tertiary: #001026;
         --shape-border: rgba(255, 255, 255, 0.9);
 
+        --img-shadow-border: rgba(0, 210, 255, 0.4);
+
+        --border-color: #3185FF;
+        --img-border-color: rgba(255, 255, 255, 0.1);
+
         /* Text Colors */
         --text-muted: #4B5563;
-        --text-main: #FFFFFF;
+        --text-main: rgba(255, 255, 255, 0.9);
         --text-title: #3185FF;
         --text-title2: #35A4B9;
+        --text-title1: #000000;
 
         /* Border / Glow */
         --border-accent: rgba(49, 133, 255, 0.35);
