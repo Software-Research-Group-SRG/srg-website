@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Pagination from '@/components/ui/Pagination';
 import SkillBadge from '@/components/ui/SkillBadge';
+import ProjectModal from '@/components/ui/ProjectModal';
 
 // Data imports
 import membersData from '@/data/members.json';
@@ -9,9 +10,12 @@ import experienceData from '@/data/experience.json';
 import projectsData from '@/data/individualProjects.json';
 
 // Local Custom Component to display Individual Projects aligning with ProjectCards.jsx visual
-function IndividualProjectCard({ project }) {
+function IndividualProjectCard({ project, onClick }) {
     return (
-        <div className="flex flex-col h-full overflow-hidden rounded-[20px] border-[3px] border-[#3185FF] bg-black shadow-[0_0_20px_rgba(49,133,255,0.2)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(49,133,255,0.4)] relative">
+        <div 
+            onClick={onClick}
+            className="flex flex-col h-full overflow-hidden rounded-[20px] border-[3px] border-[#3185FF] bg-black shadow-[0_0_20px_rgba(49,133,255,0.2)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(49,133,255,0.8)] relative cursor-pointer group"
+        >
             
             {/* Image Box Match */}
             <div className="relative flex h-48 w-full items-center justify-center overflow-hidden border-b-[3px] border-[#3185FF] bg-[radial-gradient(circle_at_top,_rgba(53,164,185,0.28),_transparent_55%),linear-gradient(135deg,_rgba(3,7,18,0.96),_rgba(15,23,42,0.92)_55%,_rgba(30,64,175,0.55))] sm:h-48 shrink-0">
@@ -64,6 +68,7 @@ function BaseProfileDetails() {
   // Settings
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(2); // Sets project items to 2 per page natively
+  const [selectedProject, setSelectedProject] = useState(null);
   
   // Data Fetching and Fallback (default to shanella for exact match to screenshot behavior if no id is appended to route)
   const memberId = id || "shanella-cagulang";
@@ -245,7 +250,7 @@ function BaseProfileDetails() {
                     <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-8">
                         {currentProjects.length > 0 ? (
                             currentProjects.map((proj, idx) => (
-                                <IndividualProjectCard key={idx} project={proj} />
+                                <IndividualProjectCard key={idx} project={proj} onClick={() => setSelectedProject(proj)} />
                             ))
                         ) : (
                             <p className="col-span-full italic opacity-70 text-white text-center">No projects to display.</p>
@@ -267,6 +272,13 @@ function BaseProfileDetails() {
             </div>
 
         </div>
+
+        {/* Project Modal */}
+        <ProjectModal 
+            isOpen={!!selectedProject} 
+            onClose={() => setSelectedProject(null)} 
+            project={selectedProject} 
+        />
     </article>
   );
 }
