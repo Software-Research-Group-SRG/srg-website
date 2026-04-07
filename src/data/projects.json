@@ -4,7 +4,7 @@
     "title": "Faith, Hope, Love",
     "subtitle": "FHL - Internal Project",
     "description": "The Faith Hope Love Clinic Website is an online healthcare information and service platform designed to provide patients with convenient access to clinic information, medical services, and communication channels. The system serves as a centralized digital interface that enables users to explore available healthcare services, learn about the clinic, and easily connect with medical professionals.",
-    "image": null,
+    "image": "failth-hope-love/FaithHopeLove1.png",
     "contributors": [],
     "features": []
   },
@@ -14,7 +14,7 @@
     "title": "GFMIC E-Commerce",
     "subtitle": "GFMIC - E-Commerce Platform",
     "description": "The GFMIC e-commerce platform is a centralized digital system designed to manage, promote, and distribute official GFMIC merchandise efficiently. It serves as a one-stop online hub where members and customers can easily browse, select, and purchase a wide range of GFMIC products, ensuring accessibility and convenience anytime and anywhere.",
-    "image": null,
+    "image": "GfmicEcommerce/gfmic-ecommerce.png",
     "contributors": [
       { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"] },
       { "memberId": "darben-lamonte",    "roles": ["Lead, Project Developer"] },
@@ -85,7 +85,7 @@
     "title": "GFMIC Academy",
     "subtitle": "GFMIC - Learning Management System",
     "description": "The GFMIC Learning Management System integrated with the Mentorship & Peer Matching System is a web-based platform designed to centralize and enhance digital learning and mentorship processes. It provides a structured environment where instructors can create and manage courses, upload learning materials, conduct assessments and monitor student progress, while students can conveniently access content, complete activities and track their performance.",
-    "image": null,
+    "image": "gfmic-academy/Gfmic_academy_1.png",
     "contributors": [],
     "features": []
   },
@@ -144,7 +144,7 @@
     "title": "StewardFM",
     "subtitle": "Facility Management System",
     "description": "StewardFM is a comprehensive facility management system designed to streamline operations, maintenance tracking, and resource allocation for organizations. It provides an intuitive dashboard for managing assets, scheduling maintenance tasks, and generating insightful reports for facility administrators.",
-    "image": null,
+    "image": "stewardfm/StewardFm1.png",
     "contributors": [],
     "features": []
   },
@@ -154,7 +154,7 @@
     "title": "PUP Smart-Track",
     "subtitle": " 004 - INTERNAL PROJECT",
     "description": "The system is a centralized Asset and Maintenance Management Information System that manages equipment, inventory, maintenance, disposal, and approval processes in one platform. It enables efficient tracking of asset lifecycle, accountability, and status while streamlining requests and workflows through automated approvals and notifications. The system also provides comprehensive reporting to support decision-making, transparency, and audit compliance.",
-    "image": null,
+    "image": "pup-smart-track/PupSmartTrack1.png",
     "contributors": [
       { "memberId": "shanella-cagulang",  "roles": ["Project Manager", "Business Analyst"] },
       { "memberId": "angel-olivarez",     "roles": ["Backend Developer"] },
@@ -345,7 +345,7 @@
     "title": "Flor De Grace",
     "subtitle": "Business Management System",
     "description": "Flor De Grace is a business management system designed to streamline operations for small to medium enterprises. It provides tools for inventory management, customer relationship management, sales tracking, and financial reporting through an integrated digital platform.",
-    "image": null,
+    "image": "flor-de-grace/FlorDeGrace_1.png",
     "contributors": [],
     "features": []
   },
