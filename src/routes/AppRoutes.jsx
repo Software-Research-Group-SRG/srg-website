@@ -5,7 +5,10 @@ import ScrollToTop from "../components/layout/ScrollToTop";
 
 // Pages
 // Landing
-import Home from '../pages/landing/Page';
+import Home from '../pages/landing/Home';
+
+//this is temporary for accessing the profile details page, will be removed once the actual profile details page is created
+import BaseProfileDetails from '../components/layout/BaseProfileDetails';
 
 //Members
 import MembersPage from '../pages/members/Page';
@@ -25,6 +28,9 @@ function AppRoutes() {
                 <Routes>
                     //Home navigation
                     <Route path="/" element={<Home />} />
+
+                    //this is temporary for accessing the profile details page, will be removed once the actual profile details page is created
+                    <Route path="/BaseProfileDetails" element={<BaseProfileDetails />} />
 
                     //Members navigation
                     <Route path="/members" element={<MembersPage />} />
