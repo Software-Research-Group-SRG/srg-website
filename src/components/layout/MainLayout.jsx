@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import Navbar from '../navbar/NavBar'
 import Footer from '../footer/Footer'
-
+import NeonTrailCursor from '../ui/NeonTrailCursor'
 
 
 export default function MainLayout({ children }) {
@@ -112,6 +112,7 @@ export default function MainLayout({ children }) {
       </div>
 
       <Footer />
+      <NeonTrailCursor />
 
     </div>
   )

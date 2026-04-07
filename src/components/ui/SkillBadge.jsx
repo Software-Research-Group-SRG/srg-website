@@ -19,7 +19,7 @@ function SkillBadge({ skills }) {
           className="
             flex items-center justify-center 
             bg-[var(--text-title)] 
-            text-[var(--text-title1)] 
+            text-[var(--text-main)] 
             px-5 py-[7px] 
             rounded-full 
             text-[0.85rem] 
