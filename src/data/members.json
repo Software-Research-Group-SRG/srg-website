@@ -1,136 +1,197 @@
 [
-  {
-    "id": "crystalyn-danga",
-    "name": "Crystalyn Danga",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "shanella-cagulang",
-    "name": "Shanella A. Cagulang",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "yesha-perez",
-    "name": "Yesha Perez",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "kim-cabaylo",
-    "name": "Kimberly Nicole Cabaylo",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "miyuki-parocha",
-    "name": "Miyuki Mharie C. Parocha",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "yuan-evangelista",
-    "name": "Yuan Exequiel Evangelista",
-    "photo": null,
-    "status": "member"
-  },
-
-
-  {
-    "id": "brian-caube",
-    "name": "Brian Caube",
-    "photo": null,
-    "status": "member"
-  },
-  
-  {
-    "id": "althea-asis",
-    "name": "Althea Amor J. Asis",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "nadine-borja",
-    "name": "Ma. Nadine A. Borja",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "regie-magtangob",
-    "name": "Mark Regie Magtangob",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "ellen-sinday",
-    "name": "Ellen Grace Sinday",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "darben-lamonte",
-    "name": "Darben V. Lamonte",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "elisha-mier",
-    "name": "Elisha Reign Mier",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "rj-aquino",
-    "name": "Richard Jason Aquino",
-    "photo": null,
-    "status": "member"
-  },
-
-  {
-    "id": "angel-olivarez",
-    "name": "Angel Olivarez",
-    "photo": null,
-    "status": "member"
-  },
-
-
-
-  
-  {
-    "id": "robert-carlos",
-    "name": "Robert Carlos",
-    "photo": null,
-    "status": "intern"
-  },
-  {
-    "id": "john-parocha",
-    "name": "John Mathew Parocha",
-    "photo": null,
-    "status": "intern"
-  },
-  {
-    "id": "charlene-caramoan",
-    "name": "Charlene Caramoan",
-    "photo": null,
-    "status": "intern"
-  },
-  {
-    "id": "aliah-del-rosario",
-    "name": "Aliah Del Rosario",
-    "photo": null,
-    "status": "intern"
-  }
-
+    {
+        "id": "crystalyn-danga",
+        "name": "Crystalyn Danga",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "crystalyn-danga",
+        "indivProjectID": "crystalyn-danga"
+    },
+    {
+        "id": "shanella-cagulang",
+        "name": "Shanella A. Cagulang",
+        "photo": null,
+        "status": "member",
+        "skills": [
+            "Frontend Developer",
+            "Web Developer",
+            "Mobile Application Developer",
+            "UI/UX Designer"
+        ],
+        "about": "",
+        "experienceID": "shanella-cagulang",
+        "indivProjectID": "shanella-cagulang"
+    },
+    {
+        "id": "yesha-perez",
+        "name": "Yesha Perez",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "yesha-perez",
+        "indivProjectID": "yesha-perez"
+    },
+    {
+        "id": "kim-cabaylo",
+        "name": "Kimberly Nicole Cabaylo",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "kim-cabaylo",
+        "indivProjectID": "kim-cabaylo"
+    },
+    {
+        "id": "miyuki-parocha",
+        "name": "Miyuki Mharie C. Parocha",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "miyuki-parocha",
+        "indivProjectID": "miyuki-parocha"
+    },
+    {
+        "id": "yuan-evangelista",
+        "name": "Yuan Exequiel Evangelista",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "yuan-evangelista",
+        "indivProjectID": "yuan-evangelista"
+    },
+    {
+        "id": "brian-caube",
+        "name": "Brian Caube",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "brian-caube",
+        "indivProjectID": "brian-caube"
+    },
+    {
+        "id": "althea-asis",
+        "name": "Althea Amor J. Asis",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "althea-asis",
+        "indivProjectID": "althea-asis"
+    },
+    {
+        "id": "nadine-borja",
+        "name": "Ma. Nadine A. Borja",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "nadine-borja",
+        "indivProjectID": "nadine-borja"
+    },
+    {
+        "id": "regie-magtangob",
+        "name": "Mark Regie Magtangob",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "regie-magtangob",
+        "indivProjectID": "regie-magtangob"
+    },
+    {
+        "id": "ellen-sinday",
+        "name": "Ellen Grace Sinday",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "ellen-sinday",
+        "indivProjectID": "ellen-sinday"
+    },
+    {
+        "id": "darben-lamonte",
+        "name": "Darben V. Lamonte",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "darben-lamonte",
+        "indivProjectID": "darben-lamonte"
+    },
+    {
+        "id": "elisha-mier",
+        "name": "Elisha Reign Mier",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "elisha-mier",
+        "indivProjectID": "elisha-mier"
+    },
+    {
+        "id": "rj-aquino",
+        "name": "Richard Jason Aquino",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "rj-aquino",
+        "indivProjectID": "rj-aquino"
+    },
+    {
+        "id": "angel-olivarez",
+        "name": "Angel Olivarez",
+        "photo": null,
+        "status": "member",
+        "skills": [],
+        "about": "",
+        "experienceID": "angel-olivarez",
+        "indivProjectID": "angel-olivarez"
+    },
+    {
+        "id": "robert-carlos",
+        "name": "Robert Carlos",
+        "photo": null,
+        "status": "intern",
+        "skills": [],
+        "about": "",
+        "experienceID": "robert-carlos",
+        "indivProjectID": "robert-carlos"
+    },
+    {
+        "id": "john-parocha",
+        "name": "John Mathew Parocha",
+        "photo": null,
+        "status": "intern",
+        "skills": [],
+        "about": "",
+        "experienceID": "john-parocha",
+        "indivProjectID": "john-parocha"
+    },
+    {
+        "id": "charlene-caramoan",
+        "name": "Charlene Caramoan",
+        "photo": null,
+        "status": "intern",
+        "skills": [],
+        "about": "",
+        "experienceID": "charlene-caramoan",
+        "indivProjectID": "charlene-caramoan"
+    },
+    {
+        "id": "aliah-del-rosario",
+        "name": "Aliah Del Rosario",
+        "photo": null,
+        "status": "intern",
+        "skills": [],
+        "about": "",
+        "experienceID": "aliah-del-rosario",
+        "indivProjectID": "aliah-del-rosario"
+    }
 ]
