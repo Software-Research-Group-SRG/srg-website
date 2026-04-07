@@ -8,16 +8,44 @@ function MeetTheTeam() {
 
             {/* Main Wrapper: Use flex-col and items-start to keep titles left-aligned */}
             {/* 1. Reduced outer padding/margin and gap to 0 since we will control spacing manually */}
-            <div className="mx-auto flex w-full max-w-[1600px] flex-col items-center p-4 sm:p-10">
+            <div className="mx-auto flex w-full max-w-[1600px] flex-col p-4 sm:p-10">
 
                 {/* Section Title Wrapper */}
-                <div className="w-full mb-8">
-                    <div className="border border-white/20 bg-[#011325] py-[12px] px-6 pr-[40px] w-fit shadow-[0_0_15px_rgba(255,255,255,0.3)]">
-                        <p className="text-xs tracking-[0.35em] uppercase text-white font-[var(--font-family-title)]">
-                            <span className="opacity-40">------------- //</span>{' '}
-                            <span className="font-bold">001 - PROJECT MANAGERS</span>
-                        </p>
-                    </div>
+                <div 
+                    className="
+                    flex 
+                    items-center 
+                    justify-center 
+                    rounded-2xl
+                    gap-5 
+                    w-fit 
+                    px-10 
+                    py-4 
+                    bg-[#011325]/50 
+                    backdrop-blur-xl 
+                    drop-shadow-futuristic-stroke
+                    "
+                    style={{
+                    // Adds that deep, frosted-glass tactile feel seen in reference
+                    boxShadow: 'inset 0 0 15px rgba(255, 255, 255, 0.05)',
+                    }}
+                >
+                    {/* The dashed lines - dimmed for effect */}
+                    <span className="text-white/40 tracking-[0.2em]">
+                    --------------------- //
+                    </span>
+
+                    {/* The Text - Bright white and tracking wide */}
+                    <p 
+                    className="text-sm font-medium uppercase text-white tracking-[0.3em]"
+                    style={{
+                        // Matches the high-tech font style in reference
+                        fontFamily: 'var(--font-family-title)',
+                        textShadow: '0 0 8px rgba(255, 255, 255, 0.3)' // Subtle text glow
+                    }}
+                    >
+                    <span className="font-bold">001</span> - PROJECT MANAGERS
+                    </p>
                 </div>
 
                 {/* THE FIX: Using flex-wrap and justify-center instead of grid */}
@@ -84,15 +112,9 @@ function MeetTheTeam() {
                     <TeamMemberCard />
                 </div>
 
-            </div>
-            
-
-
-
-
-
-            
+            </div> 
         </div>
+        
     );
 }
 
