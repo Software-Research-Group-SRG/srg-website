@@ -5,7 +5,7 @@ import ScrollToTop from "../components/layout/ScrollToTop";
 
 // Pages
 // Landing
-import Home from '../pages/landing/Page';
+import Home from '../pages/landing/Home';
 
 //this is temporary for accessing the profile details page, will be removed once the actual profile details page is created
 import BaseProfileDetails from '../components/layout/BaseProfileDetails';
