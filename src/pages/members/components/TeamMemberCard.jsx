@@ -1,7 +1,6 @@
 import React from 'react';
 import { navigate } from 'react-router-dom';
-import { Box } from '@/components/ui/Box';
-import sample from '../../assets/sample.JPG';  
+import { Box } from '@/components/ui/Box'; 
 import Members from '@/data/members.json';
 
 export const MemberCard = ({ role }) => {
@@ -21,7 +20,7 @@ export const MemberCard = ({ role }) => {
                     <Box title={member.name}>
                         
                         <img 
-                            src={member.photo || sample} 
+                            src={member.photo} 
                             alt={member.name}
                             className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-110 z-0" 
                         />

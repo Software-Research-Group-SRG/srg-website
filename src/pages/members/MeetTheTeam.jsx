@@ -1,6 +1,5 @@
 import React from "react";
-import TeamMemberCard from "./TeamMemberCard";
-import SectionHeader from "./SectionTitle";
+
 
 function MeetTheTeam() {
     return (
