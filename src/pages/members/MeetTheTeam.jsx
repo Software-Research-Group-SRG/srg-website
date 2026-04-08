@@ -1,11 +1,12 @@
 import React from "react";
 
+
 function MeetTheTeam() {
     return (
-        <div className="items-center justify-center"> 
-            <h1 className="text-4xl font-bold text-blue-600">Meet The Team</h1>
-           
+        <div> 
+            <h1 className="mb-10 flex items-center justify-center text-4xl font-bold text-white uppercase">Meet the Team</h1>
         </div>
+        
     );
 }
 
