@@ -8,6 +8,9 @@
         --font-family-title: 'Oxanium', monospace;
         /* example ------------- // 001 - ABOUT US */
 
+        /* Members Page Font style */
+        --members-font-family: 'Playfair Display', serif;
+
         /* Font Sizes (responsive clamp values) */
         --fs-heading: clamp(1.75rem, 4vw, 3rem);
         --fs-subheading: clamp(1.25rem, 2.5vw, 1.75rem);
