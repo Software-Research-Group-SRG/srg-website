@@ -1,5 +1,5 @@
 import React from 'react';
-import { navigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Box } from '@/components/ui/Box'; 
 import Members from '@/data/members.json';
 
