@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ChevronUp, Mail  } from "lucide-react";
+import { ChevronUp, Mail } from "lucide-react";
 
 function Footer() {
   const scrollToTop = () => {
@@ -11,7 +11,7 @@ function Footer() {
 
   return (
     <footer className="relative z-20 mt-auto w-full flex flex-col items-center">
-      
+
       {/* --- Scroll Up --- */}
       <button
         onClick={scrollToTop}
@@ -40,50 +40,43 @@ function Footer() {
       {/* --- Bottom Bar (FIXED ALIGNMENT) --- */}
       <div className="w-full flex flex-col md:flex-row justify-between items-center py-5 px-6 md:px-12 bg-black/40 backdrop-blur-sm">
 
-          <div className="hidden md:flex flex-1"></div>
+        <div className="hidden md:flex flex-1"></div>
 
-          {/* Copyright */}
-          <div className="flex-1 text-center order-2 md:order-1">
-            <p
-              className="text-[11px] tracking-[0.2em] font-medium"
-              style={{ fontFamily: "var(--font-family)" }}
-            >
-              COPYRIGHT 2026, ALL RIGHTS RESERVED.
-            </p>
+        {/* Copyright */}
+        <div className="flex-1 text-center order-2 md:order-1">
+          <p
+            className="text-[11px] tracking-[0.2em] font-medium"
+            style={{ fontFamily: "var(--font-family)" }}
+          >
+            COPYRIGHT 2026, ALL RIGHTS RESERVED.
+          </p>
+        </div>
+
+        {/* Get In Touch */}
+        <div className="flex-1 flex justify-center md:justify-end items-center gap-4 order-1 md:order-2 mb-4 md:mb-0">
+          <div
+            className="flex items-center text-[12px] tracking-widest"
+            style={{
+              color: "var(--text-title)",
+              fontFamily: "var(--font-family-title)",
+            }}
+          >
+            <span className="opacity-90 select-none hidden lg:inline">
+              ----------------- //
+            </span>
+            <span className="ml-2">004 - GET IN TOUCH</span>
           </div>
 
-          {/* Get In Touch */}
-          <div className="flex-1 flex justify-center md:justify-end items-center gap-4 order-1 md:order-2 mb-4 md:mb-0">
-            <div
-              className="flex items-center text-[12px] tracking-widest"
-              style={{
-                color: "var(--text-title)",
-                fontFamily: "var(--font-family-title)",
-              }}
-            >
-              <span className="opacity-90 select-none hidden lg:inline">
-                ----------------- //
-              </span>
-              <span className="ml-2">004 - GET IN TOUCH</span>
-            </div>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=SRG_PUPQC@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-1.5 border-[1px] border-white/20 hover:border-blue-400 hover:bg-blue-400/10 transition-all rounded-[2px]"
+          >
+            <Mail size={14} className="text-white" />
+          </a>
+        </div>
 
-            <a
-              href="mailto:contact@srg.com"
-              className="p-1.5 border-[1px] border-white/20 hover:border-blue-400 hover:bg-blue-400/10 transition-all rounded-[2px]"
-            >
-              <Mail size={14} className="text-white" />
-            </a>
-
-            {/* <a
-              href="https://facebook.com/yourprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-1.5 border-[1px] border-white/20 hover:border-blue-400 hover:bg-blue-400/10 transition-all rounded-[2px]"
-            >
-              <FacebookIcon size={14} className="text-white" />
-            </a> */}
-          </div>
-        
       </div>
     </footer>
   );
