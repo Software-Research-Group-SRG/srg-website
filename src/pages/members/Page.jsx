@@ -1,5 +1,4 @@
 import React from 'react';
-import MeetTheTeam from './MeetTheTeam';
 import SectionTitle from './components/SectionTitle';
 import { MemberCard } from './components/TeamMemberCard';
 import PartnerRecognitionBanner from './components/PartnerRecognitionBanner';
@@ -8,7 +7,9 @@ import PartnerRecognitionBanner from './components/PartnerRecognitionBanner';
 function Page() {
   return (
     <div className="m-10 flex flex-col sm:p-8 lg:p-12"> 
-        <MeetTheTeam />
+        <div> 
+            <h1 className="mb-10 flex items-center justify-center text-4xl font-bold text-white uppercase">Meet the Team</h1>
+        </div>
 
         <div className="flex flex-col gap-12 px-4 sm:px-8 lg:px-12 py-12">
 

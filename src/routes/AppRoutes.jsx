@@ -18,7 +18,7 @@ import ProjectsPage from '../pages/projects/Page';
 import ProjectDetailPage from '../pages/projects/ProjectDetailPage';
 
 //Contact
-import Contact from '../pages/contact/Contact';
+import Contact from '../pages/contact-us/Contact';
 
 function AppRoutes() {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import gfmicLogo from '../../assets/logos-partner/GfmicLogo.png'; 
-import srgLogo from '../../assets/logos-partner/srgLogo.png'; 
-import pupLogo from '../../assets/logos-partner/PupLogo.png'; 
+import gfmicLogo from '../../../assets/logos-partner/GfmicLogo.png'; 
+import srgLogo from '../../../assets/logos-partner/SrgLogo.png'; 
+import pupLogo from '../../../assets/logos-partner/PupLogo.png'; 
 
 function PartnerRecognitionBanner() {
     return (
