@@ -208,5 +208,76 @@
         "about": "",
         "experienceID": "aliah-del-rosario",
         "indivProjectID": "aliah-del-rosario"
+    },
+
+    {
+        "id": "rechelle-salas",
+        "name": "Rechelle Ann Salas",
+        "photo": null,
+        "status": "Gen 11, Project Manager",
+        "skills": [],
+        "about": "",
+        "experienceID": "Rechelle Ann Salas",
+        "indivProjectID": "Rechelle Ann Salas"
+    }, 
+
+    {
+        "id": "rafael-parungao",
+        "name": "Rafael Joar Parungao",
+        "photo": null,
+        "status": "Gen 11, Backend Developer",
+        "skills": [],
+        "about": "",
+        "experienceID": "Rafael Joar Parungao",
+        "indivProjectID": "Rafael Joar Parungao"
+    }, 
+
+    {
+        "id": "jerriniash-alpajora",
+        "name": "Jerriniash Alpajora",
+        "photo": null,
+        "status": "Gen 11, Backend Developer",
+        "skills": [],
+        "about": "",
+        "experienceID": "jerriniash-alpajora",
+        "indivProjectID": "jerriniash-alpajora"
+    },
+
+    {
+        "id": "rozelle-de-omania",
+        "name": "Rozelle De Omania",
+        "photo": null,
+        "status": "Gen 11, Quality Assurance",
+        "skills": [],
+        "about": "",
+        "experienceID": "rozelle-de-omania",
+        "indivProjectID": "rozelle-de-omania"
+    },
+
+    {
+        "id": "kimberly-kho",
+        "name": "Kimberly Kho",
+        "photo": null,
+        "status": "Gen 11, Frontend Developer",
+        "skills": [],
+        "about": "",
+        "experienceID": "kimberly-kho",
+        "indivProjectID": "kimberly-kho"
+    },
+
+    {
+        "id": "jamme-jones-cera",
+        "name": "Jamme Jones Cera",
+        "photo": null,
+        "status": "Gen 11, Full Stack Developer",
+        "skills": [],
+        "about": "",
+        "experienceID": "jamme-jones-cera",
+        "indivProjectID": "jamme-jones-cera"
     }
+
+
+
+    
+
 ]

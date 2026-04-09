@@ -5,8 +5,58 @@
     "subtitle": "FHL - Internal Project",
     "description": "The Faith Hope Love Clinic Website is an online healthcare information and service platform designed to provide patients with convenient access to clinic information, medical services, and communication channels. The system serves as a centralized digital interface that enables users to explore available healthcare services, learn about the clinic, and easily connect with medical professionals.",
     "image": "failth-hope-love/FaithHopeLove1.png",
-    "contributors": [],
-    "features": []
+    "contributors": [
+      { "memberId": "kim-cabaylo",      "roles": ["Project Manager"] },
+      { "memberId": "yesha-perez",      "roles": ["UI/UX Designer"] },
+      { "memberId": "althea-asis",      "roles": ["Front-end Developer"] },
+      { "memberId": "regie-magtangob",  "roles": ["Front-end Developer"] }],
+    "features": [
+      {
+        "icon": "HomeIcon",
+        "name": "Dashboard (Home Page)",
+        "description": "A dynamic central hub providing quick access to clinic highlights, essential services, and patient resources."
+      },
+      {
+        "icon": "InformationCircleIcon",
+        "name": "About Management",
+        "description": "Showcases the clinic’s mission, vision, and heritage, building a foundation of trust with patients."
+      },
+      {
+        "icon": "SparklesIcon",
+        "name": "Specializations / Services Management",
+        "description": "Detailed showcase of diverse medical specializations and healthcare services offered by the clinic."
+      },
+      {
+        "icon": "ChatBubbleBottomCenterTextIcon",
+        "name": "Testimonials Management",
+        "description": "Integrated feedback system featuring patient testimonials and success stories to validate service quality."
+      },
+      {
+        "icon": "AcademicCapIcon",
+        "name": "Certificates and Affiliations Display",
+        "description": "Highlights official medical certifications, professional affiliations, and industry recognitions."
+      },
+      {
+        "icon": "PhoneIcon",
+        "name": "Contact Information Module",
+        "description": "Centralized contact hub with integrated maps, emergency contact details, and direct communication channels."
+      },
+      {
+        "icon": "MagnifyingGlassIcon",
+        "name": "Search Function Module",
+        "description": "Advanced search functionality enabling patients to quickly locate specific services, doctors, or medical departments."
+      },
+      {
+        "icon": "Bars3Icon",
+        "name": "Navigation Menu Module",
+        "description": "Seamless and responsive navigation structure designed for intuitive user journeys across the entire platform."
+      },
+      {
+        "icon": "QueueListIcon",
+        "name": "Footer Information Module",
+        "description": "Comprehensive footer containing site-wide links, social media integration, and essential legal information."
+      }
+    ]
   },
 
   {
@@ -86,8 +136,90 @@
     "subtitle": "GFMIC - Learning Management System",
     "description": "The GFMIC Learning Management System integrated with the Mentorship & Peer Matching System is a web-based platform designed to centralize and enhance digital learning and mentorship processes. It provides a structured environment where instructors can create and manage courses, upload learning materials, conduct assessments and monitor student progress, while students can conveniently access content, complete activities and track their performance.",
     "image": "gfmic-academy/Gfmic_academy_1.png",
-    "contributors": [],
-    "features": []
+    "contributors": [
+      { "memberId": "kim-cabaylo", "roles": ["Project Manager / Business Analyst"] },
+      { "memberId": "angel-olivarez",    "roles": ["Full Stack Developer"] },
+      { "memberId": "elisha-mier",       "roles": ["Full Stack Developer"] },
+      { "memberId": "ellen-sinday",      "roles": ["Front-end Developer"] },
+      { "memberId": "yesha-perez",    "roles": ["Quality Assurance / UI/UX Designer"] }
+    ],
+    "features": [
+      {
+        "icon": "UserCircleIcon",
+        "name": "User Registration and Authentication",
+        "description": "Secure enrollment and multi-role access control for students, instructors, and administrators."
+      },
+      {
+        "icon": "AcademicCapIcon",
+        "name": "Course Management",
+        "description": "Comprehensive tools for organizing curriculum, uploading materials, and managing course lifecycle."
+      },
+      {
+        "icon": "BookOpenIcon",
+        "name": "Enrollment System",
+        "description": "Automated course subscription workflows with support for various enrollment verification methods."
+      },
+      {
+        "icon": "CreditCardIcon",
+        "name": "Payment System",
+        "description": "Secure integration for course fees and membership payments using unified payment gateways."
+      },
+      {
+        "icon": "VideoCameraIcon",
+        "name": "Multimedia Learning Support",
+        "description": "Interactive learning environment supporting video lectures, digital docs, and downloadable resources."
+      },
+      {
+        "icon": "PencilSquareIcon",
+        "name": "Assessment and Quiz Management",
+        "description": "Dynamic testing engine for creating quizzes, automated grading, and instant performance feedback."
+      },
+      {
+        "icon": "ChartBarIcon",
+        "name": "Progress Tracking and Analytics",
+        "description": "Real-time visualization of learning milestones, grade reports, and student engagement data."
+      },
+      {
+        "icon": "BellAlertIcon",
+        "name": "Notification System",
+        "description": "Automated alerts for new course materials, upcoming assessments, and enrollment status updates."
+      },
+      {
+        "icon": "TrophyIcon",
+        "name": "Certificate Generation",
+        "description": "One-click generation of verifiable digital certificates upon successful course completion."
+      },
+      {
+        "icon": "UserGroupIcon",
+        "name": "Mentorship Matching System",
+        "description": "AI-driven algorithms to connect learners with compatible mentors based on skills and interests."
+      },
+      {
+        "icon": "WindowIcon",
+        "name": "Learning Management Portal",
+        "description": "A streamlined, intuitive dashboard where students can access all active courses and resources."
+      },
+      {
+        "icon": "Cog8ToothIcon",
+        "name": "Administrative Configurations",
+        "description": "Centralized panel for system-wide settings, user roles, and platform customization."
+      },
+      {
+        "icon": "ArrowDownTrayIcon",
+        "name": "Search, Filter, and Data Export",
+        "description": "High-performance queries for finding content and exporting academic reports in multiple formats."
+      },
+      {
+        "icon": "Squares2X2Icon",
+        "name": "Dashboard Overview",
+        "description": "A high-level summary of active enrollments, recent activity, and upcoming deadlines."
+      },
+      {
+        "icon": "IdentificationIcon",
+        "name": "Profile Management",
+        "description": "Personalized user profiles for tracking individual learning paths and professional achievements."
+      }
+    ]
   },
 
   {
@@ -145,14 +277,46 @@
     "subtitle": "Facility Management System",
     "description": "StewardFM is a comprehensive facility management system designed to streamline operations, maintenance tracking, and resource allocation for organizations. It provides an intuitive dashboard for managing assets, scheduling maintenance tasks, and generating insightful reports for facility administrators.",
     "image": "stewardfm/StewardFm1.png",
-    "contributors": [],
-    "features": []
+    "contributors": [
+      { "memberId": "rechelle-salas", "roles": ["Project Manager"] },
+      { "memberId": "rafael-parungao",    "roles": ["Backend Developer"] },
+      { "memberId": "jerriniash-alpajora",       "roles": ["Backend Developer"] },
+      { "memberId": "rozelle-de-omania",      "roles": ["Quality Assurance"] },
+      { "memberId": "kimberly-kho",    "roles": ["Frontend Developer"] }
+    ],
+    "features": [
+      {
+        "icon": "CubeIcon",
+        "name": "Asset Lifecycle Management",
+        "description": "Comprehensive tracking of organizational resources from specialized acquisition to final decommissioning."
+      },
+      {
+        "icon": "CalendarDaysIcon",
+        "name": "Preventive Maintenance",
+        "description": "Automated scheduling and tracking of routine upkeep to ensure operational continuity."
+      },
+      {
+        "icon": "WrenchIcon",
+        "name": "Work Order Tracking",
+        "description": "Streamlined maintenance request system with efficient assignment and status monitoring."
+      },
+      {
+        "icon": "HomeIcon",
+        "name": "Facility Resource Allocation",
+        "description": "Optimized management of physical spaces, rooms, and equipment across multiple locations."
+      },
+      {
+        "icon": "DocumentChartBarIcon",
+        "name": "Reporting & Insights",
+        "description": "Data-driven dashboards providing deep visibility into facility health and operational costs."
+      }
+    ]
   },
 
   {
     "id": 6,
     "title": "PUP Smart-Track",
-    "subtitle": " 004 - INTERNAL PROJECT",
+    "subtitle": "006 - INTERNAL PROJECT",
     "description": "The system is a centralized Asset and Maintenance Management Information System that manages equipment, inventory, maintenance, disposal, and approval processes in one platform. It enables efficient tracking of asset lifecycle, accountability, and status while streamlining requests and workflows through automated approvals and notifications. The system also provides comprehensive reporting to support decision-making, transparency, and audit compliance.",
     "image": "pup-smart-track/PupSmartTrack1.png",
     "contributors": [
@@ -255,22 +419,21 @@
     "id": 7,
     "title": "Bitbo AI",
     "subtitle": "AI-Powered Platform",
-    "description": "Bitbo AI is an artificial intelligence-powered platform that leverages machine learning and natural language processing to deliver intelligent automation solutions. The system is designed to assist users with data analysis, content generation, and decision-making processes.",
+    "description": "Bitbo (Barangay IT Robot) is an AI-enhanced integrated management system specifically developed for Philippine barangays. It combines traditional administrative tools with intelligent automation to manage citizen profiles, local legislation, case records, and health services, ensuring accessibility and efficiency in local government operations.",
     "image": null,
-    "contributors": [{ "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
+    "contributors": [
+      { "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
       { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"]},
       { "memberId": "crystalyn-danga",   "roles": ["Business Analyst"] },
       { "memberId": "yesha-perez",       "roles": ["Quality Assurance"] },
       { "memberId": "kim-cabaylo",       "roles": ["Quality Assurance"] },
       { "memberId": "miyuki-parocha",    "roles": ["Quality Assurance"] },
       { "memberId": "yuan-evangelista",  "roles": ["Document Analyst"] },
-
       { "memberId": "brian-caube",       "roles": ["Frontend Developer"] },
       { "memberId": "ellen-sinday",      "roles": ["Frontend Developer"] },
       { "memberId": "althea-asis",       "roles": ["Frontend Developer"] },
       { "memberId": "nadine-borja",      "roles": ["Frontend Developer"] },
       { "memberId": "regie-magtangob",   "roles": ["Frontend Developer"] },
-
       { "memberId": "darben-lamonte",    "roles": ["Backend Developer"] },
       { "memberId": "elisha-mier",       "roles": ["Backend Developer"] },
       { "memberId": "angel-olivarez",    "roles": ["Backend Developer"] },
@@ -344,10 +507,55 @@
     "id": 8,
     "title": "Flor De Grace",
     "subtitle": "Business Management System",
-    "description": "Flor De Grace is a business management system designed to streamline operations for small to medium enterprises. It provides tools for inventory management, customer relationship management, sales tracking, and financial reporting through an integrated digital platform.",
+    "description": "Flor De Grace Academy is a comprehensive school management system designed to streamline academic operations for educational institutions. It provides integrated tools for student registration, faculty workload management, attendance tracking, and academic reporting through a centralized digital platform.",
     "image": "flor-de-grace/FlorDeGrace_1.png",
-    "contributors": [],
-    "features": []
+    "contributors": [
+      { "memberId": "jamme-jones-cera",   "roles": ["Product Owner / Overall Developer"] },
+      { "memberId": "crystalyn-danga",    "roles": ["Scrum Master", "Software QA Tester"] },
+      { "memberId": "miyuki-parocha",     "roles": ["Software QA Tester"] },
+      { "memberId": "darben-lamonte",     "roles": ["Backend Developer"] },
+      { "memberId": "rj-aquino",          "roles": ["Backend Developer"] },
+      { "memberId": "althea-asis",        "roles": ["Frontend Developer"] },
+      { "memberId": "yuan-evangelista",   "roles": ["Frontend Developer"] }
+    ],
+    "features": [
+       {
+        "icon": "Squares2X2Icon",
+        "name": "Student Management",
+        "description": "Comprehensive student registration, profile handling, and promotion tracking across academic years."
+      },
+      {
+        "icon": "Squares2X2Icon",
+        "name": "Faculty Management",
+        "description": "Faculty account creation, verification, role management, and status control (active/inactive)."
+      },
+      {
+        "icon": "Squares2X2Icon",
+        "name": "Class & Schedule Management",
+        "description": "Assignment of faculty to subjects and sections with built-in conflict detection and scheduling validation."
+      },
+      {
+        "icon": "Squares2X2Icon",
+        "name": "Attendance Tracking",
+        "description": "Daily attendance recording with multiple status options (Present, Absent, Late, Excused) and remarks."
+      },
+      {
+        "icon": "Squares2X2Icon",
+        "name": "Leave Management",
+        "description": "Faculty leave request submission with admin approval and tracking workflows."
+      },
+      {
+        "icon": "Squares2X2Icon",
+        "name": "Academic Structure Setup",
+        "description": "Management of academic years, grade levels, subjects, and sections in a centralized system."
+      },
+      {
+        "icon": "Squares2X2Icon",
+        "name": "Reports & Monitoring",
+        "description": "Access to basic reports and system insights to support administrative decision-making."
+      }
+
+    ]
   },
 
 
@@ -355,9 +563,52 @@
     "id": 9,
     "title": "SRG Website",
     "subtitle": "Organization Portfolio",
-    "description": "The SRG Website serves as the official digital presence of the Software Research Group. It showcases the organization's projects, team members, leadership structure, and provides contact information for interested parties and potential collaborators.",
+    "description": "The SRG Website is a comprehensive platform designed to showcase the talents, skills, and achievements of its members. It provides detailed portfolios highlighting individual expertise, experiences, and contributions. The site also features a record of members across generations, celebrating the organization’s history, growth, and community.\n\nAdditionally, it presents ongoing and completed projects, demonstrating collaborative efforts, innovations, and accomplishments. Overall, the website serves as an engaging hub for members, alumni, and visitors to explore the organization’s work, talents, and legacy.",
     "image": null,
-    "contributors": [],
-    "features": []
+    "contributors": [
+      { "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
+      { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"]},
+      { "memberId": "crystalyn-danga",   "roles": ["Business Analyst"] },
+      { "memberId": "yesha-perez",       "roles": ["Quality Assurance"] },
+      { "memberId": "kim-cabaylo",       "roles": ["Quality Assurance"] },
+      { "memberId": "miyuki-parocha",    "roles": ["Quality Assurance"] },
+      { "memberId": "yuan-evangelista",  "roles": ["Document Analyst"] },
+      { "memberId": "brian-caube",       "roles": ["Frontend Developer"] },
+      { "memberId": "ellen-sinday",      "roles": ["Frontend Developer"] },
+      { "memberId": "althea-asis",       "roles": ["Frontend Developer"] },
+      { "memberId": "nadine-borja",      "roles": ["Frontend Developer"] },
+      { "memberId": "regie-magtangob",   "roles": ["Frontend Developer"] },
+      { "memberId": "darben-lamonte",    "roles": ["Backend Developer"] },
+      { "memberId": "elisha-mier",       "roles": ["Backend Developer"] },
+      { "memberId": "angel-olivarez",    "roles": ["Backend Developer"] },
+      { "memberId": "rj-aquino",         "roles": ["Backend Developer"] }
+    ],
+    "features": [
+      {
+        "icon": "IdentificationIcon",
+        "name": "Member Portfolio Hub",
+        "description": "A centralized platform showcasing individual member skills, experiences, and academic history."
+      },
+      {
+        "icon": "PhotoIcon",
+        "name": "Visual Project Gallery",
+        "description": "A dynamic showcase of organizational innovations, ongoing initiatives, and successful project completions."
+      },
+      {
+        "icon": "CalendarIcon",
+        "name": "Interactive Timeline",
+        "description": "An engaging journey through SRG's legacy, tracking growth and milestones across different generations."
+      },
+      {
+        "icon": "DevicePhoneMobileIcon",
+        "name": "Responsive Experience",
+        "description": "Modern, mobile-first design ensuring a premium user experience across all devices and screen sizes."
+      },
+      {
+        "icon": "UserGroupIcon",
+        "name": "Team Profiles",
+        "description": "Detailed visual profiles for every SRG member, highlighting their unique contributions and roles."
+      }
+    ]
   }
 ]
