@@ -107,7 +107,7 @@ export default function MainLayout({ children }) {
           />
         </div>
 
-      <div className="relative z-10 flex-1">
+      <div className="relative z-10 flex-1 px-6 md:px-10 lg:px-16 pt-0 pb-6 md:pb-8">
         {children}
       </div>
 

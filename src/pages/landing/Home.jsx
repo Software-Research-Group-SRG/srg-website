@@ -3,20 +3,32 @@ import HeroSection from "./components/sections/HeroSection";
 import RolesSection from "./components/sections/RolesSection";
 import LeadersSection from "./components/sections/LeadersSection";
 import GenerationsSection from "./components/sections/GenerationsSection";
+import Scroll3DWrapper from "./components/ui/Scroll3DWrapper";
 import { Divider } from "./components/ui/Divider";
 
 function Home() {
     return (
-        <div className="flex flex-col items-center w-full">
+        <div className="perspective-[1200px] flex flex-col items-center w-full">
             <HeroSection />
+
             <Divider />
-            <RolesSection />
+
+            <Scroll3DWrapper>
+                <RolesSection />
+            </Scroll3DWrapper>
+
             <Divider />
-            <LeadersSection />
+
+            <Scroll3DWrapper>
+                <LeadersSection />
+            </Scroll3DWrapper>
+
             <Divider />
-            <GenerationsSection />
+
+            <Scroll3DWrapper>
+                <GenerationsSection />
+            </Scroll3DWrapper>
         </div>
     );
 }
-
 export default Home;
