@@ -130,6 +130,7 @@
       }
     ]
   },
+
   {
     "id": 3,
     "title": "GFMIC Academy",
@@ -558,13 +559,12 @@
     ]
   },
 
-
   {
     "id": 9,
     "title": "SRG Website",
     "subtitle": "Organization Portfolio",
     "description": "The SRG Website is a comprehensive platform designed to showcase the talents, skills, and achievements of its members. It provides detailed portfolios highlighting individual expertise, experiences, and contributions. The site also features a record of members across generations, celebrating the organization’s history, growth, and community.\n\nAdditionally, it presents ongoing and completed projects, demonstrating collaborative efforts, innovations, and accomplishments. Overall, the website serves as an engaging hub for members, alumni, and visitors to explore the organization’s work, talents, and legacy.",
-    "image": null,
+    "image": "srg-website/SrgWebsite1.png",
     "contributors": [
       { "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
       { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"]},
