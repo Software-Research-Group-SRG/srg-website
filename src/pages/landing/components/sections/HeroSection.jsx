@@ -75,7 +75,7 @@ function HeroSection() {
             </div>
 
             {/* ── Right — Logo with hexagon rings ── */}
-            <div className="mt-12 lg:mt-0 flex-shrink-0 flex flex-col items-center gap-6 relative">
+            <div className="lg:-mt-20 flex-shrink-0 flex flex-col items-center gap-6 relative">
                 <HeroLogo />
             </div>
         </SectionLayout>
