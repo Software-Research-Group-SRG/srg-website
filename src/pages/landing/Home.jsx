@@ -8,7 +8,7 @@ import { Divider } from "./components/ui/Divider";
 
 function Home() {
     return (
-        <div className="perspective-[1200px] flex flex-col items-center w-full">
+        <div className="flex flex-col items-center w-full overflow-x-hidden">
             <HeroSection />
 
             <Divider />

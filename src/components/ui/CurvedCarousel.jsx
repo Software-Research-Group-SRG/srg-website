@@ -1,6 +1,6 @@
 import React, { useId } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow } from 'swiper/modules';
+import { EffectCoverflow, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 
@@ -10,6 +10,8 @@ function CurvedCarousel({
   slideClassName = '!w-[74%] sm:!w-[64%] lg:!w-[56%]',
   spaceBetween = 24,
   speed = 700,
+  autoplay = false,
+  autoplayDelay = 3000,
   onSwiper,
   onActiveIndexChange,
   renderSlide,
@@ -62,15 +64,26 @@ function CurvedCarousel({
         }}
       >
         <Swiper
-          modules={[EffectCoverflow]}
+          modules={[EffectCoverflow, Autoplay]}
           effect="coverflow"
           centeredSlides
           loop
+          loopedSlides={items.length}
           grabCursor
+          observer
+          observeParents
+          observeSlideChildren
           slidesPerView="auto"
           spaceBetween={spaceBetween}
           speed={speed}
-          onSwiper={onSwiper}
+          onSwiper={(swiper) => {
+            onSwiper?.(swiper);
+
+            requestAnimationFrame(() => {
+              swiper.update();
+              swiper.slideToLoop(swiper.realIndex, 0, false);
+            });
+          }}
           onSlideChange={(swiper) => onActiveIndexChange?.(swiper.realIndex)}
           coverflowEffect={{
             rotate: 28,
@@ -83,7 +96,10 @@ function CurvedCarousel({
           className="h-full !overflow-visible"
         >
           {items.map((item, index) => (
-            <SwiperSlide key={item.id ?? index} className={slideClassName}>
+            <SwiperSlide
+              key={item.carouselKey ?? item.id ?? index}
+              className={slideClassName}
+            >
               {renderSlide ? renderSlide(item, index) : null}
             </SwiperSlide>
           ))}

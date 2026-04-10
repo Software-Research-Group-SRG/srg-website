@@ -10,50 +10,19 @@ const FEATURED_PROJECTS = projectsData;
 function ProjectPlaceholderSlide({ project, isActive }) {
   return (
     <div
-      className={`relative flex h-full flex-col justify-between overflow-hidden border-x-[3px] border-[#1e40af] bg-[radial-gradient(circle_at_top,_rgba(53,164,185,0.28),_transparent_55%),linear-gradient(135deg,_rgba(3,7,18,0.96),_rgba(15,23,42,0.92)_55%,_rgba(30,64,175,0.55))] px-8 py-10 shadow-[0_24px_60px_rgba(0,0,0,0.8)] transition-[filter,opacity,transform] duration-500 ${isActive
-          ? 'opacity-100 saturate-100 brightness-100'
-          : 'opacity-80 saturate-75 brightness-75'
-        }`}
+      className="relative flex h-full flex-col justify-between overflow-hidden border-x-[3px] border-[#1e40af] bg-[radial-gradient(circle_at_top,_rgba(53,164,185,0.28),_transparent_55%),linear-gradient(135deg,_rgba(3,7,18,0.96),_rgba(15,23,42,0.92)_55%,_rgba(30,64,175,0.55))] px-8 shadow-[0_24px_60px_rgba(0,0,0,0.8)] transition-[filter,opacity,transform] duration-500"
     >
-      <div className="absolute inset-0 bg-[linear-gradient(120deg,transparent_0%,rgba(53,164,185,0.08)_45%,transparent_100%)]" />
-
-      <div className="relative z-10 flex items-start justify-between gap-6">
-        <div>
-          <span className="text-[10px] uppercase tracking-[0.45em] text-[#35A4B9]">
-            Project Placeholder
-          </span>
-          <h3 className="mt-4 max-w-md text-2xl font-bold uppercase tracking-[0.12em] text-white md:text-3xl">
-            {project.title}
-          </h3>
-        </div>
-
-        <div className="hidden h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-white/15 bg-white/5 text-sm font-semibold tracking-[0.3em] text-white/70 md:flex">
-          SRG
-        </div>
-      </div>
-
-      <div className="relative z-10 mt-10 flex flex-wrap gap-3">
-        <span className="rounded-full border border-[#35A4B9]/40 bg-[#35A4B9]/10 px-4 py-2 text-xs uppercase tracking-[0.28em] text-[#7dd7e7]">
-          Preview
-        </span>
-        <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.28em] text-white/70">
-          Reusable Card
-        </span>
-      </div>
-
-      {isActive && (
-        <div className="relative z-10 ml-auto hidden rounded-lg border-r-2 border-[#35A4B9] bg-black/30 p-4 text-right backdrop-blur-sm md:block">
-          <div className="pr-3">
-            <span className="text-[10px] uppercase tracking-widest text-[#35A4B9]">
-              | Placeholder
-            </span>
-            <br />
-            <span className="mt-1 block text-xs tracking-widest text-gray-200">
-              READY FOR REAL CONTENT
-            </span>
-          </div>
+      {project.images && project.images.length > 0 && (
+        <div className="absolute inset-0">
+          <img
+            src={`/assets/project-cover-picture/${project.images[0]}`}
+            alt={project.title}
+            className="w-full h-full object-cover opacity-100"
+          />
         </div>
       )}
+      <div className="absolute inset-0 bg-[linear-gradient(120deg,transparent_0%,rgba(53,164,185,0.08)_45%,transparent_100%)]" />
+
     </div>
   );
 }
@@ -81,6 +50,8 @@ function FeaturedProjectsCarousel({ projects = FEATURED_PROJECTS }) {
       <CurvedCarousel
         items={projects}
         className="mb-8 h-[350px] w-full sm:h-[450px] lg:h-[500px]"
+        autoplay={true}
+        autoplayDelay={4000}
         onActiveIndexChange={setActiveIndex}
         onSwiper={setSwiperInstance}
         renderSlide={(project, index) => (
