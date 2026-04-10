@@ -9,14 +9,22 @@ import CarouselNav from "../ui/CarouselNav";
 function GenerationsSection() {
     const [activeIndex, setActiveIndex] = useState(0);
     const [swiperInstance, setSwiperInstance] = useState(null);
+    const carouselSlides = Array.from({ length: 3 }, (_, repeatIndex) =>
+        SLIDES.map((slide) => ({
+            ...slide,
+            carouselKey: `${slide.id}-${repeatIndex}`,
+        }))
+    ).flat();
 
     return (
         <SectionLayout subtitle="----// 004 - SRG THROUGH GENERATIONS">
             {/* Curved Carousel */}
             <CurvedCarousel
-                items={SLIDES}
+                items={carouselSlides}
                 className="h-[350px] w-full sm:h-[450px] lg:h-[500px]"
-                onActiveIndexChange={setActiveIndex}
+                onActiveIndexChange={(index) =>
+                    setActiveIndex(index % SLIDES.length)
+                }
                 onSwiper={setSwiperInstance}
                 renderSlide={(item, index) => (
                     <PhotoSlide
