@@ -25,7 +25,7 @@ const NavBar = () => {
   return (
     <header className="w-full sticky top-0 z-50 bg-transparent backdrop-blur-md text-white">
 
-      <div className="max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-7 flex items-center justify-between">
+      <div className="max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-5 flex items-center justify-between">
 
         {/* Logo */}
         <div
