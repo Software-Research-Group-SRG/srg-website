@@ -1,9 +1,20 @@
 import React from "react";
+import HeroSection from "./components/sections/HeroSection";
+import RolesSection from "./components/sections/RolesSection";
+import LeadersSection from "./components/sections/LeadersSection";
+import GenerationsSection from "./components/sections/GenerationsSection";
+import { Divider } from "./components/ui/Divider";
 
 function Home() {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100">
-            <h1 className="text-4xl font-bold text-blue-600">SRG Website</h1>
+        <div className="flex flex-col items-center w-full overflow-x-hidden">
+            <HeroSection />
+            <Divider />
+            <RolesSection />
+            <Divider />
+            <LeadersSection />
+            <Divider />
+            <GenerationsSection />
         </div>
     );
 }
