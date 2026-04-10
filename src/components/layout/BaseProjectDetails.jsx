@@ -4,13 +4,14 @@ import { useNavigate } from 'react-router-dom';
 import ProjectCards from '../ui/ProjectCards';
 import Contributors from '../ui/Contributors';
 import FeaturesAndFunctionalities from '../ui/Feature&Functionalities';
+import MiniCarousel from '../ui/MiniCarousel';
 
 /* ──────────────────────────────────────────────────────────────
    BaseProjectDetails
    Reusable layout scaffold for every project's detail view.
 
    Props:
-   ─ project        : { id, title, subtitle, description, image, teamSize, … }
+   ─ project        : { id, title, subtitle, description, link, images, teamSize, … }
    ─ otherProjects  : array of project objects for the "Other Projects" grid
    ────────────────────────────────────────────────────────────── */
 
@@ -65,7 +66,7 @@ function BaseProjectDetails({ project, otherProjects = [] }) {
     <article className="relative z-10 flex w-full flex-col items-center">
       {/* ═══════════════════════════════════════════════════════
           MAIN SECTION — Single Continuous Two-Column Layout
-          Desktop:  Left (title, contributors, features) | Right (image, description)
+          Desktop:  Left (title, contributors, features) | Right (images, description)
           Mobile:   Image → Description → Contributors → Features (stacked)
           ═══════════════════════════════════════════════════════ */}
       <motion.section
@@ -136,35 +137,21 @@ function BaseProjectDetails({ project, otherProjects = [] }) {
           </div>
 
           {/* ─────────────────────────────────────────────────────
-              RIGHT COLUMN — Project Image + Description
+              RIGHT COLUMN — Project Images + Description
               On mobile: order-1 (appears first)
               ───────────────────────────────────────────────────── */}
           <div className="order-1 mb-8 flex w-full flex-col lg:order-2 lg:mb-0 lg:w-[60%]">
-            {/* ── Project Image ──────────────────────────────── */}
+            {/* ── Project Images ──────────────────────────────── */}
             <motion.div
               className="group relative mb-8 overflow-hidden rounded-xl"
               style={{ border: '2px solid var(--border-accent)' }}
               variants={fadeUp}
               custom={0}
             >
-              {project.image ? (
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
-                  loading="lazy"
-                />
-              ) : (
-                /* Placeholder when no image is provided */
-                <div className="flex aspect-video w-full items-center justify-center placeholder-shimmer">
-                  <span
-                    className="text-sm uppercase tracking-[0.3em] opacity-40"
-                    style={{ color: 'var(--text-title2)' }}
-                  >
-                    Project Preview
-                  </span>
-                </div>
-              )}
+              <MiniCarousel
+                images={project.images}
+                alt={project.title}
+              />
             </motion.div>
 
             {/* ── Description ────────────────────────────────── */}
@@ -173,6 +160,21 @@ function BaseProjectDetails({ project, otherProjects = [] }) {
               variants={fadeUp}
               custom={1}
             >
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-[#35A4B9] hover:text-[#7dd7e7] transition-colors duration-200 font-medium"
+                  style={{ fontSize: 'var(--fs-body)' }}
+                >
+                  <span>View Live Project</span>
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              )}
+              
               {project.description.split('\n\n').map((paragraph, i) => (
                 <p
                   key={i}
