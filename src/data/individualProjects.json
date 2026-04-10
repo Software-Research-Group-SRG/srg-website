@@ -3,15 +3,14 @@
         "id": "crystalyn-danga",
         "projects": [
             {
-                "name": "",
+                "name": "PUP Smart Track",
                 "role": [
-                    "",
+                    "Business Analyst ",
                     ""
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Led the requirements analysis, process design, and cross-module alignment across asset management, requests, maintenance, and disposal workflows. ",
+                    "Leveraged strong QA expertise to define validation rules, identify edge cases, and ensure system reliability, data integrity, and user-centric functionality throughout the development lifecycle."
                 ],
                 "image": "",
                 "link": ""
