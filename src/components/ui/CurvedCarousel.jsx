@@ -1,6 +1,6 @@
 import React, { useId } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow } from 'swiper/modules';
+import { EffectCoverflow, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 
@@ -10,6 +10,8 @@ function CurvedCarousel({
   slideClassName = '!w-[74%] sm:!w-[64%] lg:!w-[56%]',
   spaceBetween = 24,
   speed = 700,
+  autoplay = false,
+  autoplayDelay = 3000,
   onSwiper,
   onActiveIndexChange,
   renderSlide,
@@ -62,7 +64,7 @@ function CurvedCarousel({
         }}
       >
         <Swiper
-          modules={[EffectCoverflow]}
+          modules={[EffectCoverflow, Autoplay]}
           effect="coverflow"
           centeredSlides
           loop

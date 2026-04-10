@@ -5,7 +5,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
     if (!project) return null;
 
     // Use a placeholder if no image exists
-    const imageSrc = project.image || null;
+    const imageSrc = project.images && project.images.length > 0 ? `/assets/project-cover-picture/${project.images[0]}` : null;
 
     return (
         <BaseModal isOpen={isOpen} onClose={onClose} title={project.name || "Project Details"}>

@@ -4,7 +4,8 @@
     "title": "Faith, Hope, Love",
     "subtitle": "FHL - Internal Project",
     "description": "The Faith Hope Love Clinic Website is an online healthcare information and service platform designed to provide patients with convenient access to clinic information, medical services, and communication channels. The system serves as a centralized digital interface that enables users to explore available healthcare services, learn about the clinic, and easily connect with medical professionals.",
-    "image": "failth-hope-love/FaithHopeLove1.png",
+    "link": "https://faithhopelove-clinic.vercel.app",
+    "images": ["failth-hope-love/FaithHopeLove1.png", "failth-hope-love/FaithHopeLove2.png", "failth-hope-love/FaithHopeLove3.png", "failth-hope-love/FaithHopeLove4.png", "failth-hope-love/FaithHopeLove5.png", "failth-hope-love/FaithHopeLove6.png"],
     "contributors": [
       { "memberId": "kim-cabaylo",      "roles": ["Project Manager"] },
       { "memberId": "yesha-perez",      "roles": ["UI/UX Designer"] },
@@ -64,7 +65,8 @@
     "title": "GFMIC E-Commerce",
     "subtitle": "GFMIC - E-Commerce Platform",
     "description": "The GFMIC e-commerce platform is a centralized digital system designed to manage, promote, and distribute official GFMIC merchandise efficiently. It serves as a one-stop online hub where members and customers can easily browse, select, and purchase a wide range of GFMIC products, ensuring accessibility and convenience anytime and anywhere.",
-    "image": "GfmicEcommerce/gfmic-ecommerce.png",
+    "link": "https://gfmic-ecommerce.vercel.app",
+    "images": ["GfmicEcommerce/GfmicEcommerce1.png", "GfmicEcommerce/GfmicEcommerce2.png", "GfmicEcommerce/GfmicEcommerce3.png", "GfmicEcommerce/GfmicEcommerce4.png", "GfmicEcommerce/GfmicEcommerce5.png", "GfmicEcommerce/GfmicEcommerce6.png", "GfmicEcommerce/GfmicEcommerce7.png", "GfmicEcommerce/GfmicEcommerce8.png", "GfmicEcommerce/GfmicEcommerce9.png", "GfmicEcommerce/gfmic-ecommerce.png"],
     "contributors": [
       { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"] },
       { "memberId": "darben-lamonte",    "roles": ["Lead, Project Developer"] },
@@ -130,12 +132,14 @@
       }
     ]
   },
+
   {
     "id": 3,
     "title": "GFMIC Academy",
     "subtitle": "GFMIC - Learning Management System",
     "description": "The GFMIC Learning Management System integrated with the Mentorship & Peer Matching System is a web-based platform designed to centralize and enhance digital learning and mentorship processes. It provides a structured environment where instructors can create and manage courses, upload learning materials, conduct assessments and monitor student progress, while students can conveniently access content, complete activities and track their performance.",
-    "image": "gfmic-academy/Gfmic_academy_1.png",
+    "link": "https://gfmic-academy.vercel.app",
+    "images": ["gfmic-academy/Gfmic_academy_1.png"],
     "contributors": [
       { "memberId": "kim-cabaylo", "roles": ["Project Manager / Business Analyst"] },
       { "memberId": "angel-olivarez",    "roles": ["Full Stack Developer"] },
@@ -227,7 +231,8 @@
     "title": "Yo - etz | AI Interview",
     "subtitle": "// 004 - INTERNAL PROJECT",
     "description": "The AI-Assisted Initial Interview System is a structured digital pre-interview platform designed to support and enhance the admissions process of the Polytechnic University of the Philippines (QC and Caloocan campuses).\n\nThe system standardizes how applicant interviews are conducted by providing a controlled environment for structured and semi-structured questioning, ensuring consistency, fairness, and documentation across all academic programs.\n\nApplicants complete an AI-guided video interview, where their responses are recorded, transcribed, and summarized into a structured report. These reports are then made accessible to faculty members to support the final face-to-face evaluation.\n\nThis platform does not replace faculty decision-making. Instead, it serves as a support tool that improves transparency, reduces bias from memory-based evaluations, and ensures that all applicants are assessed using a consistent baseline.",
-    "image": null,
+    "link": "https://yo-etz-ai-interview.vercel.app",
+    "images": ["yoetz/AiINterview.jpg", "yoetz/ApplicantList.jpg", "yoetz/Dashboard.jpg", "yoetz/FacultyLogin.jpg", "yoetz/Profile.jpg", "yoetz/QuestionsFinal.jpg", "yoetz/StudentLogin.jpg", "yoetz/Submission.jpg", "yoetz/SubmissionSuccess.jpg"],
     "contributors": [
       { "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
       { "memberId": "brian-caube",       "roles": ["Frontend Developer"] },
@@ -276,7 +281,8 @@
     "title": "StewardFM",
     "subtitle": "Facility Management System",
     "description": "StewardFM is a comprehensive facility management system designed to streamline operations, maintenance tracking, and resource allocation for organizations. It provides an intuitive dashboard for managing assets, scheduling maintenance tasks, and generating insightful reports for facility administrators.",
-    "image": "stewardfm/StewardFm1.png",
+    "link": "https://stewardfm.vercel.app",
+    "images": ["stewardfm/StewardFm1.png", "stewardfm/StewardFm2.png", "stewardfm/StewardFm3.png"],
     "contributors": [
       { "memberId": "rechelle-salas", "roles": ["Project Manager"] },
       { "memberId": "rafael-parungao",    "roles": ["Backend Developer"] },
@@ -318,7 +324,8 @@
     "title": "PUP Smart-Track",
     "subtitle": "006 - INTERNAL PROJECT",
     "description": "The system is a centralized Asset and Maintenance Management Information System that manages equipment, inventory, maintenance, disposal, and approval processes in one platform. It enables efficient tracking of asset lifecycle, accountability, and status while streamlining requests and workflows through automated approvals and notifications. The system also provides comprehensive reporting to support decision-making, transparency, and audit compliance.",
-    "image": "pup-smart-track/PupSmartTrack1.png",
+    "link": "https://pup-smart-track.vercel.app",
+    "images": ["pup-smart-track/PupSmartTrack1.png", "pup-smart-track/PupSmartTrack2.png", "pup-smart-track/PupSmartTrack3.png", "pup-smart-track/PupSmartTrack4.png", "pup-smart-track/PupSmartTrack5.png", "pup-smart-track/PupSmartTrack6.png", "pup-smart-track/PupSmartTrack7.png", "pup-smart-track/PupSmartTrack8.png", "pup-smart-track/PupSmartTrack9.png"],
     "contributors": [
       { "memberId": "shanella-cagulang",  "roles": ["Project Manager", "Business Analyst"] },
       { "memberId": "angel-olivarez",     "roles": ["Backend Developer"] },
@@ -420,7 +427,8 @@
     "title": "Bitbo AI",
     "subtitle": "AI-Powered Platform",
     "description": "Bitbo (Barangay IT Robot) is an AI-enhanced integrated management system specifically developed for Philippine barangays. It combines traditional administrative tools with intelligent automation to manage citizen profiles, local legislation, case records, and health services, ensuring accessibility and efficiency in local government operations.",
-    "image": null,
+    "link": "https://bitbo-ai.vercel.app",
+    "images": [],
     "contributors": [
       { "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
       { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"]},
@@ -508,7 +516,8 @@
     "title": "Flor De Grace",
     "subtitle": "Business Management System",
     "description": "Flor De Grace Academy is a comprehensive school management system designed to streamline academic operations for educational institutions. It provides integrated tools for student registration, faculty workload management, attendance tracking, and academic reporting through a centralized digital platform.",
-    "image": "flor-de-grace/FlorDeGrace_1.png",
+    "link": "https://flor-de-grace.vercel.app",
+    "images": ["flor-de-grace/FlorDeGrace_1.png", "flor-de-grace/FlorDeGrace_2.png"],
     "contributors": [
       { "memberId": "jamme-jones-cera",   "roles": ["Product Owner / Overall Developer"] },
       { "memberId": "crystalyn-danga",    "roles": ["Scrum Master", "Software QA Tester"] },
@@ -558,13 +567,13 @@
     ]
   },
 
-
   {
     "id": 9,
     "title": "SRG Website",
     "subtitle": "Organization Portfolio",
     "description": "The SRG Website is a comprehensive platform designed to showcase the talents, skills, and achievements of its members. It provides detailed portfolios highlighting individual expertise, experiences, and contributions. The site also features a record of members across generations, celebrating the organization’s history, growth, and community.\n\nAdditionally, it presents ongoing and completed projects, demonstrating collaborative efforts, innovations, and accomplishments. Overall, the website serves as an engaging hub for members, alumni, and visitors to explore the organization’s work, talents, and legacy.",
-    "image": null,
+    "link": "https://srg-website.vercel.app",
+    "images": ["srg-website/SrgWebsite1.png"],
     "contributors": [
       { "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
       { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"]},
