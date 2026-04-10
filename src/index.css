@@ -48,6 +48,7 @@
         --glow-accent: rgba(49, 133, 255, 0.2);
         --border-teal: rgba(53, 164, 185, 0.4);
         --glow-teal: rgba(53, 164, 185, 0.15);
+        --accent-cyan: #00d4ff;
 
         /* Spacing */
         --space-section: clamp(3rem, 6vw, 6rem);
@@ -63,6 +64,67 @@
         font-family: var(--font-family);
         color: var(--text-main)
     }
+
+    .valo-scanlines {
+      position: fixed;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(255, 255, 255, 0.012) 2px,
+        rgba(255, 255, 255, 0.012) 4px
+      );
+
+      animation: scanMove 8s linear infinite;
+    }
+
+    @keyframes scanMove {
+      0% { background-position: 0 0; }
+      100% { background-position: 0 200px; }
+    }
+
+    .valo-corner {
+      position: fixed;
+      z-index: 2;
+      width: 60px;
+      height: 60px;
+      pointer-events: none;
+      opacity: 0.35;
+    }
+
+    .valo-corner-tl {
+      top: 120px;
+      left: 20px;
+      border-top: 2px solid var(--accent-cyan);
+      border-left: 2px solid var(--accent-cyan);
+    }
+
+    .valo-corner-tr {
+      top: 120px;
+      right: 20px;
+      border-top: 2px solid var(--accent-cyan);
+      border-right: 2px solid var(--accent-cyan);
+    }
+
+    .valo-corner-bl {
+      bottom: 20px;
+      left: 20px;
+      border-bottom: 2px solid var(--accent-cyan);
+      border-left: 2px solid var(--accent-cyan);
+    }
+
+    /* BOTTOM RIGHT */
+    .valo-corner-br {
+      bottom: 20px;
+      right: 20px;
+      border-bottom: 2px solid var(--accent-cyan);
+      border-right: 2px solid var(--accent-cyan);
+    }
+
 }
 
 /* Hide cursor on ALL elements (neon trail replaces it) */
