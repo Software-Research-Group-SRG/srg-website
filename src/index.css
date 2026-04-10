@@ -127,6 +127,30 @@
 
 }
 
+/* Hide Scrollbar Globally */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Utility to show scrollbar if specifically needed */
+.show-scrollbar::-webkit-scrollbar {
+  display: block;
+  width: 6px;
+}
+.show-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--border-accent);
+  border-radius: 10px;
+}
+.show-scrollbar {
+  scrollbar-width: thin;
+  -ms-overflow-style: auto;
+}
+
 /* Hide cursor on ALL elements (neon trail replaces it) */
 *, *::before, *::after {
   cursor: none !important;
