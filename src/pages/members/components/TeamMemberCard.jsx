@@ -15,7 +15,7 @@ export const MemberCard = ({ role }) => {
                 <div 
                     key={index} 
                     className="group cursor-pointer"
-                    onClick={() => navigate(`/member/${member.id}`)} // Change route to match member detail page
+                    onClick={() => navigate(`/portfolio/${member.id}`)}
                 >
                     <Box title={member.name}>
                         

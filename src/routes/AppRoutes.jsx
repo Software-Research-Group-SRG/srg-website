@@ -29,8 +29,8 @@ function AppRoutes() {
                     //Home navigation
                     <Route path="/" element={<Home />} />
 
-                    //this is temporary for accessing the profile details page, will be removed once the actual profile details page is created
-                    <Route path="/BaseProfileDetails" element={<BaseProfileDetails />} />
+                    {/* Portfolio navigation */}
+                    <Route path="/portfolio/:id" element={<BaseProfileDetails />} />
 
                     //Members navigation
                     <Route path="/members" element={<MembersPage />} />
