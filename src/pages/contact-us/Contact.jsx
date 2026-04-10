@@ -15,7 +15,7 @@ function Contact() {
 
             {/* Floating Logo Container */}
             <div className="relative -mt-16 md:-mt-32 xl:-mt-48 z-10 flex justify-center w-full">
-                <div className="w-32 md:w-64 xl:w-96 overflow-hidden flex items-center justify-center p-2">
+                <div className=" md:w-64 xl:w-96 flex items-center justify-center p-2">
                     <HeroLogo />
                 </div>
             </div>
