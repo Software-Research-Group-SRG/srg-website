@@ -6,13 +6,13 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("");
   const navigate = useNavigate();
-  const location = useLocation(); 
+  const location = useLocation();
 
   const menuItems = [
     { label: "HOME", path: "/" },
     { label: "MEMBERS", path: "/members" },
     { label: "PROJECTS", path: "/projects" },
-    { label: "CONTACTS", path: "/contact" },
+    { label: "CONTACT US", path: "/contact" },
   ];
 
   useEffect(() => {
