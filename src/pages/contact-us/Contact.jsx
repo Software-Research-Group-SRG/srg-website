@@ -6,9 +6,9 @@ import contactUs from '../../data/contactUs.json';
 
 function Contact() {
     return (
-        <div className="flex flex-col items-center w-full max-w-[100vw] overflow-x-hidden bg-[#0a0a0a] min-h-screen">
+        <div className="flex flex-col items-center w-full overflow-x-hidden">
             {/* Main Image Container */}
-            <div className="w-full relative h-[700px] md:h-[850px]">
+            <div className="w-full relative h-[600px] md:h-[750px]">
                 <img src={groupPhoto} alt="Group" className="w-full h-full object-cover opacity-100" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
             </div>
