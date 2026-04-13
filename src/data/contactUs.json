@@ -2,8 +2,8 @@
     {
         "id": 1,
         "name": "Gmail",
-        "title": "SRG_PUPQC@gmail.com",
-        "subtitle": "srg_pupqc@gmail.com",
+        "title": "Software Research Group PUPQC Gmail Address",
+        "subtitle": "bitbo.portal.ph@gmail.com",
         "actionLabel": "Send Mail",
         "link": "https://mail.google.com/mail/?view=cm&fs=1&to=SRG_PUPQC@gmail.com",
         "bgColor": "bg-white",

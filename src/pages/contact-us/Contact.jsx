@@ -6,9 +6,9 @@ import contactUs from '../../data/contactUs.json';
 
 function Contact() {
     return (
-        <div className="flex flex-col items-center w-full overflow-x-hidden">
+        <div className="flex flex-col items-stretch w-full">
             {/* Main Image Container */}
-            <div className="w-full relative h-[600px] md:h-[750px]">
+            <div className="relative h-[600px] md:h-[750px] -mx-6 md:-mx-10 lg:-mx-16">
                 <img src={groupPhoto} alt="Group" className="w-full h-full object-cover opacity-100" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
             </div>
@@ -20,19 +20,22 @@ function Contact() {
                 </div>
             </div>
 
-            <h3 className="mt-10 text-4xl text-slate-100 mb-2 font-bold tracking-tight">
-                SOFTWARE RESEARCH GROUP
-            </h3>
+            {/* Centered Content */}
+            <div className="flex flex-col items-center w-full">
+                <h3 className="mt-10 text-4xl text-slate-100 mb-2 font-bold tracking-tight">
+                    SOFTWARE RESEARCH GROUP
+                </h3>
 
-            <h4 className="text-xl text-slate-400 mb-12 font-medium">
-                Contact Us Through:
-            </h4>
+                <h4 className="text-xl text-slate-400 mb-12 font-medium">
+                    Contact Us Through:
+                </h4>
 
-            {/* Cards Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 w-full max-w-7xl px-6 pb-32 justify-items-center">
-                {contactUs.map((contact, index) => (
-                    <FlipContactCard key={contact.id || index} contact={contact} />
-                ))}
+                {/* Cards Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 w-full max-w-7xl px-6 pb-32 justify-items-center">
+                    {contactUs.map((contact, index) => (
+                        <FlipContactCard key={contact.id || index} contact={contact} />
+                    ))}
+                </div>
             </div>
         </div>
     );
