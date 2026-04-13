@@ -3,8 +3,8 @@
         "id": "crystalyn-danga",
         "name": "Crystalyn R. Danga",
         "photo": null,
-        "role": "Quality Assurance | Project Manager / Scrum Master",
-        "status": "member",
+        "role": "Project Manager",
+        "status": "IT Business Analyst | Software QA Tester",
         "skills": [
             "Software Testing",
             "IT Business Analysis",
@@ -28,7 +28,7 @@
         "name": "Shanella A. Cagulang",
         "photo": null,
         "role": "Project Manager",
-        "status": "member",
+        "status": "Overall Leader | Business Analyst | Project Manager",
         "skills": [
             "Project Management",
             "Business Analysis",
@@ -47,7 +47,7 @@
         "name": "Yesha M. Perez",
         "photo": "yesha-perez.png",
         "role": "Quality Assurance",
-        "status": "member",
+        "status": "Quality Assurance",
         "skills": [
             "Automation Testing",
             "Manual Testing",
@@ -66,7 +66,7 @@
         "name": "Kimberly Nicole C. Cabaylo",
         "photo": null,
         "role": "Project Manager",
-        "status": "member",
+        "status": "Internal Projects Lead | Quality Assurance",
         "skills": [
             "Automation Testing",
             "Manual Testing",
@@ -90,7 +90,7 @@
         "name": "Miyuki Mharie C. Parocha",
         "photo": "miyuki-parocha.png",
         "role": "Quality Assurance",
-        "status": "member",
+        "status": "Quality Assurance",
         "skills": [
             "Automation Testing",
             "Manual Testing",
@@ -110,7 +110,7 @@
         "name": "Yuan Exequiel R. Evangelista",
         "photo": null,
         "role": "Document Analyst",
-        "status": "member",
+        "status": "Document Analyst",
         "skills": [
             "Document Analyst",
             "Information Security",
@@ -128,7 +128,7 @@
         "name": "Brian S. Caube",
         "photo": "brian-caube.png",
         "role": "Software Developer",
-        "status": "member",
+        "status": "Frontend Developer",
         "skills": [
             "Frontend Developer",
             "Web Developer",
@@ -145,7 +145,7 @@
         "name": "Althea Amor J. Asis",
         "photo": null,
         "role": "Software Developer",
-        "status": "member",
+        "status": "Frontend Developer",
         "skills": [
             "Frontend Developer",
             "Web Developer",
@@ -161,7 +161,7 @@
         "name": "Ma. Nadine A. Borja",
         "photo": null,
         "role": "Software Developer",
-        "status": "member",
+        "status": "Frontend Developer",
         "skills": [
             "Frontend Developer",
             "Web Developer",
@@ -177,7 +177,7 @@
         "name": "Mark Regie A. Magtangob",
         "photo": null,
         "role": "Software Developer",
-        "status": "member",
+        "status": "Frontend Developer",
         "skills": [
             "Frontend Developer",
             "UI/UX Design",
@@ -196,14 +196,17 @@
         "name": "Ellen Grace Sinday",
         "photo": null,
         "role": "Software Developer",
-        "status": "member",
+        "status": "Frontend Developer",
         "skills": [
             "Frontend Developer",
             "Web Developer",
-            "Mobile Application Developer"
+            "Mobile Application Developer",
+            "React.js",
+            "Information Security",
+            "UI/UX Design"
         ],
         "about": "Fourth-year Bachelor of Science in Information Technology (BSIT) student at the Polytechnic University of the Philippines with hands-on experience in frontend development across multiple system projects. Focused on building responsive, user-friendly, and visually consistent interfaces that enhance overall user experience and system usability.\n\nCurrently contributing as a frontend developer to projects such as StewardFM, PUP Repository, and PUP Inventory, where I work on implementing UI components, handling form validations, and improving interface functionality. I collaborate with team members to ensure that features are efficiently developed and aligned with user needs and system requirements.\n\nDetail-oriented and committed to continuous learning, I am also expanding my knowledge in backend development to become a more well-rounded developer. Eager to apply both technical and creative skills in developing effective and user-centered digital solutions.",
-        "experienceID": "Front-end Developer",
+        "experienceID": "Frontend Developer",
         "indivProjectID": "ellen-sinday"
     },
     {
@@ -213,7 +216,7 @@
         "role": "Software Developer",
         "status": "Full Stack Developer",
         "skills": [
-            "Python (Django/FastAPI))",
+            "Python (Django/FastAPI)",
             "C# (ASP.NET)",
             "React.js",
             "SQL",
@@ -231,7 +234,7 @@
         "name": "Elisha Reign Mier",
         "photo": null,
         "role": "Software Developer",
-        "status": "member",
+        "status": "Full Stack Developer",
         "skills": [
             "Full Stack Development",
             "UI/UX Design",
@@ -252,7 +255,7 @@
         "name": "Richard Jason M. Aquino",
         "photo": null,
         "role": "Software Developer",
-        "status": "member",
+        "status": "Backend Developer",
         "skills": [
             "Web Development",
             "Agile/Scrum",
@@ -267,7 +270,7 @@
         "name": "Angel E. Olivarez",
         "photo": null,
         "role": "Software Developer",
-        "status": "member",
+        "status": "Full Stack Developer",
         "skills": [
             "Python (Django/FastAPI))",
             "C# (ASP.NET)",
@@ -327,7 +330,6 @@
         "experienceID": "aliah-del-rosario",
         "indivProjectID": "aliah-del-rosario"
     },
-
     {
         "id": "rechelle-salas",
         "name": "Rechelle Ann Salas",
@@ -337,8 +339,7 @@
         "about": "",
         "experienceID": "Rechelle Ann Salas",
         "indivProjectID": "Rechelle Ann Salas"
-    }, 
-
+    },
     {
         "id": "rafael-parungao",
         "name": "Rafael Joar Parungao",
@@ -348,8 +349,7 @@
         "about": "",
         "experienceID": "Rafael Joar Parungao",
         "indivProjectID": "Rafael Joar Parungao"
-    }, 
-
+    },
     {
         "id": "jerriniash-alpajora",
         "name": "Jerriniash Alpajora",
@@ -360,7 +360,6 @@
         "experienceID": "jerriniash-alpajora",
         "indivProjectID": "jerriniash-alpajora"
     },
-
     {
         "id": "rozelle-de-omania",
         "name": "Rozelle De Omania",
@@ -371,7 +370,6 @@
         "experienceID": "rozelle-de-omania",
         "indivProjectID": "rozelle-de-omania"
     },
-
     {
         "id": "kimberly-kho",
         "name": "Kimberly Kho",
@@ -382,7 +380,6 @@
         "experienceID": "kimberly-kho",
         "indivProjectID": "kimberly-kho"
     },
-
     {
         "id": "jamme-jones-cera",
         "name": "Jamme Jones Cera",
@@ -393,9 +390,4 @@
         "experienceID": "jamme-jones-cera",
         "indivProjectID": "jamme-jones-cera"
     }
-
-
-
-    
-
 ]
