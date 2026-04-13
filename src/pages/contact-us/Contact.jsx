@@ -7,20 +7,19 @@ import contactUs from '../../data/contactUs.json';
 function Contact() {
     return (
         <div className="flex flex-col items-stretch w-full">
-            {/* Main Image Container */}
+            {/* Main Image */}
             <div className="relative h-[600px] md:h-[750px] -mx-6 md:-mx-10 lg:-mx-16">
                 <img src={groupPhoto} alt="Group" className="w-full h-full object-cover opacity-100" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
             </div>
 
-            {/* Floating Logo Container */}
+            {/* Logo Container */}
             <div className="relative -mt-16 md:-mt-32 xl:-mt-48 z-10 flex justify-center w-full">
                 <div className="w-32 md:w-64 xl:w-96 overflow-hidden flex items-center justify-center p-2">
                     <HeroLogo />
                 </div>
             </div>
 
-            {/* Centered Content */}
             <div className="flex flex-col items-center w-full">
                 <h3 className="mt-10 text-4xl text-slate-100 mb-2 font-bold tracking-tight">
                     SOFTWARE RESEARCH GROUP
