@@ -5,7 +5,7 @@ import Members from '@/data/members.json';
 
 export const MemberCard = ({ role }) => {
     
-    const filteredMembers = Members.filter(member => member.role === role);
+    const filteredMembers = Members.filter(member => member.role && member.role.includes(role));
     const navigate = useNavigate();
 
     return (
