@@ -3,23 +3,20 @@ import Navbar from '../navbar/NavBar'
 import Footer from '../footer/Footer'
 import NeonTrailCursor from '../ui/NeonTrailCursor'
 
+import PrismBackground from '../ui/PrimsBackground'
 
 export default function MainLayout({ children }) {
   return (
+     <div className="relative min-h-screen flex flex-col">
+      
+      <PrismBackground />
+        <div className="valo-scanlines" />
+        <div className="valo-corner valo-corner-tl" />
+        <div className="valo-corner valo-corner-tr" />
+        <div className="valo-corner valo-corner-bl" />
+        <div className="valo-corner valo-corner-br" />
 
-    <div
-      className="relative min-h-screen flex flex-col"
-      style={{
-        background: `linear-gradient(
-            to bottom, 
-            var(--bg-gradient) 0%, 
-            var(--bg-gradient-mid) 40%,   
-            var(--bg-gradient-mid) 85%,  
-            var(--bg-gradient) 100% 
-        )`
-      }}
-    >
-
+  
       <Navbar />
 
         {/* --- Decorative Shapes (Using your specific colors) --- */}

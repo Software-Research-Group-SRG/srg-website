@@ -1,21 +1,29 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+
 import srgLogo from "@/assets/srgLogo.png";
+
+
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("");
   const navigate = useNavigate();
+  const location = useLocation(); 
 
   const menuItems = [
-    //{ label: "ABOUT", path: "/" },
-    //{ label: "LEADERS", path: "/leaders" },
-    //{ label: "STRUCTURE", path: "/structure" },
     { label: "HOME", path: "/" },
     { label: "MEMBERS", path: "/members" },
     { label: "PROJECTS", path: "/projects" },
-    { label: "CONTACTS", path: "/contact" },
+    { label: "CONTACT US", path: "/contact" },
   ];
+
+  useEffect(() => {
+    const current = menuItems.find(item => item.path === location.pathname);
+    if (current) {
+      setActive(current.label);
+    }
+  }, [location.pathname]);
 
   return (
     <header className="w-full sticky top-0 z-50 bg-transparent backdrop-blur-md text-white">
@@ -23,12 +31,15 @@ const NavBar = () => {
       <div className="max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-7 flex items-center justify-between">
 
         {/* Logo */}
-        <div className="flex items-center gap-3">
-          <img
-            src={srgLogo}
-            alt="SRG Logo"
-            className="w-14 h-14 rounded-full"
-          />
+        <div
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+            navigate("/");
+          }}
+          className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition"
+        >
+          <img src={srgLogo} alt="SRG Logo" className="w-14 h-14 rounded-full" />
+        
           <h1 className="text-sm md:text-base font-semibold tracking-wide uppercase font-['Oxanium'] leading-tight">
             The Software Research <br className="md:hidden" />
             Group
