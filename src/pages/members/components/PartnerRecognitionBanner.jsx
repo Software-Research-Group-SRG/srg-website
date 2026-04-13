@@ -1,82 +1,62 @@
 import React from 'react';
-import gfmicLogo from '../../../assets/logos-partner/GfmicLogo.png'; 
-import srgLogo from '../../../assets/logos-partner/SrgLogo.png'; 
-import pupLogo from '../../../assets/logos-partner/PupLogo.png'; 
+import PartnerLogos from '../../../data/PartnerRecognition.json';
+
+const logoImages = import.meta.glob('../../../assets/logos-partner/*', { eager: true });
+
+function getLogoSrc(imagePath) {
+    const key = `../../../assets/${imagePath}`;
+    const mod = logoImages[key];
+    return mod?.default || '';
+}
 
 function PartnerRecognitionBanner() {
     return (
         <div className="mt-20 relative flex flex-col items-center justify-center py-12 px-4">
             {/* Title */}
-            <h2 className="text-center text-xl md:text-2xl font-bold text-white mb-8 tracking-widest uppercase">
+            <h2 className="text-center text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-12 tracking-widest uppercase">
                 OUR PARTNERS
             </h2>
 
-            {/* The Ellipse Container */}
-            <div 
-                className="
-                    mb-10
-                    w-full 
-                    max-w-[1400px] 
-                    min-h-[280px] lg:min-h-[260px] lg:h-[260px]
-                    flex items-center justify-center 
-                    overflow-hidden
-                    rounded-[100%] 
-                    relative
-                    mx-auto
-                "
-                style={{ 
-                    backgroundColor: '#00162C', 
-                    filter: 'drop-shadow(0px 0px 1px var(--border-color))',
-                    background: 'radial-gradient(circle, #012143 0%, #00162C 80%)',
-                    boxShadow: 'inset 0 0 40px rgba(49, 133, 255, 0.2)'
-                }}
-            >
-                {/* LOGOS GRID */}
-                <div 
+            {/* Ellipse Wrapper*/}
+            <div className="mb-10 w-full max-w-[700px] md:max-w-[1100px] lg:max-w-[1800px] relative mx-auto">
+
+                <div
+                    className="absolute inset-0 rounded-[40%] md:rounded-[50%] lg:rounded-[50%]"
+                    style={{
+                        backgroundColor: '#00162C',
+                        filter: 'drop-shadow(0px 0px 1px var(--border-color))',
+                        background: 'radial-gradient(circle, #012143 0%, #00162C 80%)',
+                        boxShadow: 'inset 0 0 40px rgba(49, 133, 255, 0.2)',
+                    }}
+                />
+
+                {/* LOGOS */}
+                <div
                     className="
-                        flex flex-wrap items-center justify-center 
-                        gap-8 md:gap-12 lg:gap-20 
-                        px-6 py-10 lg:py-8
+                        relative z-10 w-full
+                        grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 
+                        place-items-center
+                        gap-6 md:gap-10 lg:gap-14
+                        px-[15%] md:px-[18%] lg:px-[20%]
+                        py-16 md:py-20 lg:py-16
                     "
-                    style={{ fontFamily: 'var(--members-font-family)'}}
+                    style={{ fontFamily: 'var(--members-font-family)' }}
                 >
-                    
-                    {/* Partner 1 */}
-                    <div className="flex flex-col items-center justify-center gap-3 w-28 lg:w-36 transition-transform duration-300 hover:scale-110 cursor-pointer">
-                        <div className="h-14 lg:h-16 flex items-center justify-center">
-                            <img src={gfmicLogo} alt="GFMIC" className="max-h-full w-auto object-contain" />
+                    {PartnerLogos.map((partner) => (
+                        <div key={partner.id} className="group flex flex-col items-center justify-center gap-3 md:gap-4 w-24 md:w-36 lg:w-44 transition-transform duration-300 hover:scale-110 cursor-pointer">
+                            <div className="h-16 md:h-24 lg:h-28 flex items-center justify-center">
+                                <img 
+                                    src={getLogoSrc(partner.image)} 
+                                    alt={partner.name} 
+                                    className="max-h-full w-auto object-contain" 
+                                />
+                            </div>
+
+                            <span className="text-[11px] md:text-[14px] lg:text-[18px] text-white font-medium text-center leading-tight opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                {partner.name}
+                            </span>
                         </div>
-
-                        <span className="text-[10px] lg:text-[13px] text-white font-medium text-center leading-tight" 
-                            style={{ fontSize: 'var(--fs-body)' }}>
-                            GFMIC Inc.
-                        </span>
-                    </div>
-
-                    {/* Partner 2 */}
-                    <div className="flex flex-col items-center justify-center gap-3 w-28 lg:w-36 transition-transform duration-300 hover:scale-110 cursor-pointer">
-                        <div className="h-14 lg:h-16 flex items-center justify-center">
-                            <img src={srgLogo} alt="SRG" className="max-h-full w-auto object-contain" />
-                        </div>
-
-                        <span className="text-[10px] lg:text-[13px] text-white font-medium text-center leading-tight" 
-                            style={{ fontSize: 'var(--fs-body)' }}>
-                            Software Research Group
-                        </span>
-                    </div>
-
-                    {/* Partner 3 */}
-                    <div className="flex flex-col items-center justify-center gap-3 w-28 lg:w-36 transition-transform duration-300 hover:scale-110 cursor-pointer">
-                        <div className="h-14 lg:h-16 flex items-center justify-center">
-                            <img src={pupLogo} alt="PUP" className="max-h-full w-auto object-contain" />
-                        </div>
-
-                        <span className="text-[10px] lg:text-[13px] text-white font-medium text-center leading-tight" 
-                            style={{ fontSize: 'var(--fs-body)' }}>
-                            PUP - QC
-                        </span>
-                    </div>
-
+                    ))}
                 </div>
             </div>
         </div>

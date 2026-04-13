@@ -6,7 +6,7 @@ import PartnerRecognitionBanner from './components/PartnerRecognitionBanner';
 
 function Page() {
   return (
-    <div className="m-10 flex flex-col sm:p-8 lg:p-12"> 
+    <div className="m-10 flex flex-col"> 
         <div> 
             <h1 className="mb-10 flex items-center justify-center text-4xl font-bold text-white uppercase">Meet the Team</h1>
         </div>

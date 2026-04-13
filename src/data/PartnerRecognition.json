@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "GFMIC Inc.",
+        "title": "GFMIC Inc.",
+        "subtitle": "GFMIC Inc.",
+        "image": "logos-partner/GfmicLogo.png"
+    },
+    {
+        "id": 2,
+        "name": "Software Research Group",
+        "title": "Software Research Group",
+        "subtitle": "Software Research Group",
+        "image": "logos-partner/SrgLogo.png"
+    },
+    {
+        "id": 3,
+        "name": "PUP -QC",
+        "title": "PUP -QC",
+        "subtitle": "PUP -QC",
+        "image": "logos-partner/PupLogo.png"
+    }
+]
