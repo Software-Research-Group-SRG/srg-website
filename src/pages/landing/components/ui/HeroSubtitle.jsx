@@ -3,7 +3,7 @@ import { AnimatedText } from "./AnimatedText";
 export const HeroSubtitle = () => {
     return (
         <AnimatedText
-            className="text-lg leading-relaxed text-gray-300 max-w-5xl mb-5"
+            className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-300 max-w-5xl mb-5"
             lines={[
                 "The Software Research Group is an elite collective of innovators,",
                 "engineers, and visionaries committed to pushing the frontiers of technology.",
