@@ -68,30 +68,95 @@
         "id": "shanella-cagulang",
         "projects": [
             {
-                "name": "",
+                "name": "PUP Smart Track",
                 "role": [
-                    "",
-                    ""
+                    "Project Manager",
+                    "Business Analyst "
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Leading development and task coordination using Agile methodologies while conducting requirement gathering and workflow analysis for system design, and designing the database along with producing user guides to support efficient adoption."
                 ],
                 "image": "",
                 "link": ""
             },
             {
-                "name": "",
+                "name": "POS & KDS System",
                 "role": [
-                    "",
-                    ""
+                    "Project Manager",
+                    "Front-End Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Leading the development of an integrated POS, food ordering, and kitchen display system, analyzing restaurant workflows to translate requirements into technical solutions, designing the user interface using Tailwind CSS, managing Agile sprints and team collaboration to ensure timely and high-quality delivery, and documenting workflows, database schema, and testing procedures for system traceability."
                 ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Traffic Management & Monitory System",
+                "role": [
+                    "Business Analyst ",
+                    "Developer"
+                ],
+                "description": [
+                    "directing development to improve urban mobility and data visualization, conducting requirement gathering and gap analysis to deliver actionable insights for traffic controllers, managing the project lifecycle using Agile methodologies to ensure seamless integration between data inputs and the user interface, and authoring technical documentation and API specifications to support future scalability and maintenance."  
+                 ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Bitbo AI",
+                "role": [
+                    "Business Analyst ",
+                    "Junior Project Manager"
+                ],
+                "description": [
+                    "Supporting the planning and development of an AI-driven solution by gathering and analyzing business requirements, translating them into functional specifications, and assisting in project coordination using Agile methodologies; contributed to workflow design, stakeholder communication, and documentation to ensure efficient delivery and alignment with business objectives."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Yo’etz | AI-Assisted Interview",
+                "role": [
+                    "Business Analyst "
+                ],
+                "description": [
+                    "Leading requirement gathering and analysis to design an intelligent interview support system, translating user needs into functional specifications, analyzing workflows to enhance candidate evaluation processes, and producing documentation to ensure clarity, usability, and alignment with business objectives."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Serenitel Hotel Management System",
+                "role": [
+                    "Project Manager",
+                    "Front-End Developer"
+                ],
+                "description": [
+                    "Leading project planning and execution while developing the user interface, translating business requirements into responsive and user-friendly designs, managing Agile sprints and team coordination, and ensuring efficient system functionality through continuous testing and refinement."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "PureHealth",
+                "role": [
+                    "Project Manager",
+                    "Front-End Developer"
+                ],
+                "description": [
+                    "Leading the development of responsive and user-friendly interfaces while overseeing project planning and execution, coordinating team tasks using Agile methodologies, and ensuring alignment between user requirements and system functionality for efficient and high-quality delivery."    ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "GFMIC Ecommerce",
+                "role": [
+                    "Project Manager",
+                    "Business Analyst "
+                ],
+                "description": [
+                    "Leading end-to-end development to ensure all system features aligned with client goals and business processes, producing comprehensive system design documentation and user manuals to support high-quality software delivery, and facilitating sprint planning and task prioritization for a cross-functional development team."          ],
                 "image": "",
                 "link": ""
             }
@@ -485,29 +550,37 @@
         "id": "brian-caube",
         "projects": [
             {
-                "name": "",
+                "name": "PUP Smart Track",
                 "role": [
-                    "",
-                    ""
+                    "Lead Front-End Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Led the frontend architecture, focusing on highly interactive and responsive user experiences.",
+                    "Translated complex Figma prototypes into functional, efficient, and accessible web code."
                 ],
                 "image": "",
                 "link": ""
             },
             {
-                "name": "",
+                "name": "Hotel Management System",
                 "role": [
-                    "",
+                    "Front-End Developer"
+                ],
+                "description": [
+                    "Developed an intuitive and responsive user interface for searching, booking, and managing hotel room reservations.",
+                    "Implemented interactive booking forms with real-time date selection and client-side validation for a seamless user experience."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "BITBO AI",
+                "role": [
                     ""
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "",
+                    ""
                 ],
                 "image": "",
                 "link": ""
@@ -676,32 +749,102 @@
         "id": "nadine-borja",
         "projects": [
             {
-                "name": "",
+                "name": "Serenitel",
                 "role": [
-                    "",
-                    ""
+                    "Front-End Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Hotel Management System",
+                    "UI/UX Design: Utilized Figma for wireframing, prototyping, and maintaining design consistency.",
+                    "Frontend Development: Built modular, reusable web pages.",
+                    "Interactivity: Implemented animations and transitions to create a seamless and dynamic user interface."
                 ],
                 "image": "",
                 "link": ""
             },
             {
-                "name": "",
+                "name": "Purehealth",
                 "role": [
-                    "",
-                    ""
+                    "Front-End Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Pharmacy Management System",
+                    "UI/UX Design: Utilized Figma for wireframing, prototyping, and maintaining design consistency.",
+                    "Frontend Development: Built modular, reusable pages.",
+                    "Interactivity: Implemented animations and transitions to create a seamless and dynamic user interface."
                 ],
                 "image": "",
                 "link": ""
+            },
+            {
+                "name": "Sa Filipino",
+                "role": [
+                    "Low-Code/No-Code Developer"
+                ],
+                "description": [
+                    "Interactive Early Childhood Education (ECE) Mobile Application",
+                    "Developed mobile applications using FlutterFlow, translating design systems into functional, high-performance interfaces.",
+                    "Engineered backend infrastructure by integrating Firebase for real-time database management, user authentication, and cloud storage.",
+                    "Optimized user engagement through the implementation of custom animations, seamless page transitions, and intuitive navigation logic within the FlutterFlow ecosystem."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Presenza",
+                "role": [
+                    "Front-End Developer"
+                ],
+                "description": [
+                    "Attendance Management System",
+                    "UI/UX Design: Utilized Figma for wireframing, prototyping, and maintaining design consistency.",
+                    "Frontend Development: Developed responsive and dynamic web pages within the Laravel framework, ensuring clean code through the use of Blade components and modular styling.",
+                    "Interactivity: Implemented  animations and transitions to create a seamless and dynamic user interface."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Novella",
+                "role": [
+                    "Front-End Developer"
+                ],
+                "description": [
+                    "Library Management System",
+                    "UI/UX Design: Utilized Figma for wireframing, prototyping, and maintaining design consistency.",
+                    "Role description 3Frontend Development: Developed responsive and dynamic web pages within the Laravel framework, ensuring clean code through the use of Blade components and modular styling.",
+                    "Interactivity: Implemented animations and transitions to create a seamless and dynamic user interface."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "GFMIC Ecommerce",
+                "role": [
+                    "Backend Developer"
+                ],
+                "description": [
+                    "System Logic: Implemented backend infrastructure including data modeling and route configuration to handle complex user requests and server-side processing.",
+                    "Full-Stack Connectivity: Developed and secured API routes to ensure synchronized data flow across the entire application ecosystem.",
+                    "Third-Party Integration: Successfully integrated external APIs to extend system functionality and enhance user experience."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "PUP Smart Track",
+                "role": [
+                    "Front-End Developer"
+                ],
+                "description": [
+                    "Inventory Management System",
+                    "UI/UX Design: Utilized Figma for wireframing, prototyping, and maintaining design consistency.",
+                    "Frontend Development: Architected a dynamic web pages using React, ensuring a seamless and high-performance user experience.",
+                    "Interactivity: Implemented animations and transitions to create a seamless and dynamic user interface."
+                ],
+                "image": "",
+                "link": ""
+
             }
         ]
     },
@@ -709,7 +852,72 @@
         "id": "regie-magtangob",
         "projects": [
             {
-                "name": "",
+                "name": "Second Chances",
+                "role": [
+                    "Front-End Developer"
+                ],
+                "description": [
+                    "Developed a web-based pet adoption platform to streamline adopter–pet matching and application management.",
+                    "Implemented user authentication, pet listing management, and adoption request workflows.",
+                    "Designed an intuitive interface to improve accessibility for shelters and prospective adopters."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "GeoSensei",
+                "role": [
+                    "Full Stack Developer"
+                ],
+                "description": [
+                    "Built a web-based, gamified geography learning platform integrating AI-driven feedback and crowdsourced geospatial data.",
+                    "Designed interactive map-based challenges to enhance user engagement and spatial reasoning skills.",
+                    "Implemented data visualization features to present real-world geographic information intuitively."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Online Ordering System with Blockchain Integration",
+                "role": [
+                    "Full Stack Developer"
+                ],
+                "description": [
+                    "Developing a transaction reporting platform featuring a real-time data visualization dashboard",
+                    "Architecting a blockchain integration module to ensure 100% data immutability and secure transaction logging.",
+                    "Designing a user-friendly interface to simplify the monitoring of complex datasets."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "PUP Smart Track",
+                "role": [
+                    "Front-End Developer"
+                ],
+                "description": [
+                    "Collaborated with a cross-functional team to design and develop responsive, intuitive user interfaces.",
+                    "Engineered a library of reusable frontend components to accelerate development cycles and maintain code consistency.",
+                    "Optimized the frontend architecture to ensure a seamless and efficient user experience for inventory management."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Faith Hope Love Website Enhancement",
+                "role": [
+                    "Lead Front-End Developer"
+                ],
+                "description": [
+                    "Led the frontend modernization of existing web pages, resulting in faster performance and a smoother user experience.",
+                    "Collaborated directly with the development team to troubleshoot issues, validate system fixes, and deploy user-facing enhancements.",
+                    "Identified, documented, and tracked software bugs to continuously improve overall system quality."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": " Elysian Hotel Management System",
                 "role": [
                     "",
                     ""
@@ -723,15 +931,13 @@
                 "link": ""
             },
             {
-                "name": "",
+                "name": "PureCare Medical Group(Open Souce Contribution )",
                 "role": [
-                    "",
-                    ""
+                    "Contributor"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Overhauled the UI of an integrated digital health platform to improve multi-hospital patient record management and doctor discovery.",
+                    "Designed responsive and intuitive frontend workflows for appointment booking, an online pharmacy, integrated lab payments, and real-time doctor-patient chat."
                 ],
                 "image": "",
                 "link": ""
@@ -742,10 +948,9 @@
         "id": "ellen-sinday",
         "projects": [
             {
-                "name": "",
+                "name": "PUP Smart Track",
                 "role": [
-                    "",
-                    ""
+                    "Front-End Developer"
                 ],
                 "description": [
                     "Role description 1",
@@ -756,10 +961,9 @@
                 "link": ""
             },
             {
-                "name": "",
+                "name": "GFMIC Learning Management System Integrated with Mentorship and Peer Matching System",
                 "role": [
-                    "",
-                    ""
+                    "Front-End Developer"
                 ],
                 "description": [
                     "Role description 1",
@@ -768,36 +972,103 @@
                 ],
                 "image": "",
                 "link": ""
-            }
+            },
+            {
+                "name": "Natretelier - Hotel Management System",
+                "role": [
+                    "Full Stack Developer"
+                ],
+                "description": [
+                    "Role description 1",
+                    "Role description 2",
+                    "Role description 3"
+                ],
+                "image": "",
+                "link": ""
+             },
+             {
+                "name": "Bus Ticketing System",
+                "role": [
+                    "Front-End Developer"
+                ],
+                "description": [
+                    "Role description 1",
+                    "Role description 2",
+                    "Role description 3"
+                ],
+                "image": "",
+                "link": ""
+             },
+             {
+                "name": "QloApps (Open Source Contribution) ",
+                "role": [
+                    "Contributor"
+                ],
+                "description": [
+                    "Developed a custom Housekeeping Management module workflow to improve operational efficiency."
+                ],
+                "image": "",
+                "link": ""
+             }
         ]
     },
     {
         "id": "darben-lamonte",
         "projects": [
             {
-                "name": "",
+                "name": "PUP Smart Track",
                 "role": [
-                    "",
-                    ""
+                    "Backend Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Developed and maintained backend functionalities for the Request and Order module, including request submission and approval processes for request asset and maintenance. "
                 ],
                 "image": "",
                 "link": ""
             },
             {
-                "name": "",
+                "name": "AI-Powered Ecommerce Platform",
+                "role": [
+                    "Full Stack Developer"
+                ],
+                "description": [
+                    "Developed an AI-powered ecommerce platform integrated with voice shopping assistant, chatbot, and content moderation for fast and intelligent shopping experience."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "HanapBuhAI",
                 "role": [
                     "",
                     ""
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Developed an AI-powered ecommerce platform integrated with voice shopping assistant, chatbot, and content moderation for fast and intelligent shopping experience."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Caffeinated - Online Ordering System",
+                "role": [
+                    "",
+                    ""
+                ],
+                "description": [
+                    "Developed a Point of Sale (POS) integrated with Food Ordering Portal, and Kitchen Display System,ensuring seamless communication from order placement to kitchen preparation and payment."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Caffeinated - Point of Sale System",
+                "role": [
+                    "",
+                    ""
+                ],
+                "description": [
+                    "Developed a Point of Sale (POS) integrated with Food Ordering Portal, and Kitchen Display System,ensuring seamless communication from order placement to kitchen preparation and payment."
                 ],
                 "image": "",
                 "link": ""
@@ -808,7 +1079,7 @@
         "id": "elisha-mier",
         "projects": [
             {
-                "name": "",
+                "name": "PUP Smart Track",
                 "role": [
                     "",
                     ""
@@ -822,7 +1093,63 @@
                 "link": ""
             },
             {
-                "name": "",
+                "name": "GFMIC Learning Management System Integrated with Mentorship and Peer Matching System",
+                "role": [
+                    "",
+                    ""
+                ],
+                "description": [
+                    "Role description 1",
+                    "Role description 2",
+                    "Role description 3"
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "BITBO AI",
+                "role": [
+                    "",
+                    ""
+                ],
+                "description": [
+                    "Role description 1",
+                    "Role description 2",
+                    "Role description 3"
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Hotel Online Booking System",
+                "role": [
+                    "",
+                    ""
+                ],
+                "description": [
+                    "Role description 1",
+                    "Role description 2",
+                    "Role description 3"
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Property Management System",
+                "role": [
+                    "",
+                    ""
+                ],
+                "description": [
+                    "Role description 1",
+                    "Role description 2",
+                    "Role description 3"
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Deep Learning Waste Segregation",
                 "role": [
                     "",
                     ""
@@ -841,29 +1168,57 @@
         "id": "rj-aquino",
         "projects": [
             {
-                "name": "",
+                "name": "PUP Smart Track",
                 "role": [
-                    "",
-                    ""
+                    "Backend Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Developed and maintained backend functionalities for the Request and Order module, including request submission and approval processes for request asset and maintenance. "
                 ],
                 "image": "",
                 "link": ""
             },
             {
-                "name": "",
+                "name": "Bus Operations Management System",
                 "role": [
-                    "",
-                    ""
+                    "Lead Backend Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Developed and implemented key modules of the Bus Operations Management System covering route management, bus assignment, rentals, maintenance, performance tracking, reporting and oversaw the deployment process."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "TimeWise",
+                "role": [
+                    "Full Stack Developer"
+                ],
+                "description": [
+                    "Architected the system’s overall structure and designed its user interface.",
+                    "Managed backend processes, including user authentication and core system functionality."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Hotel Management System",
+                "role": [
+                    "Backend Developer"
+                ],
+                "description": [
+                    "Contributed to the development of a Hotel Management System with functionalities including room booking, guest management, billing, and reporting."
+                ],
+                "image": "",
+                "link": ""
+            },
+            {
+                "name": "Crime Reporting System",
+                "role": [
+                    "Backend Developer"
+                ],
+                "description": [
+                    "Contributed to the development of a case report management system featuring report management, assignment tracking, and personnel allocation, supporting organized and efficient operational processes."
                 ],
                 "image": "",
                 "link": ""
@@ -874,33 +1229,71 @@
         "id": "angel-olivarez",
         "projects": [
             {
-                "name": "",
+                "name": "PUP Smart Track",
                 "role": [
-                    "",
-                    ""
+                    "Backend Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Engineered the Authentication and Role Management Module using Python Django that establishes a secure and granular RBAC (Role-Based Access Control) architecture for multiple university campuses.",
+                    "Developed automated account security protocols, including complexity enforcement, forced password resets, and account lockout policies to guarantee institutional data integrity."
                 ],
                 "image": "",
                 "link": ""
             },
             {
-                "name": "",
+                "name": "GFMIC Learning Management System Integrated with Mentorship and Peer Matching System",
                 "role": [
-                    "",
-                    ""
+                    "Backend Developer",
+                    "Full Stack Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Engineered a microservices-based architecture using Python Django and React.js.",
+                    "Played a part in the integration of an AI-driven matching engine, utilizing Sci-Kit Learn, SpaCy, and Sentence-BERT, to guarantee seamless data flow between user learning profiles and the mentor-mentee pairing logic.",
+                    "Spearheaded DevSecOps implementation by containerizing the application suite with Docker and configuring Nginx as a reverse proxy for production-ready deployment on a cloud VPS.",
+                    "Collaborated cross-functionally in the development lifecycle within an Agile Scrum framework using Jira, actively contributing to sprint planning, risk register management, and high-level technical collaboration with PM, BA, and QA teams."
                 ],
                 "image": "",
                 "link": ""
-            }
+            },
+             {
+                "name": "ThreatGrid — Multi-Modal Threat Detection Platform ",
+                "role": [
+                    "Full Stack Developer"
+                ],
+                "description": [
+                    "Built a comprehensive digital security platform integrating Cross-Lingual NLP and Image Processing to detect cyber threats.",
+                    "Developed high-performance REST APIs using Python FastAPI and a responsive frontend with React.js.",
+                    "Produced full technical documentation including RTM, BRD, Test Cases, and Data Architecture diagrams to meet industry compliance standards."
+                ],
+                "image": "",
+                "link": ""
+             },
+             {
+                "name": "QloApps (Open Source Contribution) ",
+                "role": [
+                    "Contributor"
+                ],
+                "description": [
+                    "Forked and enhanced a containerized open-source hotel reservation engine using PHP and MySQL.",
+                    "Developed a custom Housekeeping Management module workflow to improve operational efficiency."
+                ],
+                "image": "",
+                "link": ""
+             },
+             {
+                "name": "BITBo (Barangay IT Robot) Portal",
+                "role": [
+                    "Backend Developer"
+                ],
+                "description": [
+                    "Engineered the end-to-end Request for Download and Request for Demo workflows, implementing server-side validation and automated status tracking to manage the distribution of the BITBo executable file.",
+                    "Configured and optimized a dedicated demo environment, allowing potential users to interact with a sandboxed version of the platform to experience automated documentation and local government service workflows firsthand."
+                ],
+                "image": "",
+                "link": ""
+
+             }
+            
         ]
     },
     {
