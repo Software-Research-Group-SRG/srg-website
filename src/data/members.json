@@ -198,10 +198,11 @@
         "role": "Software Developer",
         "status": "Frontend Developer",
         "skills": [
-            "Frontend Developer",
-            "Web Developer",
-            "Mobile Application Developer",
+            "Frontend Development",
+            "Web Development",
+            "Mobile Application Development",
             "React.js",
+            "Next.js",
             "Information Security",
             "UI/UX Design"
         ],
