@@ -953,10 +953,11 @@
                     "Front-End Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
-                ],
+                    "Developed responsive and user-friendly interfaces using modern frontend technologies.",
+                    "Implemented form validations and input handling to ensure data accuracy and improve user experience.",
+                    "Identified, debugged, and resolved frontend issues to enhance system stability and performance.",
+                    "Collaborated with the backend team to integrate APIs and ensure smooth data flow."
+                    ],
                 "image": "",
                 "link": ""
             },
@@ -966,10 +967,10 @@
                     "Front-End Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
-                ],
+                    "Designed and developed interactive UI components for learning and mentorship features.",
+                    "Implemented responsive layouts to support multiple devices and screen sizes.",
+                    "Worked closely with the team to enhance user engagement through intuitive design and navigation."
+                    ],
                 "image": "",
                 "link": ""
             },
@@ -979,11 +980,11 @@
                     "Full Stack Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
-                ],
-                "image": "",
+                    "Built both frontend and backend functionalities including booking, room management, and user authentication.",
+                    "Developed RESTful APIs and integrated them with the frontend interface.",
+                    "Managed database structure and ensured efficient data handling for hotel operations."
+                    ],
+                 "image": "",
                 "link": ""
              },
              {
@@ -992,21 +993,10 @@
                     "Front-End Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
-                ],
-                "image": "",
-                "link": ""
-             },
-             {
-                "name": "QloApps (Open Source Contribution) ",
-                "role": [
-                    "Contributor"
-                ],
-                "description": [
-                    "Developed a custom Housekeeping Management module workflow to improve operational efficiency."
-                ],
+                    "Created responsive booking interfaces for ticket selection and reservation.",
+                    "Improved user experience by simplifying navigation and form interactions.",
+                    "Integrated frontend components with backend services for real-time data updates."
+                    ],
                 "image": "",
                 "link": ""
              }
