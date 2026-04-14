@@ -112,7 +112,7 @@ function BaseProfileDetails() {
         ">
             <div className='flex items-center'>
                 <img 
-                    src={member.photo || "https://via.placeholder.com/150"} 
+                    src={member.photo ? (member.photo.startsWith('http') ? member.photo : `/assets/member-profile-picture/${member.photo}`) : "https://via.placeholder.com/150"} 
                     alt={member.name} 
                     className="
                         w-[130px] h-[130px] 
@@ -131,8 +131,15 @@ function BaseProfileDetails() {
                             {member.name}
                         </h1>
 
-                        <h2 style={{color: 'var(--text-title2)' }}>
-                            {member.status === "intern" ? "SRG Intern" : "SRG 12th Generation - Member"}
+                        <h2 style={{color: 'var(--text-title2)' }} className="capitalize">
+                            {member.status?.toLowerCase() === "member" 
+                                ? "SRG 12th Generation - Member" 
+                                : member.status?.toLowerCase() === "intern" 
+                                    ? "SRG Intern" 
+                                    : member.status?.toLowerCase().includes("gen ")
+                                        ? member.status
+                                        : `SRG 12th Generation - ${member.status}`
+                            }
                         </h2>
 
                         <p style={{color: 'var(--text-main)'}}>
