@@ -2,7 +2,7 @@
     {
         "id": "crystalyn-danga",
         "name": "Crystalyn R. Danga",
-        "photo": null,
+        "photo": "Danga.jpg",
         "role": "Project Manager",
         "status": "IT Business Analyst | Software QA Tester",
         "skills": [
@@ -26,7 +26,7 @@
     {
         "id": "shanella-cagulang",
         "name": "Shanella A. Cagulang",
-        "photo": null,
+        "photo": "Cagulang.jpg",
         "role": "Project Manager",
         "status": "Overall Leader | Business Analyst | Project Manager",
         "skills": [
@@ -45,7 +45,7 @@
     {
         "id": "yesha-perez",
         "name": "Yesha M. Perez",
-        "photo": "yesha-perez.png",
+        "photo": "Perez.png",
         "role": "Quality Assurance",
         "status": "Quality Assurance",
         "skills": [
@@ -64,7 +64,7 @@
     {
         "id": "kim-cabaylo",
         "name": "Kimberly Nicole C. Cabaylo",
-        "photo": null,
+        "photo": "Cabaylo.png",
         "role": "Project Manager",
         "status": "Internal Projects Lead | Quality Assurance",
         "skills": [
@@ -88,7 +88,7 @@
     {
         "id": "miyuki-parocha",
         "name": "Miyuki Mharie C. Parocha",
-        "photo": "miyuki-parocha.png",
+        "photo": "Parocha.png",
         "role": "Quality Assurance",
         "status": "Quality Assurance",
         "skills": [
@@ -108,7 +108,7 @@
     {
         "id": "yuan-evangelista",
         "name": "Yuan Exequiel R. Evangelista",
-        "photo": null,
+        "photo": "Evangelista.png",
         "role": "Document Analyst",
         "status": "Document Analyst",
         "skills": [
@@ -126,7 +126,7 @@
     {
         "id": "brian-caube",
         "name": "Brian S. Caube",
-        "photo": "brian-caube.png",
+        "photo": "Caube.png",
         "role": "Software Developer",
         "status": "Frontend Developer",
         "skills": [
@@ -143,7 +143,7 @@
     {
         "id": "althea-asis",
         "name": "Althea Amor J. Asis",
-        "photo": null,
+        "photo": "Asis.png",
         "role": "Software Developer",
         "status": "Frontend Developer",
         "skills": [
@@ -159,7 +159,7 @@
     {
         "id": "nadine-borja",
         "name": "Ma. Nadine A. Borja",
-        "photo": null,
+        "photo": "Borja.jpeg",
         "role": "Software Developer",
         "status": "Frontend Developer",
         "skills": [
@@ -175,7 +175,7 @@
     {
         "id": "regie-magtangob",
         "name": "Mark Regie A. Magtangob",
-        "photo": null,
+        "photo": "Magtangob.jpg",
         "role": "Software Developer",
         "status": "Frontend Developer",
         "skills": [
@@ -194,7 +194,7 @@
     {
         "id": "ellen-sinday",
         "name": "Ellen Grace Sinday",
-        "photo": null,
+        "photo": "Sinday.jpg",
         "role": "Software Developer",
         "status": "Frontend Developer",
         "skills": [
@@ -213,7 +213,7 @@
     {
         "id": "darben-lamonte",
         "name": "Darben V. Lamonte",
-        "photo": null,
+        "photo": "Lamonte.png",
         "role": "Software Developer",
         "status": "Full Stack Developer",
         "skills": [
@@ -233,7 +233,7 @@
     {
         "id": "elisha-mier",
         "name": "Elisha Reign Mier",
-        "photo": null,
+        "photo": "Mier.jpg",
         "role": "Software Developer",
         "status": "Full Stack Developer",
         "skills": [
@@ -254,7 +254,7 @@
     {
         "id": "rj-aquino",
         "name": "Richard Jason M. Aquino",
-        "photo": null,
+        "photo": "Aquino.jpg",
         "role": "Software Developer",
         "status": "Backend Developer",
         "skills": [
@@ -269,7 +269,7 @@
     {
         "id": "angel-olivarez",
         "name": "Angel E. Olivarez",
-        "photo": null,
+        "photo": "Olivarez.jpg",
         "role": "Software Developer",
         "status": "Full Stack Developer",
         "skills": [

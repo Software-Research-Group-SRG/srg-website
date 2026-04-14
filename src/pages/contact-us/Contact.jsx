@@ -1,5 +1,5 @@
 import React from "react";
-import groupPhoto from "../../assets/srg-group-picture/SrgGroupPictures3.jpg";
+
 import { HeroLogo } from "../landing/components/ui/HeroLogo";
 import FlipContactCard from "./ContactUsCards";
 import contactUs from '../../data/contactUs.json';
@@ -9,7 +9,7 @@ function Contact() {
         <div className="flex flex-col items-stretch w-full">
             {/* Main Image */}
             <div className="relative h-[350px] sm:h-[450px] md:h-[600px] lg:h-[750px] -mx-6 md:-mx-10 lg:-mx-16">
-                <img src={groupPhoto} alt="Group" className="w-full h-full object-cover opacity-100" />
+                <img src="/assets/srg-group-picture/SrgGroupPictures3.jpg" alt="Group" className="w-full h-full object-cover opacity-100" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
             </div>
 
