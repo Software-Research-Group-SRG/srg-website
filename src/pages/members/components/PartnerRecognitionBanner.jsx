@@ -1,12 +1,8 @@
 import React from 'react';
 import PartnerLogos from '../../../data/PartnerRecognition.json';
 
-const logoImages = import.meta.glob('../../../assets/logos-partner/*', { eager: true });
-
 function getLogoSrc(imagePath) {
-    const key = `../../../assets/${imagePath}`;
-    const mod = logoImages[key];
-    return mod?.default || '';
+    return `/assets/${imagePath}`;
 }
 
 function PartnerRecognitionBanner() {
