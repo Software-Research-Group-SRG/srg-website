@@ -45,7 +45,7 @@ function IndividualProjectCard({ project, onClick }) {
                     </span>
                 </div>
 
-                <ul className="list-disc pl-5 text-[0.85rem] leading-relaxed text-gray-200 space-y-1">
+                {/* <ul className="list-disc pl-5 text-[0.85rem] leading-relaxed text-gray-200 space-y-1">
                     {project.description && project.description.length > 0 ? (
                         project.description.map((desc, i) => (
                             <li key={i}>{desc}</li>
@@ -53,7 +53,7 @@ function IndividualProjectCard({ project, onClick }) {
                     ) : (
                         <li>Description of the project roles goes here.</li>
                     )}
-                </ul>
+                </ul> */}
             </div>
         </div>
     );
