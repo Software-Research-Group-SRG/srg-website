@@ -35,7 +35,7 @@ const NavBar = () => {
           }}
           className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition"
         >
-          <img src="/SrgLogo.png" alt="SRG Logo" className="w-14 h-14 rounded-full" />
+          <img src="/srgLogo.png" alt="SRG Logo" className="w-14 h-14 rounded-full" />
           <h1 className="text-sm md:text-base font-semibold tracking-wide uppercase font-['Oxanium'] leading-tight">
             The Software Research <br className="md:hidden" />
             Group

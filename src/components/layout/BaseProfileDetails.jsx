@@ -21,8 +21,8 @@ function IndividualProjectCard({ project, onClick }) {
             <div className="relative flex h-48 w-full items-center justify-center overflow-hidden border-b-[3px] border-[#3185FF] bg-[radial-gradient(circle_at_top,_rgba(53,164,185,0.28),_transparent_55%),linear-gradient(135deg,_rgba(3,7,18,0.96),_rgba(15,23,42,0.92)_55%,_rgba(30,64,175,0.55))] sm:h-48 shrink-0">
                 <div className="absolute inset-0 bg-[linear-gradient(120deg,transparent_0%,rgba(53,164,185,0.08)_45%,transparent_100%)]" />
                 
-                {project.images && project.images.length > 0 ? (
-                    <img src={`/assets/project-cover-picture/${project.images[0]}`} alt={project.name} className="w-full h-full object-cover relative z-10" />
+                {project.image ? (
+                    <img src={`/assets/member-project/${project.image}`} alt={project.name} className="w-full h-full object-cover relative z-10" />
                 ) : (
                     <div className="text-[#35A4B9] text-center relative z-10 flex flex-col items-center justify-center">
                         <div className="bg-white rounded-full w-14 h-14 flex items-center justify-center mx-auto text-black font-bold text-3xl">!</div>
