@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import allProjects from '../../data/projects.json';
 
 const SEARCH_PROJECTS = allProjects;
@@ -78,15 +79,15 @@ function SearchProjects({ projects = SEARCH_PROJECTS }) {
       </div>
 
       {/* Results Area */}
-      {query && (
-        <div className="w-full max-w-2xl mt-6">
-          <div className="flex flex-wrap gap-2 justify-center">
+      <div className="w-full max-w-2xl mt-6 h-10 overflow-y-auto"> 
+        {query && (
+          <div className="flex flex-wrap gap-2 justify-center py-2">
             {filteredProjects.map((project) => (
-              <span key={project.id} className="px-3 py-1 bg-white/10 text-white rounded-full text-sm border border-white/20"
-                onClick={() => {
-                  navigate(`/projects/${project.id}`);
-                }}
-                > 
+              <span 
+                key={project.id} 
+                className="px-3 py-1 bg-white/10 text-white rounded-full text-sm border border-white/20 cursor-pointer hover:bg-white/20 transition-colors"
+                onClick={() => navigate(`/projects/${project.id}`)}
+              > 
                 {project.title}
               </span>
             ))}
@@ -94,8 +95,8 @@ function SearchProjects({ projects = SEARCH_PROJECTS }) {
               <span className="text-gray-400 text-sm">No projects found.</span>
             )}
           </div>
-        </div>
-      )}
+        )}
+      </div>
 
     </section>
   );
