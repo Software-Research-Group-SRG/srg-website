@@ -1084,13 +1084,11 @@
             {
                 "name": "PUP Smart Track",
                 "role": [
-                    "",
-                    ""
+                    "Full Stack Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Designed and developed the asset management module of an inventory management system, focusing on tracking, monitoring, and maintaining asset records, stock movements, and lifecycle data. Implemented backend functionalities for asset creation, updates, allocation, and status tracking, ensuring accurate and real-time inventory visibility.",
+                    "Handled backend development using Django and REST APIs, and integrated it seamlessly with the frontend built in React and Bootstrap to ensure smooth data flow and user interaction. Optimized system performance through efficient database design, query optimization, and significantly improving data retrieval speed and overall system responsiveness."
                 ],
                 "image": "SmartTrack.png",
                 "link": ""
@@ -1098,13 +1096,13 @@
             {
                 "name": "GFMIC Learning Management System Integrated with Mentorship and Peer Matching System",
                 "role": [
-                    "",
-                    ""
+                    "Full Stack Developer",
+                    "UI/UX Designer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Developed and maintained a full-stack Learning Management System with integrated mentorship and peer-matching capabilities, focusing on enhancing student collaboration and personalized learning experiences.",
+                    "Optimized semantic matching performance by implementing embedding precomputation and vector indexing using FAISS, significantly improving similarity search efficiency and reducing recommendation latency.",
+                    "Engineered backend services and microservice integrations using Django and REST APIs, while building responsive client-side interfaces with React and Bootstrap; collaborated on product design, business process planning, system architecture decisions, MySQL schema optimization, and Docker-based containerized deployment."
                 ],
                 "image": "GfmicLmsMpms.png",
                 "link": ""
@@ -1112,13 +1110,10 @@
             {
                 "name": "BITBO AI",
                 "role": [
-                    "",
-                    ""
+                    "Backend Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Contributed as a Backend Developer to BITBO, a barangay information management system for Philippine local government units, leading data mapping and migration from a legacy platform while ensuring data accuracy, integrity, and proper database structuring to support a seamless system transition."
                 ],
                 "image": "BITBO AI.png",
                 "link": ""
@@ -1126,13 +1121,15 @@
             {
                 "name": "Hotel Online Booking System",
                 "role": [
-                    "",
-                    ""
+                    "Full Stack Developer",
+                    "Project Manager",
+                    "Business Analyst",
+                    "UI/UX Designer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Led the end-to-end development of a hotel booking system, managing both technical implementation and overall project coordination. Developed core functionalities including room management, booking workflows, guest information handling, and invoice generation using C#, WinForms, and SQLite.",
+                    "Designed intuitive and user-friendly interfaces by applying UI/UX principles, improving usability and streamlining booking processes for end users. Gathered and analyzed business requirements, translating them into functional system features aligned with real-world hotel operations.",
+                    "Oversaw system architecture, database design, and development workflow, ensuring data integrity, optimized performance, and seamless integration across modules."
                 ],
                 "image": "HotelOnlineBookingSystem.png",
                 "link": ""
@@ -1140,13 +1137,15 @@
             {
                 "name": "Property Management System",
                 "role": [
-                    "",
-                    ""
+                    "Full Stack Developer",
+                    "Project Manager",
+                    "Business Analyst",
+                    "UI/UX Designer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Developed a comprehensive property management system to handle tenant records, rental payments, lease tracking, and reporting functionalities. Built both frontend and backend components, ensuring efficient data processing and a smooth, user-friendly experience.",
+                    "Designed clean and intuitive UI/UX layouts to simplify property and tenant management workflows, improving usability for administrators and users. Acted as project manager and business analyst by gathering requirements, defining system workflows, and structuring the overall architecture.",
+                    "Optimized database schemas and implemented scalable features to support maintainability, accurate financial tracking, and efficient system performance."
                 ],
                 "image": "PropertyManagementSystem.png",
                 "link": ""
@@ -1154,13 +1153,11 @@
             {
                 "name": "Deep Learning Waste Segregation",
                 "role": [
-                    "",
-                    ""
+                    "Full Stack Developer"
                 ],
                 "description": [
-                    "Role description 1",
-                    "Role description 2",
-                    "Role description 3"
+                    "Developed an AI-based waste segregation system using deep learning models to classify different types of waste materials from images. Integrated the trained model into a full-stack application, enabling automated classification through a user-friendly interface.",
+                    "Built backend services for image processing and model inference, and developed frontend components for visualization and interaction. Contributed to dataset preparation, model integration, and system optimization to improve prediction accuracy and overall performance."
                 ],
                 "image": "DeepLeaningWasteSegragation.png",
                 "link": ""
