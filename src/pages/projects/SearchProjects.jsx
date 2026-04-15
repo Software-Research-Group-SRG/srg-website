@@ -1,18 +1,22 @@
 import React, { useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import allProjects from '../../data/projects.json';
 
-const PROJECT_TITLES = [
-  { id: 1, title: 'GFMIC Academy' },
-  { id: 2, title: 'GFMIC E-Commerce' },
-  { id: 3, title: 'StewardFM' },
-  { id: 4, title: 'PUP Smart - Track' },
-  { id: 5, title: 'YO - etz AI Interview' },
-  { id: 6, title: 'Bitbo AI' },
-  { id: 7, title: 'Flor De Grace' },
-  { id: 8, title: 'SRG Website' },
-  { id: 9, title: 'Faith, Hope, Love' },
-];
 
-function SearchProjects({ projects = PROJECT_TITLES }) {
+// const PROJECT_TITLES = [
+//   { id: 1, title: 'GFMIC Academy' },
+//   { id: 2, title: 'GFMIC E-Commerce' },
+//   { id: 3, title: 'StewardFM' },
+//   { id: 4, title: 'PUP Smart - Track' },
+//   { id: 5, title: 'YO - etz AI Interview' },
+//   { id: 6, title: 'Bitbo AI' },
+//   { id: 7, title: 'Flor De Grace' },
+//   { id: 8, title: 'SRG Website' },
+//   { id: 9, title: 'Faith, Hope, Love' },
+// ];
+
+function SearchProjects({ projects = allProjects }) {
+  const navigate = useNavigate();
   const [query, setQuery] = useState('');
   
   const filteredProjects = useMemo(() => {
@@ -106,8 +110,14 @@ function SearchProjects({ projects = PROJECT_TITLES }) {
         <div className="w-full max-w-2xl mt-6">
           <div className="flex flex-wrap gap-2 justify-center">
             {filteredProjects.map((project) => (
-              <span key={project.id} className="px-3 py-1 bg-white/10 text-white rounded-full text-sm border border-white/20">
+              <span key={project.id} className="px-3 py-1 bg-white/10 text-white rounded-full text-sm border border-white/20"
+                onClick={() => {
+                  navigate(`/projects/${project.id}`);
+                }}
+                style={{ cursor: 'pointer' }}
+              > 
                 {project.title}
+                <h2>{project.id} {project.title}</h2>
               </span>
             ))}
             {!filteredProjects.length && (
