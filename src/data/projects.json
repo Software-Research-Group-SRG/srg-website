@@ -435,7 +435,7 @@
     "subtitle": "AI-Powered Platform",
     "description": "Bitbo (Barangay IT Robot) is an AI-enhanced integrated management system specifically developed for Philippine barangays. It combines traditional administrative tools with intelligent automation to manage citizen profiles, local legislation, case records, and health services, ensuring accessibility and efficiency in local government operations.",
     "link": "https://bitbo-ai.vercel.app",
-    "images": [],
+    "images": ["BitboAI/BITBO AI.png"],
     "contributors": [
       { "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
       { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"]},
