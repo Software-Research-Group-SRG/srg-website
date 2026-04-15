@@ -11,7 +11,7 @@
                     "Led the requirements analysis, process design, and cross-module alignment across asset management, requests, maintenance, and disposal workflows. ",
                     "Leveraged strong QA expertise to define validation rules, identify edge cases, and ensure system reliability, data integrity, and user-centric functionality throughout the development lifecycle."
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -23,7 +23,7 @@
                 "description": [
                     "Led business analysis and project management for an AI-powered interview system, driving end-to-end requirements, system design, and delivery execution. Applied a strong technical background in system architecture and development to bridge business and engineering decisions, while leveraging QA expertise to design validation rules, identify edge cases, and embed quality assurance throughout workflows—ensuring a reliable, scalable, and user-centric system."
                 ],
-                "image": "",
+                "image": "YoEtz.png",
                 "link": ""
             },
             {
@@ -35,7 +35,7 @@
                 "description": [
                     "Played a QA-focused role in the development of an Employee Management System, ensuring system reliability, data accuracy, and seamless user workflows across employee records, attendance, and administrative processes. Leveraged a strong technical background to design comprehensive test cases, validate business rules, and identify edge cases early in development. Supported business analysis activities by refining requirements and ensuring they were testable and aligned with system behavior, embedding quality assurance throughout the development lifecycle."
                 ],
-                "image": "",
+                "image": "Agila.png",
                 "link": ""
             },
             {
@@ -59,7 +59,7 @@
                 "description": [
                     "Implemented core system logic using OOP within the .NET Framework (WinForms) and designed database operations using SQLite with Entity Framework. Conducted Quality Assurance by validating system functionalities, identifying bugs, and ensuring the reliability of booking workflows and operational modules prior to deployment."
                 ],
-                "image": "",
+                "image": "MiraiParadise.png",
                 "link": ""
             }
         ]
@@ -76,7 +76,7 @@
                 "description": [
                     "Leading development and task coordination using Agile methodologies while conducting requirement gathering and workflow analysis for system design, and designing the database along with producing user guides to support efficient adoption."
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -88,7 +88,7 @@
                 "description": [
                     "Leading the development of an integrated POS, food ordering, and kitchen display system, analyzing restaurant workflows to translate requirements into technical solutions, designing the user interface using Tailwind CSS, managing Agile sprints and team collaboration to ensure timely and high-quality delivery, and documenting workflows, database schema, and testing procedures for system traceability."
                 ],
-                "image": "",
+                "image": "Caffeinated POS & KDS System.png",
                 "link": ""
             },
             {
@@ -98,9 +98,9 @@
                     "Developer"
                 ],
                 "description": [
-                    "directing development to improve urban mobility and data visualization, conducting requirement gathering and gap analysis to deliver actionable insights for traffic controllers, managing the project lifecycle using Agile methodologies to ensure seamless integration between data inputs and the user interface, and authoring technical documentation and API specifications to support future scalability and maintenance."  
-                 ],
-                "image": "",
+                    "directing development to improve urban mobility and data visualization, conducting requirement gathering and gap analysis to deliver actionable insights for traffic controllers, managing the project lifecycle using Agile methodologies to ensure seamless integration between data inputs and the user interface, and authoring technical documentation and API specifications to support future scalability and maintenance."
+                ],
+                "image": "TrafficRouteMonitoring.png",
                 "link": ""
             },
             {
@@ -112,7 +112,7 @@
                 "description": [
                     "Supporting the planning and development of an AI-driven solution by gathering and analyzing business requirements, translating them into functional specifications, and assisting in project coordination using Agile methodologies; contributed to workflow design, stakeholder communication, and documentation to ensure efficient delivery and alignment with business objectives."
                 ],
-                "image": "",
+                "image": "BITBO AI.png",
                 "link": ""
             },
             {
@@ -123,7 +123,7 @@
                 "description": [
                     "Leading requirement gathering and analysis to design an intelligent interview support system, translating user needs into functional specifications, analyzing workflows to enhance candidate evaluation processes, and producing documentation to ensure clarity, usability, and alignment with business objectives."
                 ],
-                "image": "",
+                "image": "YoEtz.png",
                 "link": ""
             },
             {
@@ -135,7 +135,7 @@
                 "description": [
                     "Leading project planning and execution while developing the user interface, translating business requirements into responsive and user-friendly designs, managing Agile sprints and team coordination, and ensuring efficient system functionality through continuous testing and refinement."
                 ],
-                "image": "",
+                "image": "Serenitel.png",
                 "link": ""
             },
             {
@@ -145,8 +145,9 @@
                     "Front-End Developer"
                 ],
                 "description": [
-                    "Leading the development of responsive and user-friendly interfaces while overseeing project planning and execution, coordinating team tasks using Agile methodologies, and ensuring alignment between user requirements and system functionality for efficient and high-quality delivery."    ],
-                "image": "",
+                    "Leading the development of responsive and user-friendly interfaces while overseeing project planning and execution, coordinating team tasks using Agile methodologies, and ensuring alignment between user requirements and system functionality for efficient and high-quality delivery."
+                ],
+                "image": "Purehealth.png",
                 "link": ""
             },
             {
@@ -156,8 +157,9 @@
                     "Business Analyst "
                 ],
                 "description": [
-                    "Leading end-to-end development to ensure all system features aligned with client goals and business processes, producing comprehensive system design documentation and user manuals to support high-quality software delivery, and facilitating sprint planning and task prioritization for a cross-functional development team."          ],
-                "image": "",
+                    "Leading end-to-end development to ensure all system features aligned with client goals and business processes, producing comprehensive system design documentation and user manuals to support high-quality software delivery, and facilitating sprint planning and task prioritization for a cross-functional development team."
+                ],
+                "image": "GfmicEcommerce.png",
                 "link": ""
             }
         ]
@@ -175,7 +177,7 @@
                     "Identified, documented, and tracked bugs to improve overall system quality",
                     "Collaborated with the development team to validate fixes and enhancements"
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -189,7 +191,7 @@
                     "Led QA processes including test planning, execution, and defect management",
                     "Coordinated with stakeholders to align system features with user requirements"
                 ],
-                "image": "",
+                "image": "GfmicLmsMpms.png",
                 "link": ""
             },
             {
@@ -202,7 +204,7 @@
                     "Developed prototypes to visualize system flow and interactions",
                     "Ensured design consistency and accessibility across the platform"
                 ],
-                "image": "",
+                "image": "FaithHopeLove.png",
                 "link": ""
             },
             {
@@ -215,7 +217,7 @@
                     "Implemented responsive UI components for better user interaction",
                     "Leads in debugging and optimizing system performance"
                 ],
-                "image": "",
+                "image": "IQUIZMo.png",
                 "link": ""
             },
             {
@@ -227,7 +229,7 @@
                 "description": [
                     ""
                 ],
-                "image": "",
+                "image": "BITBO AI.png",
                 "link": ""
             }
         ]
@@ -245,7 +247,7 @@
                     "Identified, documented, and tracked bugs to improve overall system quality",
                     "Collaborated with the development team to validate fixes and enhancements"
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -260,7 +262,7 @@
                     "Developed and executed test cases, documented defects, and verified fixes to maintain system quality.",
                     "Monitored project progress and coordinated team communication to ensure timely delivery of enhancements."
                 ],
-                "image": "",
+                "image": "FaithHopeLove.png",
                 "link": ""
             },
             {
@@ -277,7 +279,7 @@
                     "Prepared and maintained key documentation, including business requirements, user stories, and process workflows.",
                     "Supported requirement validation and user acceptance testing (UAT) to confirm system functionality and business alignment."
                 ],
-                "image": "",
+                "image": "GfmicLmsMpms.png",
                 "link": ""
             },
             {
@@ -291,7 +293,7 @@
                     "Role description 2",
                     "Role description 3"
                 ],
-                "image": "",
+                "image": "BITBO AI.png",
                 "link": ""
             },
             {
@@ -305,7 +307,7 @@
                     "Integrated document upload and processing modules to enable efficient extraction of relevant text and key points.",
                     " Tested and optimized system performance to ensure accurate summarization and reliable user interaction."
                 ],
-                "image": "",
+                "image": "PDFY.png",
                 "link": ""
             }
         ]
@@ -323,7 +325,7 @@
                     "Analyzed system requirements and user workflows to develop comprehensive test strategies and test plans.",
                     "Validated database structures and produced detailed defect reports and QA documentation to ensure reliable deployments."
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -337,7 +339,7 @@
                     "Produced comprehensive system documentation, test plans, and user manuals to guarantee high-quality software delivery and smooth user adoption.",
                     "Coordinated QA activities during sprint planning, prioritizing testing tasks, defect resolution, and feature validation for a cross-functional development team."
                 ],
-                "image": "",
+                "image": "GfmicEcommerce.png",
                 "link": " https://shop.gfmic.ph/"
             },
             {
@@ -365,7 +367,7 @@
                     "Role description 2",
                     "Role description 3"
                 ],
-                "image": "",
+                "image": "BITBO AI.png",
                 "link": ""
             },
             {
@@ -382,7 +384,7 @@
                     "Collaborated within an Agile environment, perfectly aligning UX/UI design mockups with front-end code execution to ensure high-quality delivery.",
                     "Authored detailed system documentation—including UX wireframes, process workflows, database schemas, and QA testing procedures—guaranteeing complete project traceability."
                 ],
-                "image": "",
+                "image": "Caffeinated POS & KDS System.png",
                 "link": ""
             },
             {
@@ -396,7 +398,7 @@
                     "Managed the full software development lifecycle using Agile methodologies, ensuring seamless integration between complex AI backend processes and an intuitive user interface.",
                     "Authored comprehensive technical documentation and API specifications to establish robust system reliability and support future scalability."
                 ],
-                "image": "",
+                "image": "Checkmate.jpg",
                 "link": ""
             },
             {
@@ -410,7 +412,7 @@
                     "Managed the full software development lifecycle using Agile methodologies, ensuring seamless integration between the Firebase backend infrastructure and an intuitive mobile user interface.",
                     "Authored comprehensive technical documentation, database schemas, and system workflows to establish robust reliability and support future application scalability."
                 ],
-                "image": "",
+                "image": "MahuSCI.png",
                 "link": ""
             },
             {
@@ -424,7 +426,7 @@
                     "Built intuitive user dashboards enabling pharmacists to easily process transactions, track real-time stock levels, and manage supplier data.",
                     "Authored all core system documentation independently, including workflow diagrams, database schemas, and custom SQL queries."
                 ],
-                "image": "",
+                "image": "Purehealth.png",
                 "link": ""
             },
             {
@@ -440,7 +442,7 @@
                     "Created user-centric UI/UX mockups aimed at reducing manual tasks, minimizing errors, and speeding up guest transactions.",
                     "Authored all core system documentation, including UX wireframes, workflow diagrams, and module specifications, to ensure seamless development."
                 ],
-                "image": "",
+                "image": "Serenitel.png",
                 "link": ""
             }
         ]
@@ -460,7 +462,7 @@
                     "Handled backend functions related to user management and system logic.",
                     "Developed core features including RE:Connect, RE:Read, RE:Cover, RE:Flect, and RE:Live."
                 ],
-                "image": "",
+                "image": "RESTART.png",
                 "link": ""
             },
             {
@@ -473,7 +475,7 @@
                     "Created the overall layout and visual structure of the system.",
                     "Developed user-friendly booking and reservation pages."
                 ],
-                "image": "",
+                "image": "Dungeon Hotel.png",
                 "link": ""
             },
             {
@@ -486,7 +488,7 @@
                     "Developed the overall UI and reporting pages of the system.",
                     "Implemented a voice command feature for user interaction."
                 ],
-                "image": "",
+                "image": "Crime-Reporting.png",
                 "link": ""
             },
             {
@@ -499,7 +501,7 @@
                     "Created the layout for payroll viewing and management.",
                     "Connected frontend components to backend systems for data handling."
                 ],
-                "image": "",
+                "image": "Payroll.png",
                 "link": ""
             },
             {
@@ -512,7 +514,7 @@
                     "Created UI designs for route, driver, and bus management modules.",
                     "Ensured consistent design and usability across the system."
                 ],
-                "image": "",
+                "image": "BusOperation.png",
                 "link": ""
             },
             {
@@ -526,7 +528,7 @@
                     "Prepared and maintained all technical and project documentation.",
                     "Applied security controls and contributed to security policies and standards."
                 ],
-                "image": "",
+                "image": "PupInventory.png",
                 "link": ""
             },
             {
@@ -541,7 +543,7 @@
                     "Optimized input handling and data entry workflows.",
                     "Enhanced user experience by reducing errors and improving form usability."
                 ],
-                "image": "",
+                "image": "FlorDeGrace.png",
                 "link": ""
             }
         ]
@@ -558,7 +560,7 @@
                     "Led the frontend architecture, focusing on highly interactive and responsive user experiences.",
                     "Translated complex Figma prototypes into functional, efficient, and accessible web code."
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -570,7 +572,19 @@
                     "Developed an intuitive and responsive user interface for searching, booking, and managing hotel room reservations.",
                     "Implemented interactive booking forms with real-time date selection and client-side validation for a seamless user experience."
                 ],
-                "image": "",
+                "image": "Dungeon Hotel.png",
+                "link": ""
+            },
+            {
+                "name": "Crime Reporting System",
+                "role": [
+                    "Frontend Developer"
+                ],
+                "description": [
+                    "Designed the UI/UX interface and implemented accessibility features for easier reporting.",
+                    "Added security features for the frontend side, including input validation, secure data handling practices, and alarms."
+                ],
+                "image": "Crime-Reporting.png",
                 "link": ""
             },
             {
@@ -582,7 +596,7 @@
                     "",
                     ""
                 ],
-                "image": "",
+                "image": "BITBO AI.png",
                 "link": ""
             }
         ]
@@ -600,7 +614,7 @@
                     "Engineered intuitive layouts and component pages to ensure clear navigation and high-clarity data that is easy to understand.",
                     "Collaborated to bridge design and code, ensuring every feature was functional, efficient, and matched the original plan perfectly."
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -615,7 +629,7 @@
                     "Built reusable UI component libraries to maintain consistency and streamline development.",
                     "Created system architectures and flowcharts to map out technical logic and user journeys."
                 ],
-                "image": "",
+                "image": "Purehealth.png",
                 "link": ""
             },
             {
@@ -628,7 +642,7 @@
                     "Merged the work of the development team, ensuring all progress was smoothly integrated into an organized, high-performance system.",
                     "Collaborated directly with the team to continuously improve system quality, resulting in faster performance and a smoother user experience."
                 ],
-                "image": "",
+                "image": "FaithHopeLove.png",
                 "link": ""
             },
             {
@@ -641,7 +655,7 @@
                     "Engineered intuitive layouts and component pages to ensure clear navigation and high-clarity data that is easy to understand.",
                     "Collaborated directly with the team to continuously improve system quality, resulting in faster performance and a smoother user experience."
                 ],
-                "image": "",
+                "image": "BitboPortal.png",
                 "link": ""
             },
             {
@@ -654,7 +668,7 @@
                     "Maintained the user interface and fixed field validations, ensuring all forms were secure, functional, and error-free.",
                     "Optimized input handling and data entry flows to prevent user errors and ensure a seamless experience."
                 ],
-                "image": "",
+                "image": "FlorDeGrace.png",
                 "link": ""
             },
             {
@@ -667,7 +681,7 @@
                     "Developed essential features, including data exporting, favorites, and add-to-cart functionality to enhance system utility.",
                     "Implemented comprehensive field validations, ensuring accurate data entry and a secure, error-free user experience."
                 ],
-                "image": "",
+                "image": "GfmicEcommerce.png",
                 "link": ""
             },
             {
@@ -681,7 +695,7 @@
                     "Engineered all core functions, including data processing and interactive features, ensuring a high-performance and reliable system.",
                     "Implemented Role-Based Access Control (RBAC), managing secure permissions and collaborating with the team to meet all technical goals."
                 ],
-                "image": "",
+                "image": "LaurelcrestHighSchool.png",
                 "link": ""
             },
             {
@@ -696,7 +710,7 @@
                     "Led the development of integrated attendance and library management systems, analyzing complex workflows and translating requirements into technical solutions.",
                     "Headed frontend development and UI design, transforming prototypes into a responsive, high-performance interface with robust field validations."
                 ],
-                "image": "",
+                "image": "Novella.png",
                 "link": ""
             },
             {
@@ -711,7 +725,7 @@
                     "Led the development of integrated attendance and library management systems, analyzing complex workflows and translating requirements into technical solutions.",
                     "Headed frontend development and UI design, transforming prototypes into a responsive, high-performance interface with robust field validations."
                 ],
-                "image": "",
+                "image": "Presenza.png",
                 "link": ""
             },
             {
@@ -725,7 +739,7 @@
                     "Managed the full SDLC, bridging the gap between Firebase backend infrastructure and a high-performance mobile interface.",
                     "Authored technical documentation and database schemas, establishing a robust foundation for system reliability and future scalability."
                 ],
-                "image": "",
+                "image": "Itechtionary.png",
                 "link": ""
             },
             {
@@ -740,7 +754,7 @@
                     "Established design systems and UI standards, creating reusable components to ensure visual consistency and development efficiency.",
                     "Directed the transition from design to implementation, overseeing frontend execution and ensuring high-performance interface standards."
                 ],
-                "image": "",
+                "image": "Serenitel.png",
                 "link": ""
             }
         ]
@@ -759,7 +773,7 @@
                     "Frontend Development: Built modular, reusable web pages.",
                     "Interactivity: Implemented animations and transitions to create a seamless and dynamic user interface."
                 ],
-                "image": "",
+                "image": "Serenitel.png",
                 "link": ""
             },
             {
@@ -773,7 +787,7 @@
                     "Frontend Development: Built modular, reusable pages.",
                     "Interactivity: Implemented animations and transitions to create a seamless and dynamic user interface."
                 ],
-                "image": "",
+                "image": "Purehealth.png",
                 "link": ""
             },
             {
@@ -787,7 +801,7 @@
                     "Engineered backend infrastructure by integrating Firebase for real-time database management, user authentication, and cloud storage.",
                     "Optimized user engagement through the implementation of custom animations, seamless page transitions, and intuitive navigation logic within the FlutterFlow ecosystem."
                 ],
-                "image": "",
+                "image": "SaFilipino.png",
                 "link": ""
             },
             {
@@ -801,7 +815,7 @@
                     "Frontend Development: Developed responsive and dynamic web pages within the Laravel framework, ensuring clean code through the use of Blade components and modular styling.",
                     "Interactivity: Implemented  animations and transitions to create a seamless and dynamic user interface."
                 ],
-                "image": "",
+                "image": "Presenza.png",
                 "link": ""
             },
             {
@@ -815,7 +829,7 @@
                     "Role description 3Frontend Development: Developed responsive and dynamic web pages within the Laravel framework, ensuring clean code through the use of Blade components and modular styling.",
                     "Interactivity: Implemented animations and transitions to create a seamless and dynamic user interface."
                 ],
-                "image": "",
+                "image": "Novella.png",
                 "link": ""
             },
             {
@@ -828,7 +842,7 @@
                     "Full-Stack Connectivity: Developed and secured API routes to ensure synchronized data flow across the entire application ecosystem.",
                     "Third-Party Integration: Successfully integrated external APIs to extend system functionality and enhance user experience."
                 ],
-                "image": "",
+                "image": "GfmicEcommerce.png",
                 "link": ""
             },
             {
@@ -842,9 +856,8 @@
                     "Frontend Development: Architected a dynamic web pages using React, ensuring a seamless and high-performance user experience.",
                     "Interactivity: Implemented animations and transitions to create a seamless and dynamic user interface."
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
-
             }
         ]
     },
@@ -861,7 +874,7 @@
                     "Implemented user authentication, pet listing management, and adoption request workflows.",
                     "Designed an intuitive interface to improve accessibility for shelters and prospective adopters."
                 ],
-                "image": "",
+                "image": "SecondChances.png",
                 "link": ""
             },
             {
@@ -874,7 +887,7 @@
                     "Designed interactive map-based challenges to enhance user engagement and spatial reasoning skills.",
                     "Implemented data visualization features to present real-world geographic information intuitively."
                 ],
-                "image": "",
+                "image": "GeoSensei.png",
                 "link": ""
             },
             {
@@ -887,7 +900,7 @@
                     "Architecting a blockchain integration module to ensure 100% data immutability and secure transaction logging.",
                     "Designing a user-friendly interface to simplify the monitoring of complex datasets."
                 ],
-                "image": "",
+                "image": "OnlineOrderingSystem.png",
                 "link": ""
             },
             {
@@ -900,7 +913,7 @@
                     "Engineered a library of reusable frontend components to accelerate development cycles and maintain code consistency.",
                     "Optimized the frontend architecture to ensure a seamless and efficient user experience for inventory management."
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -913,7 +926,7 @@
                     "Collaborated directly with the development team to troubleshoot issues, validate system fixes, and deploy user-facing enhancements.",
                     "Identified, documented, and tracked software bugs to continuously improve overall system quality."
                 ],
-                "image": "",
+                "image": "FaithHopeLove.png",
                 "link": ""
             },
             {
@@ -939,7 +952,7 @@
                     "Overhauled the UI of an integrated digital health platform to improve multi-hospital patient record management and doctor discovery.",
                     "Designed responsive and intuitive frontend workflows for appointment booking, an online pharmacy, integrated lab payments, and real-time doctor-patient chat."
                 ],
-                "image": "",
+                "image": "PureCare.png",
                 "link": ""
             }
         ]
@@ -957,8 +970,8 @@
                     "Implemented form validations and input handling to ensure data accuracy and improve user experience.",
                     "Identified, debugged, and resolved frontend issues to enhance system stability and performance.",
                     "Collaborated with the backend team to integrate APIs and ensure smooth data flow."
-                    ],
-                "image": "",
+                ],
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -970,8 +983,8 @@
                     "Designed and developed interactive UI components for learning and mentorship features.",
                     "Implemented responsive layouts to support multiple devices and screen sizes.",
                     "Worked closely with the team to enhance user engagement through intuitive design and navigation."
-                    ],
-                "image": "",
+                ],
+                "image": "GfmicLmsMpms.png",
                 "link": ""
             },
             {
@@ -983,11 +996,11 @@
                     "Built both frontend and backend functionalities including booking, room management, and user authentication.",
                     "Developed RESTful APIs and integrated them with the frontend interface.",
                     "Managed database structure and ensured efficient data handling for hotel operations."
-                    ],
-                 "image": "",
+                ],
+                "image": "",
                 "link": ""
-             },
-             {
+            },
+            {
                 "name": "Bus Ticketing System",
                 "role": [
                     "Front-End Developer"
@@ -996,10 +1009,10 @@
                     "Created responsive booking interfaces for ticket selection and reservation.",
                     "Improved user experience by simplifying navigation and form interactions.",
                     "Integrated frontend components with backend services for real-time data updates."
-                    ],
+                ],
                 "image": "",
                 "link": ""
-             }
+            }
         ]
     },
     {
@@ -1013,7 +1026,7 @@
                 "description": [
                     "Developed and maintained backend functionalities for the Request and Order module, including request submission and approval processes for request asset and maintenance. "
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -1048,7 +1061,7 @@
                 "description": [
                     "Developed a Point of Sale (POS) integrated with Food Ordering Portal, and Kitchen Display System,ensuring seamless communication from order placement to kitchen preparation and payment."
                 ],
-                "image": "",
+                "image": "Caffeinated POS & KDS System.png",
                 "link": ""
             },
             {
@@ -1060,7 +1073,7 @@
                 "description": [
                     "Developed a Point of Sale (POS) integrated with Food Ordering Portal, and Kitchen Display System,ensuring seamless communication from order placement to kitchen preparation and payment."
                 ],
-                "image": "",
+                "image": "Caffeinated POS & KDS System.png",
                 "link": ""
             }
         ]
@@ -1079,7 +1092,7 @@
                     "Role description 2",
                     "Role description 3"
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -1093,7 +1106,7 @@
                     "Role description 2",
                     "Role description 3"
                 ],
-                "image": "",
+                "image": "GfmicLmsMpms.png",
                 "link": ""
             },
             {
@@ -1107,7 +1120,7 @@
                     "Role description 2",
                     "Role description 3"
                 ],
-                "image": "",
+                "image": "BITBO AI.png",
                 "link": ""
             },
             {
@@ -1121,7 +1134,7 @@
                     "Role description 2",
                     "Role description 3"
                 ],
-                "image": "",
+                "image": "HotelOnlineBookingSystem.png",
                 "link": ""
             },
             {
@@ -1135,7 +1148,7 @@
                     "Role description 2",
                     "Role description 3"
                 ],
-                "image": "",
+                "image": "PropertyManagementSystem.png",
                 "link": ""
             },
             {
@@ -1149,7 +1162,7 @@
                     "Role description 2",
                     "Role description 3"
                 ],
-                "image": "",
+                "image": "DeepLeaningWasteSegragation.png",
                 "link": ""
             }
         ]
@@ -1165,7 +1178,7 @@
                 "description": [
                     "Developed and maintained backend functionalities for the Request and Order module, including request submission and approval processes for request asset and maintenance. "
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -1176,7 +1189,7 @@
                 "description": [
                     "Developed and implemented key modules of the Bus Operations Management System covering route management, bus assignment, rentals, maintenance, performance tracking, reporting and oversaw the deployment process."
                 ],
-                "image": "",
+                "image": "BusOperation.png",
                 "link": ""
             },
             {
@@ -1188,7 +1201,7 @@
                     "Architected the system’s overall structure and designed its user interface.",
                     "Managed backend processes, including user authentication and core system functionality."
                 ],
-                "image": "",
+                "image": "TimeWise.jpg",
                 "link": ""
             },
             {
@@ -1199,7 +1212,7 @@
                 "description": [
                     "Contributed to the development of a Hotel Management System with functionalities including room booking, guest management, billing, and reporting."
                 ],
-                "image": "",
+                "image": "Dungeon Hotel.png",
                 "link": ""
             },
             {
@@ -1210,7 +1223,7 @@
                 "description": [
                     "Contributed to the development of a case report management system featuring report management, assignment tracking, and personnel allocation, supporting organized and efficient operational processes."
                 ],
-                "image": "",
+                "image": "Crime-Reporting.png",
                 "link": ""
             }
         ]
@@ -1227,7 +1240,7 @@
                     "Engineered the Authentication and Role Management Module using Python Django that establishes a secure and granular RBAC (Role-Based Access Control) architecture for multiple university campuses.",
                     "Developed automated account security protocols, including complexity enforcement, forced password resets, and account lockout policies to guarantee institutional data integrity."
                 ],
-                "image": "",
+                "image": "SmartTrack.png",
                 "link": ""
             },
             {
@@ -1242,10 +1255,10 @@
                     "Spearheaded DevSecOps implementation by containerizing the application suite with Docker and configuring Nginx as a reverse proxy for production-ready deployment on a cloud VPS.",
                     "Collaborated cross-functionally in the development lifecycle within an Agile Scrum framework using Jira, actively contributing to sprint planning, risk register management, and high-level technical collaboration with PM, BA, and QA teams."
                 ],
-                "image": "",
+                "image": "GfmicLmsMpms.png",
                 "link": ""
             },
-             {
+            {
                 "name": "ThreatGrid — Multi-Modal Threat Detection Platform ",
                 "role": [
                     "Full Stack Developer"
@@ -1255,10 +1268,10 @@
                     "Developed high-performance REST APIs using Python FastAPI and a responsive frontend with React.js.",
                     "Produced full technical documentation including RTM, BRD, Test Cases, and Data Architecture diagrams to meet industry compliance standards."
                 ],
-                "image": "",
+                "image": "ThreatGrid.png",
                 "link": ""
-             },
-             {
+            },
+            {
                 "name": "QloApps (Open Source Contribution) ",
                 "role": [
                     "Contributor"
@@ -1267,10 +1280,10 @@
                     "Forked and enhanced a containerized open-source hotel reservation engine using PHP and MySQL.",
                     "Developed a custom Housekeeping Management module workflow to improve operational efficiency."
                 ],
-                "image": "",
+                "image": "QloApps.png",
                 "link": ""
-             },
-             {
+            },
+            {
                 "name": "BITBo (Barangay IT Robot) Portal",
                 "role": [
                     "Backend Developer"
@@ -1279,11 +1292,9 @@
                     "Engineered the end-to-end Request for Download and Request for Demo workflows, implementing server-side validation and automated status tracking to manage the distribution of the BITBo executable file.",
                     "Configured and optimized a dedicated demo environment, allowing potential users to interact with a sandboxed version of the platform to experience automated documentation and local government service workflows firsthand."
                 ],
-                "image": "",
+                "image": "BitboPortal.png",
                 "link": ""
-
-             }
-            
+            }
         ]
     },
     {

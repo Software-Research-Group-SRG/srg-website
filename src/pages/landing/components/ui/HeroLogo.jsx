@@ -1,6 +1,6 @@
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useState } from "react";
-const SrgLogo1 = "/SrgLogo.png";
+const SrgLogo1 = "/srgLogo.png";
 
 export const HeroLogo = () => {
     const [isHovered, setIsHovered] = useState(false);
