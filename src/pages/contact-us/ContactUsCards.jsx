@@ -1,5 +1,5 @@
 import React from "react";
-import contactusbg from "../../assets/contact-us/bg-card-contactUs.png";
+
 import { EnvelopeIcon, BuildingOfficeIcon } from '@heroicons/react/24/solid';
 
 import contactUs from '../../data/contactUs.json';
@@ -52,7 +52,7 @@ function FlipContactCard({ contact }) {
                     {/* Blue/Graphic Header */}
                     <div className="h-1/2 w-full relative flex items-center justify-center">
                         {/* You can use a smaller version of groupPhoto or a gradient here */}
-                        <img src={contactusbg} className="absolute inset-0 w-full h-full object-cover" alt="bg" />
+                        <img src="/assets/contact-us/bg-card-contactUs.png" className="absolute inset-0 w-full h-full object-cover" alt="bg" />
 
                         {/* Floating Icon Circle */}
                         <div className={`absolute -bottom-8 p-3 rounded-full shadow-md z-10 ${contact.bgColor}`}>

@@ -2,9 +2,9 @@ import React from 'react';
 
 const SectionHeader = ({ id = "", title = "", className = "" }) => {
     return (
-        <div className={`mb-15 w-full ${className}` }>
-            <div 
-            className="
+        <div className={`mb-15 w-full ${className}`}>
+            <div
+                className="
                 flex 
                 items-center 
                 justify-center 
@@ -17,24 +17,24 @@ const SectionHeader = ({ id = "", title = "", className = "" }) => {
                 backdrop-blur-xl 
                 drop-shadow-futuristic-stroke
             "
-            style={{
-                boxShadow: 'inset 0 0 15px rgba(255, 255, 255, 0.05)',
-            }}
-            >
-
-            <span className="text-white/40 tracking-[0.2em] hidden sm:block whitespace-nowrap">
-                --------------------- //
-            </span>
-
-            <p 
-                className="text-[10px] sm:text-sm font-medium uppercase text-white tracking-[0.15em] sm:tracking-[0.3em] whitespace-nowrap"
                 style={{
-                    fontFamily: 'var(--font-family-title)',
-                    textShadow: '0 0 8px rgba(255, 255, 255, 0.3)' 
+                    boxShadow: 'inset 0 0 15px rgba(255, 255, 255, 0.05), 0 0 20px rgba(49, 133, 255, 0.15), 0 0 40px rgba(49, 133, 255, 0.08)',
                 }}
             >
-                <span className="font-bold">{id}</span> - {title}
-            </p>
+
+                <span className="text-white/40 tracking-[0.2em] hidden sm:block whitespace-nowrap">
+                    --------------------- //
+                </span>
+
+                <p
+                    className="text-[10px] sm:text-sm font-medium uppercase text-white tracking-[0.15em] sm:tracking-[0.3em] whitespace-nowrap"
+                    style={{
+                        fontFamily: 'var(--font-family-title)',
+                        textShadow: '0 0 8px rgba(255, 255, 255, 0.3)'
+                    }}
+                >
+                    <span className="font-bold">{id}</span> - {title}
+                </p>
             </div>
         </div>
     );

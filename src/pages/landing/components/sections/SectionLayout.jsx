@@ -1,11 +1,11 @@
 function SectionLayout({ subtitle, title, description, children, className = '' }) {
   return (
-    <section className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-25">
+    <section className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 lg:py-24">
       {/* ── Header ── */}
       {subtitle && <p className="section-subtitle mb-5">{subtitle}</p>}
       {title && <h2 className="section-title mb-4">{title}</h2>}
       {description && (
-        <p className="text-md text-gray-300 mb-10 max-w-xl">{description}</p>
+        <p className="text-sm md:text-base text-gray-300 mb-10 max-w-xl">{description}</p>
       )}
 
       {/* ── Body ── */}

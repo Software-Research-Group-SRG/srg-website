@@ -18,7 +18,7 @@ function GenerationsSection() {
     ).flat();
 
     return (
-        <SectionLayout subtitle="----// 004 - SRG THROUGH GENERATIONS">
+        <SectionLayout subtitle={"----// 004 - SRG THROUGH GENERATIONS"}>
             {/* Curved Carousel */}
             <CurvedCarousel
                 items={carouselSlides}
@@ -35,40 +35,24 @@ function GenerationsSection() {
                 )}
             />
 
-                {/* Curved Carousel */}
-                <CurvedCarousel
-                    items={SLIDES}
-                    className="h-[350px] w-full sm:h-[450px] lg:h-[500px]"
-                    onActiveIndexChange={setActiveIndex}
-                    onSwiper={setSwiperInstance}
-                    renderSlide={(item, index) => (
-                        <PhotoSlide
-                            item={item}
-                            isActive={SLIDES[activeIndex]?.id === item.id}
-                        />
-                    )}
-                />
+            {/* Navigation */}
+            <CarouselNav
+                count={SLIDES.length}
+                activeIndex={activeIndex}
+                onPrev={() => swiperInstance?.slidePrev()}
+                onNext={() => swiperInstance?.slideNext()}
+                onDotClick={(i) => swiperInstance?.slideToLoop(i)}
+            />
 
-                {/* Navigation */}
-                <CarouselNav
-                    count={SLIDES.length}
-                    activeIndex={activeIndex}
-                    onPrev={() => swiperInstance?.slidePrev()}
-                    onNext={() => swiperInstance?.slideNext()}
-                    onDotClick={(i) => swiperInstance?.slideToLoop(i)}
-                />
-
-                {/* Caption */}
-                <AnimatedText
-                    lines={[
-                        "The Twelve Generation of Student Innovators,",
-                        "Cultivating Excellence, Leadership,",
-                        "and Real World Readiness."
-                    ]}
-                    className="text-center text-lg md:text-xl lg:text-2xl font-semibold mt-6"
-                />
-
-            </div>
+            {/* Caption */}
+            <AnimatedText
+                lines={[
+                    "The Twelve Generation of Student Innovators,",
+                    "Cultivating Excellence, Leadership,",
+                    "and Real World Readiness."
+                ]}
+                className="text-center text-lg md:text-xl lg:text-2xl font-semibold mt-6"
+            />
         </SectionLayout>
     );
 }

@@ -2,170 +2,292 @@
     {
         "id": "crystalyn-danga",
         "name": "Crystalyn R. Danga",
-        "photo": null,
+        "photo": "Danga.jpg",
         "role": "Project Manager",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "IT Business Analyst | Software QA Tester",
+        "skills": [
+            "Software Testing",
+            "IT Business Analysis",
+            "SDLC",
+            "Agile Methodology",
+            "Bug Tracking",
+            "Problem-Solving",
+            "System Analysis & Design",
+            "Workflow & Process Design",
+            "Data Analysis",
+            "Risk Assessment",
+            "Information Security",
+            "Attention to Detail"
+        ],
+        "about": "Bachelor of Science in Information Technology at PUP QC, with hands-on experience in Business Analysis, Quality Assurance, and system development. Has taken on multiple roles including Business Analyst, Project Manager, Quality Assurance Tester, Scrum Master, and Backend Developer, contributing to the development of enterprise and academic systems across various domains.\n\nDemonstrates a strong specialization in Quality Assurance, strengthened by active involvement in Business Analysis, system design, and product development. By participating early in requirement gathering, workflow design, and feature planning, brings deeper context into testing—ensuring that systems are validated not only for functionality, but also for usability, logical consistency, and real-world application.\n\nSkilled in translating business requirements into structured workflows, defining clear acceptance criteria, and designing comprehensive test cases that capture both user experience and technical behavior. This approach enables early detection of gaps, improved system design, and delivery of reliable, user-centered solutions.\n\nPossesses a solid technical foundation in full-stack development and system architecture, enabling effective collaboration with developers and a clear understanding of system constraints, edge cases, and implementation details. Experienced in Agile methodologies, including sprint planning, backlog management, and cross-functional coordination to ensure quality is embedded throughout the development lifecycle.\n\nThrives at the intersection of Business Analysis and Quality Assurance—where understanding both user needs and technical systems enables the delivery of scalable, efficient, and high-quality digital solutions.",
         "experienceID": "crystalyn-danga",
         "indivProjectID": "crystalyn-danga"
     },
     {
         "id": "shanella-cagulang",
         "name": "Shanella A. Cagulang",
-        "photo": null,
+        "photo": "Cagulang.jpg",
         "role": "Project Manager",
-        "status": "member",
+        "status": "Overall Leader | Business Analyst | Project Manager",
         "skills": [
-            "Frontend Developer",
-            "Web Developer",
-            "Mobile Application Developer",
-            "UI/UX Designer"
+            "Project Management",
+            "Business Analysis",
+            "Data Analysis",
+            "Agile Methodology",
+            "Sprint Planning",
+            "Power BI",
+            "Risk Assessment"
         ],
-        "about": "",
+        "about": "Bachelor of Science in Information Technology student at PUP Quezon City with hands-on experience in web development, project management, and business analysis. Skilled in Agile methodologies, with a track record of leading cross-functional teams to deliver end-to-end software solutions. Passionate about creating efficient, user-focused systems and technical documentation.",
         "experienceID": "shanella-cagulang",
         "indivProjectID": "shanella-cagulang"
     },
     {
         "id": "yesha-perez",
         "name": "Yesha M. Perez",
-        "photo": null,
+        "photo": "Perez.png",
         "role": "Quality Assurance",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Quality Assurance",
+        "skills": [
+            "Automation Testing",
+            "Manual Testing",
+            "UI/UX Design",
+            "Technical Documentation",
+            "ReactJS Foundation",
+            "Test Planning & Strategy",
+            "Bug Tracking"
+        ],
+        "about": "Bachelor of Science in Information Technology student at PUP Quezon City with a strong focus on Quality Assurance, UI/UX Design, and Technical Documentation. Passionate and skilled about ensuring system quality, enhancing user experience, and producing clear, well-structured documentation.",
         "experienceID": "yesha-perez",
         "indivProjectID": "yesha-perez"
     },
     {
         "id": "kim-cabaylo",
         "name": "Kimberly Nicole C. Cabaylo",
-        "photo": null,
+        "photo": "Cabaylo.png",
         "role": "Project Manager",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Internal Projects Lead | Quality Assurance",
+        "skills": [
+            "Automation Testing",
+            "Manual Testing",
+            "Test Planning & Strategy",
+            "Bug Tracking",
+            "UI/UX Design",
+            "Project Management",
+            "Business Analysis",
+            "Agile Method",
+            "Sprint Planning",
+            "Information Security",
+            "Risk Assessment",
+            "Technical Documentation"
+        ],
+        "about": "A Bachelor of Science in Information Technology student from the Polytechnic University of the Philippines – Quezon City Campus, with a strong passion for building reliable and user-focused digital solutions. Gained practical experience in both Quality Assurance and Business Analysis, developing a mindset that values precision, clarity, and continuous improvement throughout the development process.\n\nDeveloped a focus on Quality Assurance by actively participating beyond testing getting involved in requirement discussions, process design, and feature planning. This exposure provides a deeper understanding of user expectations and business objectives, making it possible to evaluate systems not only for correctness but also for usability and overall effectiveness in real-world scenarios. Experienced in analyzing business needs and converting them into organized workflows, well-defined acceptance criteria, and detailed test cases. Takes a proactive approach in identifying gaps early, helping teams avoid costly revisions and ensuring that solutions are both functional and meaningful to end users.\n\nMotivated to grow in the space where Business Analysis and Quality Assurance meet using both analytical thinking and technical knowledge to contribute to systems.",
         "experienceID": "kim-cabaylo",
         "indivProjectID": "kim-cabaylo"
     },
     {
         "id": "miyuki-parocha",
         "name": "Miyuki Mharie C. Parocha",
-        "photo": null,
+        "photo": "Parocha.png",
         "role": "Quality Assurance",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Quality Assurance",
+        "skills": [
+            "Automation Testing",
+            "Manual Testing",
+            "System Documentation",
+            "UI/UX Design",
+            "Test Planning & Strategy",
+            "Bug Tracking",
+            "Attention to Detail",
+            "Communication Skills"
+        ],
+        "about": "A Bachelor of Science in Information Technology (BSIT) student at the Polytechnic University of the Philippines – Quezon City. I am currently building my expertise in Software Quality Assurance, with a focus on bug tracking, test case creation, and ensuring system reliability. I am passionate about delivering high-quality user experiences and continuously improving my technical and analytical skills to thrive in the ever-evolving tech industry.",
         "experienceID": "miyuki-parocha",
         "indivProjectID": "miyuki-parocha"
     },
     {
         "id": "yuan-evangelista",
         "name": "Yuan Exequiel R. Evangelista",
-        "photo": null,
+        "photo": "Evangelista.png",
         "role": "Document Analyst",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Document Analyst",
+        "skills": [
+            "Document Analyst",
+            "Information Security",
+            "Graphic Designer",
+            "web Designer",
+            "Video Editing",
+            "Film Directing"
+        ],
+        "about": "Information Technology student at the Polytechnic University of the Philippines – Quezon City Branch. He has a strong passion for video editing, film direction, and web design, and is committed to refining his skills in these creative fields. With a focus on mastering the art of editing and directing films, as well as crafting visually engaging websites, Yuan strives to blend technical expertise with creativity. His goal is to become a versatile professional with a well-rounded skill set in both the tech and creative aspects of web development and filmmaking.",
         "experienceID": "yuan-evangelista",
         "indivProjectID": "yuan-evangelista"
     },
     {
         "id": "brian-caube",
         "name": "Brian S. Caube",
-        "photo": null,
+        "photo": "Caube.png",
         "role": "Software Developer",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Frontend Developer",
+        "skills": [
+            "Frontend Developer",
+            "Web Developer",
+            "Graphic Designer",
+            "UI/UX Designer",
+            "Power BI"
+        ],
+        "about": "Fourth-year Bachelor of Science in Information Technology student at PUP Quezon City with hands-on experience in frontend web development, UI/UX design, and creative leadership. Skilled in modern web frameworks and design tools, with a track record of directing creative teams and contributing to robust software solutions. Passionate about crafting visually compelling digital identities and building efficient, user-focused applications.",
         "experienceID": "brian-caube",
         "indivProjectID": "brian-caube"
     },
     {
         "id": "althea-asis",
         "name": "Althea Amor J. Asis",
-        "photo": null,
+        "photo": "Asis.png",
         "role": "Software Developer",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Frontend Developer",
+        "skills": [
+            "Frontend Developer",
+            "Web Developer",
+            "Mobile Application Developer",
+            "UI/UX Designer"
+        ],
+        "about": "Fourth-year Bachelor of Science in Information Technology (BSIT) student at Polytechnic University of the Philippines with growing experience in frontend development and UI/UX design. Passionate about creating responsive, user-friendly, and visually engaging digital interfaces that enhance user experience and support functional system performance. Continuously developing technical and creative skills through academic projects, collaborative system development, and hands-on practice in modern web technologies. Interested in applying design principles, usability standards, and problem-solving approaches to build digital solutions that are both effective and accessible. Eager to expand professional experience and contribute to projects that require both technical implementation and user-centered thinking.",
         "experienceID": "althea-asis",
         "indivProjectID": "althea-asis"
     },
     {
         "id": "nadine-borja",
         "name": "Ma. Nadine A. Borja",
-        "photo": null,
+        "photo": "Borja.jpeg",
         "role": "Software Developer",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Frontend Developer",
+        "skills": [
+            "Frontend Developer",
+            "Web Developer",
+            "UI/UX Designer",
+            "Low-Code/No-Code Developer"
+        ],
+        "about": "Final-year Information Technology student at Polytechnic University of the Philippines - Quezon City with a foundational background in full-stack development and UI/UX design. Through various academic projects, I have developed a solid understanding of the software development lifecycle, from designing interfaces in Figma to implementing backend logic. While my academic experience is rooted in system development, I am passionately pivoting toward Quality Assurance (QA) and Cybersecurity.",
         "experienceID": "nadine-borja",
         "indivProjectID": "nadine-borja"
     },
     {
         "id": "regie-magtangob",
         "name": "Mark Regie A. Magtangob",
-        "photo": null,
+        "photo": "Magtangob.jpg",
         "role": "Software Developer",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Frontend Developer",
+        "skills": [
+            "Frontend Developer",
+            "UI/UX Design",
+            "Information Security",
+            "Computer Networking",
+            "Web Development",
+            "Mobile Application Developer",
+            "Linux"
+        ],
+        "about": "Fourth-year Bachelor of Science in Information Technology student at Polytechnic University of the Philippines Quezon City with a strong focus on building user-friendly web applications. Highly skilled in frontend development, with a passion for designing clean, responsive, and easy-to-navigate interfaces. Alongside web development, carries a deep interest in computer networking and IT infrastructure.",
         "experienceID": "regie-magtangob",
         "indivProjectID": "regie-magtangob"
     },
     {
         "id": "ellen-sinday",
         "name": "Ellen Grace Sinday",
-        "photo": null,
+        "photo": "Sinday.jpg",
         "role": "Software Developer",
-        "status": "member",
-        "skills": [],
-        "about": "",
-        "experienceID": "ellen-sinday",
+        "status": "Frontend Developer",
+        "skills": [
+            "Frontend Development",
+            "Web Development",
+            "Mobile Application Development",
+            "React.js",
+            "Next.js",
+            "Information Security",
+            "UI/UX Design"
+        ],
+        "about": "Fourth-year Bachelor of Science in Information Technology (BSIT) student at the Polytechnic University of the Philippines with hands-on experience in frontend development across multiple system projects. Focused on building responsive, user-friendly, and visually consistent interfaces that enhance overall user experience and system usability.\n\nCurrently contributing as a frontend developer to projects such as StewardFM, PUP Repository, and PUP Inventory, where I work on implementing UI components, handling form validations, and improving interface functionality. I collaborate with team members to ensure that features are efficiently developed and aligned with user needs and system requirements.\n\nDetail-oriented and committed to continuous learning, I am also expanding my knowledge in backend development to become a more well-rounded developer. Eager to apply both technical and creative skills in developing effective and user-centered digital solutions.",
+        "experienceID": "Frontend Developer",
         "indivProjectID": "ellen-sinday"
     },
     {
         "id": "darben-lamonte",
         "name": "Darben V. Lamonte",
-        "photo": null,
+        "photo": "Lamonte.png",
         "role": "Software Developer",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Full Stack Developer",
+        "skills": [
+            "Python (Django/FastAPI)",
+            "C# (ASP.NET)",
+            "React.js",
+            "SQL",
+            "Data Engineering (ETL/ELT)",
+            "AI & NLP",
+            "Docker & Nginx",
+            "Microservices & API Design"
+        ],
+        "about": "I’m a passionate Software Developer with strong interest in building scalable, maintainable, and efficient applications. I focus on backend development, system design, and creating clean, reliable solutions that solve real-world problems.\nExperienced in Django, Laravel, SQL, and RESTful APIs, I specialize in server-side development, database architecture, and application integration. I continuously explore modern technologies and best practices to improve software quality and deliver impactful systems.",
         "experienceID": "darben-lamonte",
         "indivProjectID": "darben-lamonte"
     },
     {
         "id": "elisha-mier",
         "name": "Elisha Reign Mier",
-        "photo": null,
+        "photo": "Mier.jpg",
         "role": "Software Developer",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Full Stack Developer",
+        "skills": [
+            "Full Stack Development",
+            "UI/UX Design",
+            "NLP & Vector Search",
+            "Microservices",
+            "Rest API Integration",
+            "Exploratory Data Analysis",
+            "Unit Testing",
+            "System Architecture",
+            "Agile/Scrum"
+        ],
+        "about": "Aspiring ERP and SAP Solutions Developer with a focus on SAP ABAP, SAP Fiori, and Master Data Governance, currently completing a Bachelor of Science in Information Technology. Possesses full-stack development experience in building scalable, data-driven web applications using modern technologies, with strong expertise in database design, system architecture, and backend services. Experienced in data migration, integrity, and validation within enterprise-style systems, demonstrating a solid understanding of business process workflows and data governance principles. Additionally, has exposure to AI-driven solutions, including NLP-based semantic search, to enhance system intelligence. Passionate about developing scalable, efficient, and reliable enterprise systems that support organizational decision-making and operations.",
         "experienceID": "elisha-mier",
         "indivProjectID": "elisha-mier"
     },
     {
         "id": "rj-aquino",
         "name": "Richard Jason M. Aquino",
-        "photo": null,
+        "photo": "Aquino.jpg",
         "role": "Software Developer",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Backend Developer",
+        "skills": [
+            "Web Development",
+            "Agile/Scrum",
+            "Mobile Development"
+        ],
+        "about": "A Bachelor of Science in Information Technology student at Polytechnic University of the Philippines – Quezon City with experience in software development, specializing in backend systems, data management, and application logic. Skilled in API development and database management, with a strong commitment to continuous learning and tackling new challenges to further enhance technical expertise.",
         "experienceID": "rj-aquino",
         "indivProjectID": "rj-aquino"
     },
     {
         "id": "angel-olivarez",
         "name": "Angel E. Olivarez",
-        "photo": null,
+        "photo": "Olivarez.jpg",
         "role": "Software Developer",
-        "status": "member",
-        "skills": [],
-        "about": "",
+        "status": "Full Stack Developer",
+        "skills": [
+            "Python (Django/FastAPI))",
+            "C# (ASP.NET)",
+            "React.js",
+            "SQL",
+            "Data Engineering (ETL/ELT)",
+            "AI & NLP",
+            "Docker & Nginx",
+            "Azure Cloud",
+            "Microservices & API Design",
+            "Distributed Systems",
+            "Agile/Scrum",
+            "SDLC",
+            "Technical Documentation"
+        ],
+        "about": "A software developer specializing in fullstack development and enterprise data architectures. Experience includes building backend services using Python Django and C# ASP.NET, managed with SQL and DevSecOps practices (Docker/Azure). Driven by the challenge of architecting strong data infrastructures, the focus lies at the intersection of scalable software solutions, efficient ETL/ELT pipelines, and the deployment of AI-integrated systems within Agile and SDLC environments.",
         "experienceID": "angel-olivarez",
         "indivProjectID": "angel-olivarez"
     },
@@ -209,7 +331,6 @@
         "experienceID": "aliah-del-rosario",
         "indivProjectID": "aliah-del-rosario"
     },
-
     {
         "id": "rechelle-salas",
         "name": "Rechelle Ann Salas",
@@ -219,8 +340,7 @@
         "about": "",
         "experienceID": "Rechelle Ann Salas",
         "indivProjectID": "Rechelle Ann Salas"
-    }, 
-
+    },
     {
         "id": "rafael-parungao",
         "name": "Rafael Joar Parungao",
@@ -230,8 +350,7 @@
         "about": "",
         "experienceID": "Rafael Joar Parungao",
         "indivProjectID": "Rafael Joar Parungao"
-    }, 
-
+    },
     {
         "id": "jerriniash-alpajora",
         "name": "Jerriniash Alpajora",
@@ -242,7 +361,6 @@
         "experienceID": "jerriniash-alpajora",
         "indivProjectID": "jerriniash-alpajora"
     },
-
     {
         "id": "rozelle-de-omania",
         "name": "Rozelle De Omania",
@@ -253,7 +371,6 @@
         "experienceID": "rozelle-de-omania",
         "indivProjectID": "rozelle-de-omania"
     },
-
     {
         "id": "kimberly-kho",
         "name": "Kimberly Kho",
@@ -264,7 +381,6 @@
         "experienceID": "kimberly-kho",
         "indivProjectID": "kimberly-kho"
     },
-
     {
         "id": "jamme-jones-cera",
         "name": "Jamme Jones Cera",
@@ -275,9 +391,4 @@
         "experienceID": "jamme-jones-cera",
         "indivProjectID": "jamme-jones-cera"
     }
-
-
-
-    
-
 ]

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import srgLogo from "@/assets/srgLogo.png";
+
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -25,7 +25,7 @@ const NavBar = () => {
   return (
     <header className="w-full sticky top-0 z-50 bg-transparent backdrop-blur-md text-white">
 
-      <div className="max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-7 flex items-center justify-between">
+      <div className="max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-5 flex items-center justify-between">
 
         {/* Logo */}
         <div
@@ -35,7 +35,7 @@ const NavBar = () => {
           }}
           className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition"
         >
-          <img src={srgLogo} alt="SRG Logo" className="w-14 h-14 rounded-full" />
+          <img src="/srgLogo.png" alt="SRG Logo" className="w-14 h-14 rounded-full" />
           <h1 className="text-sm md:text-base font-semibold tracking-wide uppercase font-['Oxanium'] leading-tight">
             The Software Research <br className="md:hidden" />
             Group

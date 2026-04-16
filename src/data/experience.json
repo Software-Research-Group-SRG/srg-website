@@ -3,16 +3,28 @@
         "id": "crystalyn-danga",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
-                "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "position": "IT Business Analyst",
+                "company": "Software Research Group",
+                "dateFrom": "December 2025",
+                "dateTo": "Present"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "position": "Quality Assurance",
+                "company": "Software Research Group",
+                "dateFrom": "December 2025",
+                "dateTo": "Present"
+            },
+            {
+                "position": "Project Manager / Scrum Master",
+                "company": "Software Research Group",
+                "dateFrom": "December 2025",
+                "dateTo": "Present"
+            },
+            {
+                "position": "Research and Development Team Officer ",
+                "company": "Commonwealth Information Technology Society - PUPQC",
+                "dateFrom": "2024",
+                "dateTo": "2025"
             }
         ]
     },
@@ -20,16 +32,28 @@
         "id": "shanella-cagulang",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
-                "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "position": "Data Processing Assistant",
+                "company": "Hapinoy",
+                "dateFrom": "October 2022",
+                "dateTo": "October 2026"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "position": "President | Information Technology Society ",
+                "company": "PUPQC",
+                "dateFrom": "2024",
+                "dateTo": "2026"
+            },
+            {
+                "position": "Overall Project Manager ",
+                "company": "Software Research Group",
+                "dateFrom": "October 2025",
+                "dateTo": "Present"
+            },
+            {
+                "position": "Student Exchange IT Representative ",
+                "company": "PUPQC",
+                "dateFrom": "September 2025",
+                "dateTo": "September 2025"
             }
         ]
     },
@@ -37,16 +61,10 @@
         "id": "yesha-perez",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
+                "position": "Quality Assurance",
+                "company": "Software Research Group",
                 "dateFrom": "October 2025",
-                "dateTo": "December 2025"
-            },
-            {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "dateTo": "Present"
             }
         ]
     },
@@ -54,16 +72,16 @@
         "id": "kim-cabaylo",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
+                "position": "Internal Project Lead",
+                "company": "Software Research Group",
                 "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "dateTo": "Present"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "position": "Quality Assurance",
+                "company": "Software Research Group",
+                "dateFrom": "October 2025",
+                "dateTo": "Present"
             }
         ]
     },
@@ -71,16 +89,28 @@
         "id": "miyuki-parocha",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
-                "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "position": "Data Entry Specialist",
+                "company": "Freelance",
+                "dateFrom": "2022",
+                "dateTo": "2022"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "position": "Research and Development Team Officer",
+                "company": "Commonwealth Information Technology Society - PUPQC",
+                "dateFrom": "2024",
+                "dateTo": "2025"
+            },
+            {
+                "position": "Vice President for Internal Affairs",
+                "company": "Commonwealth Information Technology Society - PUPQC",
+                "dateFrom": "2024",
+                "dateTo": "2025"
+            },
+            {
+                "position": "Quality Assurance",
+                "company": "Software Research Group",
+                "dateFrom": "October 2025",
+                "dateTo": "Present"
             }
         ]
     },
@@ -88,16 +118,22 @@
         "id": "yuan-evangelista",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
-                "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "position": "Short Film Director & Graphic Designer",
+                "company": "PUPQC - BSIT 3-1",
+                "dateFrom": "2025",
+                "dateTo": "2025"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "position": "Video Editor / Creatives Team Member",
+                "company": "Commonwealth Information Technology Society - PUPQC",
+                "dateFrom": "2022",
+                "dateTo": "2025"
+            },
+            {
+                "position": "Document Analyst",
+                "company": "Software Research Group",
+                "dateFrom": "October 2025",
+                "dateTo": "Present"
             }
         ]
     },
@@ -105,16 +141,22 @@
         "id": "brian-caube",
         "experiences": [
             {
-                "position": "position 1",
+                "position": "Front End Developer",
                 "company": "company 1",
-                "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "dateFrom": "December 2025",
+                "dateTo": "Present"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "position": "Creatives Head",
+                "company": "Commonwealth Information Technology Society - PUPQC",
+                "dateFrom": "2023",
+                "dateTo": "2025"
+            },
+            {
+                "position": "Creatives Member",
+                "company": "Commonwealth Information Technology Society - PUPQC",
+                "dateFrom": "2022",
+                "dateTo": "2023"
             }
         ]
     },
@@ -122,16 +164,22 @@
         "id": "althea-asis",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
+                "position": "Front End Developer",
+                "company": "Software Research Group",
                 "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "dateTo": "Present"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "position": "Vice President for Research and Development Team ",
+                "company": "Commonwealth Information Technology Society - PUPQC",
+                "dateFrom": "2024",
+                "dateTo": "2025"
+            },
+            {
+                "position": "Creatives Member  ",
+                "company": "Commonwealth Information Technology Society - PUPQC",
+                "dateFrom": "2022",
+                "dateTo": "2025"
             }
         ]
     },
@@ -139,16 +187,22 @@
         "id": "nadine-borja",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
+                "position": "Frontend Developer",
+                "company": "Software Research Group",
                 "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "dateTo": "Present"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
+                "position": "Backend Developer ",
+                "company": "Capstone Project - PUPQC",
+                "dateFrom": "May 2025",
                 "dateTo": "February 2026"
+            },
+            {
+                "position": "Front End Developer",
+                "company": "Academic Projects - PUPQC",
+                "dateFrom": "2022",
+                "dateTo": "Present"
             }
         ]
     },
@@ -156,16 +210,16 @@
         "id": "regie-magtangob",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
-                "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "position": "Front End Developer",
+                "company": "Software Research Group",
+                "dateFrom": "November 2025",
+                "dateTo": "Present"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "position": "Research Candidate IDKIDK",
+                "company": "Nemesio Prudente International Research Conference",
+                "dateFrom": "November 2025",
+                "dateTo": "Present"
             }
         ]
     },
@@ -173,15 +227,15 @@
         "id": "ellen-sinday",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
+                "position": "Front End Developer",
+                "company": "Software Research Group",
                 "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "dateTo": "Present"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
+                "position": "Front End Developer",
+                "company": "Capstone Project - PUPQC",
+                "dateFrom": "May 2025",
                 "dateTo": "February 2026"
             }
         ]
@@ -190,16 +244,16 @@
         "id": "darben-lamonte",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
+                "position": "Full Stack Developer Intern",
+                "company": "Software Research Group",
                 "dateFrom": "October 2025",
-                "dateTo": "December 2025"
+                "dateTo": "Present"
             },
             {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "position": "Full Stack Developer Intern ",
+                "company": "Codebility",
+                "dateFrom": "November 2025",
+                "dateTo": "January 2026"
             }
         ]
     },
@@ -207,16 +261,10 @@
         "id": "elisha-mier",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
+                "position": "Software Developer",
+                "company": "Software Research Group",
                 "dateFrom": "October 2025",
-                "dateTo": "December 2025"
-            },
-            {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "dateTo": "Present"
             }
         ]
     },
@@ -224,16 +272,10 @@
         "id": "rj-aquino",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
+                "position": "Backend Developer ",
+                "company": "Software Research Group",
                 "dateFrom": "October 2025",
-                "dateTo": "December 2025"
-            },
-            {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "dateTo": "Present"
             }
         ]
     },
@@ -241,16 +283,10 @@
         "id": "angel-olivarez",
         "experiences": [
             {
-                "position": "position 1",
-                "company": "company 1",
+                "position": "Software Developer",
+                "company": "Software Research Group",
                 "dateFrom": "October 2025",
-                "dateTo": "December 2025"
-            },
-            {
-                "position": "position 2",
-                "company": "company 2",
-                "dateFrom": "January 2026",
-                "dateTo": "February 2026"
+                "dateTo": "Present"
             }
         ]
     },

@@ -65,7 +65,7 @@ const BaseModal = ({ isOpen, onClose, title, children }) => {
                 </div>
 
                 {/* Body */}
-                <div className="relative overflow-y-auto pr-2 custom-scrollbar flex-1">
+                <div className="relative overflow-y-auto pr-2 show-scrollbar flex-1">
                     {children}
                 </div>
             </div>

@@ -21,8 +21,8 @@ function IndividualProjectCard({ project, onClick }) {
             <div className="relative flex h-48 w-full items-center justify-center overflow-hidden border-b-[3px] border-[#3185FF] bg-[radial-gradient(circle_at_top,_rgba(53,164,185,0.28),_transparent_55%),linear-gradient(135deg,_rgba(3,7,18,0.96),_rgba(15,23,42,0.92)_55%,_rgba(30,64,175,0.55))] sm:h-48 shrink-0">
                 <div className="absolute inset-0 bg-[linear-gradient(120deg,transparent_0%,rgba(53,164,185,0.08)_45%,transparent_100%)]" />
                 
-                {project.images && project.images.length > 0 ? (
-                    <img src={`/assets/project-cover-picture/${project.images[0]}`} alt={project.name} className="w-full h-full object-cover relative z-10" />
+                {project.image ? (
+                    <img src={`/assets/member-project/${project.image}`} alt={project.name} className="w-full h-full object-cover relative z-10" />
                 ) : (
                     <div className="text-[#35A4B9] text-center relative z-10 flex flex-col items-center justify-center">
                         <div className="bg-white rounded-full w-14 h-14 flex items-center justify-center mx-auto text-black font-bold text-3xl">!</div>
@@ -45,7 +45,7 @@ function IndividualProjectCard({ project, onClick }) {
                     </span>
                 </div>
 
-                <ul className="list-disc pl-5 text-[0.85rem] leading-relaxed text-gray-200 space-y-1">
+                {/* <ul className="list-disc pl-5 text-[0.85rem] leading-relaxed text-gray-200 space-y-1">
                     {project.description && project.description.length > 0 ? (
                         project.description.map((desc, i) => (
                             <li key={i}>{desc}</li>
@@ -53,7 +53,7 @@ function IndividualProjectCard({ project, onClick }) {
                     ) : (
                         <li>Description of the project roles goes here.</li>
                     )}
-                </ul>
+                </ul> */}
             </div>
         </div>
     );
@@ -112,7 +112,7 @@ function BaseProfileDetails() {
         ">
             <div className='flex items-center'>
                 <img 
-                    src={member.photo || "https://via.placeholder.com/150"} 
+                    src={member.photo ? (member.photo.startsWith('http') ? member.photo : `/assets/member-profile-picture/${member.photo}`) : "https://via.placeholder.com/150"} 
                     alt={member.name} 
                     className="
                         w-[130px] h-[130px] 
@@ -131,8 +131,15 @@ function BaseProfileDetails() {
                             {member.name}
                         </h1>
 
-                        <h2 style={{color: 'var(--text-title2)' }}>
-                            {member.status === "intern" ? "SRG Intern" : "SRG 12th Generation - Member"}
+                        <h2 style={{color: 'var(--text-title2)' }} className="capitalize">
+                            {member.status?.toLowerCase() === "member" 
+                                ? "SRG 12th Generation - Member" 
+                                : member.status?.toLowerCase() === "intern" 
+                                    ? "SRG Intern" 
+                                    : member.status?.toLowerCase().includes("gen ")
+                                        ? member.status
+                                        : `SRG 12th Generation - ${member.status}`
+                            }
                         </h2>
 
                         <p style={{color: 'var(--text-main)'}}>
