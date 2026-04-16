@@ -1,18 +1,13 @@
 import React, { useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import allProjects from '../../data/projects.json';
 
-const PROJECT_TITLES = [
-  { id: 1, title: 'GFMIC Academy' },
-  { id: 2, title: 'GFMIC E-Commerce' },
-  { id: 3, title: 'StewardFM' },
-  { id: 4, title: 'PUP Smart - Track' },
-  { id: 5, title: 'YO - etz AI Interview' },
-  { id: 6, title: 'Bitbo AI' },
-  { id: 7, title: 'Flor De Grace' },
-  { id: 8, title: 'SRG Website' },
-  { id: 9, title: 'Faith, Hope, Love' },
-];
+const SEARCH_PROJECTS = allProjects;
 
-function SearchProjects({ projects = PROJECT_TITLES }) {
+
+function SearchProjects({ projects = SEARCH_PROJECTS }) {
+  const navigate = useNavigate();
   const [query, setQuery] = useState('');
   
   const filteredProjects = useMemo(() => {
@@ -81,32 +76,18 @@ function SearchProjects({ projects = PROJECT_TITLES }) {
             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35" />
           </svg>
         </div>
-
-        {/* Filter Button */}
-        <button
-          type="button"
-          className="flex items-center justify-center h-12 w-12 shrink-0 rounded-xl border border-white/40 bg-transparent text-white transition hover:bg-white/10"
-          aria-label="Filter"
-        >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            className="h-5 w-5" 
-            fill="none" 
-            viewBox="0 0 24 24" 
-            stroke="currentColor" 
-            strokeWidth="2"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
-          </svg>
-        </button>
       </div>
 
       {/* Results Area */}
-      {query && (
-        <div className="w-full max-w-2xl mt-6">
-          <div className="flex flex-wrap gap-2 justify-center">
+      <div className="w-full max-w-2xl mt-6 h-10 overflow-y-auto"> 
+        {query && (
+          <div className="flex flex-wrap gap-2 justify-center py-2">
             {filteredProjects.map((project) => (
-              <span key={project.id} className="px-3 py-1 bg-white/10 text-white rounded-full text-sm border border-white/20">
+              <span 
+                key={project.id} 
+                className="px-3 py-1 bg-white/10 text-white rounded-full text-sm border border-white/20 cursor-pointer hover:bg-white/20 transition-colors"
+                onClick={() => navigate(`/projects/${project.id}`)}
+              > 
                 {project.title}
               </span>
             ))}
@@ -114,8 +95,8 @@ function SearchProjects({ projects = PROJECT_TITLES }) {
               <span className="text-gray-400 text-sm">No projects found.</span>
             )}
           </div>
-        </div>
-      )}
+        )}
+      </div>
 
     </section>
   );
