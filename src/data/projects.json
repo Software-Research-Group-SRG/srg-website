@@ -234,7 +234,7 @@
     "link": "https://yo-etz-ai-interview.vercel.app",
     "images": ["yoetz/AiINterview.jpg", "yoetz/ApplicantList.jpg", "yoetz/Dashboard.jpg", "yoetz/FacultyLogin.jpg", "yoetz/Profile.jpg", "yoetz/QuestionsFinal.jpg", "yoetz/StudentLogin.jpg", "yoetz/Submission.jpg", "yoetz/SubmissionSuccess.jpg"],
     "contributors": [
-      { "memberId": "shanella-cagulang",  "roles": ["Project Manager", "Business Analyst"] },
+      { "memberId": "crystalyn-danga",  "roles": ["Project Manager", "Business Analyst"] },
       { "memberId": "angel-olivarez",     "roles": ["Backend Developer"] },
       { "memberId": "ellen-sinday",       "roles": ["Front-end Developer"] },
       { "memberId": "yesha-perez",        "roles": ["Quality Assurance"] },
@@ -248,7 +248,7 @@
       { "memberId": "yuan-evangelista",   "roles": ["Document Analyst"] },
       { "memberId": "brian-caube",        "roles": ["Frontend Developer"] },
       { "memberId": "regie-magtangob",    "roles": ["Frontend Developer"] },
-      { "memberId": "crystalyn-danga",    "roles": ["Business Analyst"] },
+      { "memberId": "shanella-cagulang",    "roles": ["Business Analyst"] },
       { "memberId": "robert-carlos",     "roles": ["3rd Year Trainee", "Business Analyst"] },
       { "memberId": "john-parocha",      "roles": ["3rd Year Trainee", "Backend Developer"] },
       { "memberId": "charlene-caramoan", "roles": ["3rd Year Trainee", "Business Analyst"] },
@@ -437,7 +437,6 @@
     "link": "https://bitbo-ai.vercel.app",
     "images": ["BitboAI/BITBO AI.png"],
     "contributors": [
-      { "memberId": "crystalyn-danga",   "roles": ["Project Manager", "Business Analyst"] },
       { "memberId": "shanella-cagulang", "roles": ["Project Manager / Business Analyst"]},
       { "memberId": "crystalyn-danga",   "roles": ["Business Analyst"] },
       { "memberId": "yesha-perez",       "roles": ["Quality Assurance"] },
@@ -527,7 +526,7 @@
     "images": ["flor-de-grace/FlorDeGrace_1.png", "flor-de-grace/FlorDeGrace_2.png"],
     "contributors": [
       { "memberId": "jamme-jones-cera",   "roles": ["Product Owner / Overall Developer"] },
-      { "memberId": "crystalyn-danga",    "roles": ["Scrum Master", "Software QA Tester"] },
+      { "memberId": "crystalyn-danga",    "roles": ["Scrum Master", "Project Manager", "Software QA Tester"] },
       { "memberId": "miyuki-parocha",     "roles": ["Software QA Tester"] },
       { "memberId": "darben-lamonte",     "roles": ["Backend Developer"] },
       { "memberId": "rj-aquino",          "roles": ["Backend Developer"] },
