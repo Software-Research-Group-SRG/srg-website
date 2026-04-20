@@ -194,7 +194,7 @@
     {
         "id": "ellen-sinday",
         "name": "Ellen Grace Sinday",
-        "photo": "Sinday.jpg",
+        "photo": "Sinday.png",
         "role": "Software Developer",
         "status": "Frontend Developer",
         "skills": [
@@ -254,7 +254,7 @@
     {
         "id": "rj-aquino",
         "name": "Richard Jason M. Aquino",
-        "photo": "Aquino.jpg",
+        "photo": "Aquino.png",
         "role": "Software Developer",
         "status": "Backend Developer",
         "skills": [

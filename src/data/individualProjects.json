@@ -988,30 +988,44 @@
                 "link": ""
             },
             {
-                "name": "Natretelier - Hotel Management System",
+                "name": "Hotel Management System",
                 "role": [
                     "Full Stack Developer"
+                ],
+                "description": [
+                    "Developed both frontend and backend modules for hotel operations such as booking, reservations, and housekeeping management.",
+                    "Developed RESTful APIs and integrated them with the frontend interface."
+                ],
+                "image": "Natre-hotel.png",
+                "link": "https://www.figma.com/design/Zxm8FAs9YteMvkw8JtF4nw/Natre-Hotel-Website?node-id=0-1&p=f&t=gkNZVdsognVmU1iU-0"
+            },
+            {
+                "name": "Natretelier",
+                "role": [
+                    "Front-End Developer"
                 ],
                 "description": [
                     "Built both frontend and backend functionalities including booking, room management, and user authentication.",
                     "Developed RESTful APIs and integrated them with the frontend interface.",
                     "Managed database structure and ensured efficient data handling for hotel operations."
                 ],
-                "image": "",
-                "link": ""
+                "image": "Natretelier.png",
+                "link": "https://natretelier.wuaze.com/?i=1"
             },
             {
-                "name": "Bus Ticketing System",
+                "name": "Study Buddy",
                 "role": [
                     "Front-End Developer"
                 ],
                 "description": [
-                    "Created responsive booking interfaces for ticket selection and reservation.",
-                    "Improved user experience by simplifying navigation and form interactions.",
-                    "Integrated frontend components with backend services for real-time data updates."
+                    "Designed and developed an intuitive and visually engaging user interface to help students manage tasks, deadlines, and study schedules.",
+                    "Built responsive layouts and interactive components for a seamless user experience across devices.",
+                    "Implemented features for task tracking, note organization, and productivity management.",
+                    "Enhanced user engagement through clean UI/UX design focused on simplicity and usability.",
+                    "Integrated frontend components with backend services to support real-time updates and data handling."
                 ],
-                "image": "",
-                "link": ""
+                "image": "Study-Buddy.png",
+                "link": "https://www.figma.com/design/hBfYBjITGdksPycWWfQefn/Student-Planner?node-id=0-1&p=f&t=Pav2ySdwXHZ6lXQY-0"
             }
         ]
     },
